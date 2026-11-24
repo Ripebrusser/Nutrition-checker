@@ -1,0 +1,718 @@
+{
+  "dataset": "IndianFoodDatasetCSV",
+  "source_file": "C:\\Users\\Sachin\\OneDrive\\Documents\\ML_proj\\datasets\\IndianFoodDatasetCSV.csv",
+  "validation_timestamp": "2026-11-15T03:21:31.561346Z",
+  "row_count": 6871,
+  "column_count": 15,
+  "checks": {
+    "pk_unique": {
+      "column": "Srno",
+      "unique_count": 6871,
+      "total_count": 6871,
+      "passed": true
+    },
+    "missing_values": {
+      "Srno": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "RecipeName": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "TranslatedRecipeName": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Ingredients": {
+        "count": 6,
+        "pct": 0.09
+      },
+      "TranslatedIngredients": {
+        "count": 6,
+        "pct": 0.09
+      },
+      "PrepTimeInMins": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "CookTimeInMins": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "TotalTimeInMins": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Servings": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Cuisine": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Course": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Diet": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Instructions": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "TranslatedInstructions": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "URL": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "passed": true
+    },
+    "duplicate_translated_names": {
+      "group_count": 27,
+      "row_count": 54,
+      "groups": {
+        " Carrot and Beans Poriyal (Recipe In Hindi)": [
+          1351,
+          12966
+        ],
+        "Badam Halwa Recipe": [
+          251,
+          253
+        ],
+        "Beetroot Carrot Raita Recipe": [
+          1999,
+          9413
+        ],
+        "Bread Halwa Recipe": [
+          1853,
+          8051
+        ],
+        "Cabbage Besan Fry Recipe": [
+          1470,
+          2177
+        ],
+        "Cabbage Pachadi Recipe": [
+          8546,
+          9662
+        ],
+        "Carrot Peanut Chutney Recipe": [
+          836,
+          5958
+        ],
+        "Chicken Kathi Roll Recipe": [
+          685,
+          9868
+        ],
+        "Dal Fry Recipe": [
+          3286,
+          4683
+        ],
+        "Fruit Pachadi Recipe": [
+          181,
+          7470
+        ],
+        "Green Apple Rasam Recipe": [
+          6261,
+          11168
+        ],
+        "Hara Chana Masala Recipe": [
+          6851,
+          8377
+        ],
+        "Kadai Mushroom Recipe": [
+          1998,
+          7093
+        ],
+        "Khandeshi Dal Recipe": [
+          4307,
+          7049
+        ],
+        "Lahori Aloo Recipe": [
+          1009,
+          2737
+        ],
+        "Mushroom Methi Brown Rice Recipe": [
+          1153,
+          2214
+        ],
+        "Mustard Vegetable Curry Recipe": [
+          162,
+          9634
+        ],
+        "Niramish Aloo Dum Recipe": [
+          2928,
+          11488
+        ],
+        "Peanut Curry Recipe": [
+          1705,
+          5451
+        ],
+        "Pepper Cauliflower Recipe": [
+          4928,
+          8959
+        ],
+        "Pudina Chutney Recipe": [
+          4340,
+          10032
+        ],
+        "Soya Keema Masala Recipe": [
+          2379,
+          4593
+        ],
+        "Sweet Potato Dal Recipe": [
+          396,
+          8735
+        ],
+        "Tomato Dosa Recipe": [
+          9508,
+          11172
+        ],
+        "Tomato Rice With Basil Recipe": [
+          5441,
+          7632
+        ],
+        "Vegan Navratan Korma Recipe": [
+          239,
+          1698
+        ],
+        "Vegetarian Malai Kebab Recipe": [
+          5325,
+          8229
+        ]
+      },
+      "passed": true
+    },
+    "duplicate_urls": {
+      "count": 0,
+      "passed": true
+    },
+    "time_consistency": {
+      "inconsistent_rows": 0,
+      "passed": true
+    },
+    "numeric_ranges": {
+      "PrepTimeInMins": {
+        "min": 0,
+        "max": 2880,
+        "median": 15.0,
+        "negative_count": 0,
+        "zero_count": 127
+      },
+      "CookTimeInMins": {
+        "min": 0,
+        "max": 900,
+        "median": 30.0,
+        "negative_count": 0,
+        "zero_count": 235
+      },
+      "TotalTimeInMins": {
+        "min": 0,
+        "max": 2925,
+        "median": 40.0,
+        "negative_count": 0,
+        "zero_count": 3
+      },
+      "Servings": {
+        "min": 1,
+        "max": 1000,
+        "median": 4.0,
+        "negative_count": 0,
+        "zero_count": 0
+      }
+    },
+    "servings_outliers": {
+      "count": 35,
+      "threshold": 50,
+      "recipe_ids": [
+        212,
+        342,
+        581,
+        661,
+        1038,
+        1418,
+        1552,
+        1946,
+        2140,
+        2149,
+        2216,
+        2694,
+        2810,
+        3897,
+        4096,
+        4136,
+        4137,
+        4604,
+        4729,
+        5479,
+        5773,
+        5822,
+        6266,
+        6372,
+        6730,
+        7084,
+        7167,
+        7387,
+        7664,
+        8292,
+        8552,
+        9108,
+        9257,
+        10895,
+        12969
+      ],
+      "passed": true
+    },
+    "cuisine_pollution": {
+      "polluted_values": [
+        "Appetizer",
+        "Brunch",
+        "Side Dish",
+        "Snack",
+        "Dessert",
+        "Lunch",
+        "World Breakfast",
+        "Dinner"
+      ],
+      "affected_rows": 15,
+      "row_details": [
+        {
+          "Srno": 180,
+          "Cuisine": "Side Dish",
+          "Course": "Non Vegeterian"
+        },
+        {
+          "Srno": 1780,
+          "Cuisine": "Appetizer",
+          "Course": "South Indian Breakfast"
+        },
+        {
+          "Srno": 1921,
+          "Cuisine": "World Breakfast",
+          "Course": "Vegetarian"
+        },
+        {
+          "Srno": 2624,
+          "Cuisine": "Dessert",
+          "Course": "Vegetarian"
+        },
+        {
+          "Srno": 2822,
+          "Cuisine": "World Breakfast",
+          "Course": "Vegetarian"
+        },
+        {
+          "Srno": 2825,
+          "Cuisine": "Dinner",
+          "Course": "Non Vegeterian"
+        },
+        {
+          "Srno": 3302,
+          "Cuisine": "World Breakfast",
+          "Course": "Vegetarian"
+        },
+        {
+          "Srno": 3820,
+          "Cuisine": "Snack",
+          "Course": "Vegetarian"
+        },
+        {
+          "Srno": 5551,
+          "Cuisine": "World Breakfast",
+          "Course": "Vegetarian"
+        },
+        {
+          "Srno": 5888,
+          "Cuisine": "Brunch",
+          "Course": "Dinner"
+        },
+        {
+          "Srno": 7273,
+          "Cuisine": "World Breakfast",
+          "Course": "Vegetarian"
+        },
+        {
+          "Srno": 8924,
+          "Cuisine": "Lunch",
+          "Course": "Vegetarian"
+        },
+        {
+          "Srno": 9125,
+          "Cuisine": "World Breakfast",
+          "Course": "Sugar Free Diet"
+        },
+        {
+          "Srno": 11164,
+          "Cuisine": "Appetizer",
+          "Course": "Snack"
+        },
+        {
+          "Srno": 11445,
+          "Cuisine": "Snack",
+          "Course": "High Protein Vegetarian"
+        }
+      ],
+      "passed": false
+    },
+    "course_pollution": {
+      "polluted_values": [
+        "Vegetarian",
+        "High Protein Vegetarian",
+        "Non Vegeterian",
+        "No Onion No Garlic (Sattvic)",
+        "Eggetarian",
+        "Sugar Free Diet",
+        "Vegan"
+      ],
+      "affected_rows": 62,
+      "row_details": [
+        {
+          "Srno": 11,
+          "Course": "High Protein Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 180,
+          "Course": "Non Vegeterian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 250,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 283,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 455,
+          "Course": "Eggetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 628,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 665,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 833,
+          "Course": "No Onion No Garlic (Sattvic)",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 1038,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 1177,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Non Vegetarian"
+        },
+        {
+          "Srno": 1379,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Non Vegetarian"
+        },
+        {
+          "Srno": 1406,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 1921,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 1933,
+          "Course": "Vegetarian",
+          "Diet": "Non Vegeterian"
+        },
+        {
+          "Srno": 1941,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Non Vegetarian"
+        },
+        {
+          "Srno": 2233,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 2502,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 2624,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Non Vegetarian"
+        },
+        {
+          "Srno": 2822,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 2825,
+          "Course": "Non Vegeterian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 2895,
+          "Course": "High Protein Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 2896,
+          "Course": "High Protein Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 3195,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 3206,
+          "Course": "Vegetarian",
+          "Diet": "Diabetic Friendly"
+        },
+        {
+          "Srno": 3302,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 3389,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 3437,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 3820,
+          "Course": "Vegetarian",
+          "Diet": "Diabetic Friendly"
+        },
+        {
+          "Srno": 4033,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 4095,
+          "Course": "High Protein Vegetarian",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 4096,
+          "Course": "High Protein Vegetarian",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 4100,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 4137,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 4373,
+          "Course": "Vegan",
+          "Diet": "Eggetarian"
+        },
+        {
+          "Srno": 4894,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 5368,
+          "Course": "High Protein Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 5373,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 5551,
+          "Course": "Vegetarian",
+          "Diet": "Non Vegeterian"
+        },
+        {
+          "Srno": 5773,
+          "Course": "Vegetarian",
+          "Diet": "No Onion No Garlic (Sattvic)"
+        },
+        {
+          "Srno": 6550,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 6617,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 6622,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 6730,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 6968,
+          "Course": "Vegan",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 7273,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 7313,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 7592,
+          "Course": "Vegetarian",
+          "Diet": "Gluten Free"
+        },
+        {
+          "Srno": 7664,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 7782,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 8041,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 8125,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 8214,
+          "Course": "Vegetarian",
+          "Diet": "Eggetarian"
+        },
+        {
+          "Srno": 8340,
+          "Course": "Vegetarian",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 8725,
+          "Course": "Vegetarian",
+          "Diet": "Diabetic Friendly"
+        },
+        {
+          "Srno": 8924,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 9125,
+          "Course": "Sugar Free Diet",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 9778,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 11015,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 11048,
+          "Course": "Vegetarian",
+          "Diet": "Vegetarian"
+        },
+        {
+          "Srno": 11204,
+          "Course": "Vegetarian",
+          "Diet": "Diabetic Friendly"
+        },
+        {
+          "Srno": 11445,
+          "Course": "High Protein Vegetarian",
+          "Diet": "High Protein Vegetarian"
+        },
+        {
+          "Srno": 11829,
+          "Course": "Vegan",
+          "Diet": "Vegetarian"
+        }
+      ],
+      "passed": false
+    },
+    "one_pot_dish": {
+      "count": 33,
+      "passed": true
+    },
+    "missing_ingredients": {
+      "count": 6,
+      "recipe_ids": [
+        306,
+        1413,
+        2072,
+        2098,
+        7894,
+        8388
+      ],
+      "recipe_names": [
+        "Pear And Walnut Salad Recipe",
+        "Spinach and Cottage Cheese Eggless Ravioli Recipe",
+        "Thai Jasmine Sticky Rice Recipe",
+        "Classic Pavakkai Stir Fry Recipe (Bitter Gourd Fry)",
+        "Urulaikizhangu Puli Thokku Recipe (South Indian Style Potatoes with Tamarind)",
+        "Mashed Peas Recipe"
+      ],
+      "passed": true
+    },
+    "url_format": {
+      "all_http": true,
+      "passed": true
+    }
+  },
+  "overall_passed": true
+}

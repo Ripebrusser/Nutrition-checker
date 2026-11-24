@@ -1,0 +1,183 @@
+{
+  "input_file": "C:\\Users\\Sachin\\OneDrive\\Documents\\ML_proj\\datasets\\IndianFoodDatasetCSV.csv",
+  "input_rows": 6871,
+  "input_hash": "898b74b2000ad8e152afbb769fb6e9ce",
+  "timestamp": "2026-11-16T14:38:47.815748Z",
+  "steps": [
+    {
+      "step": "remove_missing_ingredients",
+      "rows_removed": 6,
+      "recipe_ids": [
+        306,
+        1413,
+        2072,
+        2098,
+        7894,
+        8388
+      ],
+      "rows_remaining": 6865
+    },
+    {
+      "step": "standardize_cuisine",
+      "values_remapped": 15,
+      "mapping": {
+        "Appetizer": "Course",
+        "Snack": "Course",
+        "Side Dish": "Course",
+        "Dessert": "Course",
+        "Dinner": "Course",
+        "Lunch": "Course",
+        "Brunch": "Course",
+        "World Breakfast": "Course"
+      }
+    },
+    {
+      "step": "standardize_course",
+      "values_remapped": 807,
+      "mapping": {
+        "Vegetarian": "Diet",
+        "High Protein Vegetarian": "Diet",
+        "Vegan": "Diet",
+        "Non Vegeterian": "Diet",
+        "Eggetarian": "Diet",
+        "No Onion No Garlic (Sattvic)": "Diet",
+        "Sugar Free Diet": "Diet",
+        "One Pot Dish": "One Pot Dish"
+      },
+      "cuisine_pollution_handled": true
+    },
+    {
+      "step": "standardize_diet",
+      "course_pollution_incorporated": true,
+      "diet_labels_per_row": {
+        "1": 6835,
+        "2": 30
+      }
+    },
+    {
+      "step": "classify_recipe_type",
+      "distribution": {
+        "main": 6096,
+        "dessert": 643,
+        "prep": 91,
+        "condiment": 35
+      }
+    },
+    {
+      "step": "flag_condiments",
+      "count": 35,
+      "saved_to": "C:\\Users\\Sachin\\OneDrive\\Documents\\ML_proj\\data\\interim\\recipes_condiments.csv"
+    }
+  ],
+  "output": {
+    "processed_rows": 6865,
+    "processed_path": "C:\\Users\\Sachin\\OneDrive\\Documents\\ML_proj\\data\\processed\\recipes.parquet",
+    "recipe_type_distribution": {
+      "main": 6096,
+      "dessert": 643,
+      "prep": 91,
+      "condiment": 35
+    },
+    "cuisine_distribution": {
+      "Indian": 1157,
+      "Continental": 1020,
+      "North Indian Recipes": 936,
+      "South Indian Recipes": 681,
+      "Italian Recipes": 235,
+      "Bengali Recipes": 175,
+      "Maharashtrian Recipes": 173,
+      "Kerala Recipes": 163,
+      "Tamil Nadu": 156,
+      "Karnataka": 149,
+      "Fusion": 135,
+      "Rajasthani": 123,
+      "Mexican": 119,
+      "Andhra": 118,
+      "Gujarati Recipes\ufeff": 115,
+      "Goan Recipes": 99,
+      "Punjabi": 84,
+      "Chettinad": 74,
+      "Asian": 72,
+      "Thai": 66,
+      "Chinese": 59,
+      "Kashmiri": 59,
+      "French": 54,
+      "Middle Eastern": 53,
+      "Mangalorean": 49,
+      "Parsi Recipes": 48,
+      "Indo Chinese": 48,
+      "Awadhi": 45,
+      "Oriya Recipes": 34,
+      "Sindhi": 33,
+      "Konkan": 32,
+      "Mughlai": 31,
+      "Bihari": 29,
+      "Mediterranean": 29,
+      "Hyderabadi": 28,
+      "Assamese": 28,
+      "European": 20,
+      "North East India Recipes": 18,
+      "African": 18,
+      "Himachal": 17,
+      "Greek": 17,
+      "Udupi": 15,
+      "Other": 15,
+      "Sri Lankan": 15,
+      "Coorg": 14,
+      "Coastal Karnataka": 14,
+      "North Karnataka": 14,
+      "Uttar Pradesh": 14,
+      "Lucknowi": 13,
+      "Malabar": 13,
+      "Japanese": 13,
+      "Vietnamese": 11,
+      "Pakistani": 11,
+      "South Karnataka": 11,
+      "Malvani": 9,
+      "Indonesian": 9,
+      "Nepalese": 8,
+      "Cantonese": 7,
+      "American": 7,
+      "Sichuan": 6,
+      "British": 5,
+      "Malaysian": 5,
+      "Nagaland": 5,
+      "Arab": 4,
+      "Caribbean": 4,
+      "Uttarakhand-North Kumaon": 4,
+      "Haryana": 3,
+      "Korean": 3,
+      "Kongunadu": 3,
+      "Hunan": 3,
+      "Afghan": 3,
+      "Jharkhand": 2,
+      "Shandong": 1,
+      "Jewish": 1,
+      "Burmese": 1
+    },
+    "course_distribution": {
+      "Lunch": 1764,
+      "Side Dish": 993,
+      "Snack": 877,
+      "Dinner": 781,
+      "Breakfast": 748,
+      "Dessert": 660,
+      "Appetizer": 639,
+      "Main Course": 365,
+      "One Pot Dish": 33,
+      "Brunch": 5
+    },
+    "diet_label_distribution": {
+      "Vegetarian": 4724,
+      "High Protein Vegetarian": 709,
+      "Non Vegeterian": 429,
+      "Eggetarian": 345,
+      "Diabetic Friendly": 260,
+      "High Protein Non Vegetarian": 225,
+      "No Onion No Garlic (Sattvic)": 74,
+      "Vegan": 64,
+      "Gluten Free": 50,
+      "Sugar Free Diet": 15
+    }
+  }
+}

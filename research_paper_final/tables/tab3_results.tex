@@ -1,0 +1,24 @@
+% Table III -- recommendation results.
+% Sources: baseline_experiments.json, content_based_experiments.json.
+% Latency = time_seconds / 50 queries; composite recomputed from the project
+% formula with Rel = 1 for every method (see Section IV-E).
+\begin{table}[t]
+\caption{Recommendation results on the same 50 held-out queries and the same
+6{,}865-recipe candidate pool. Latency is mean wall-clock time per query.
+$\Phi$ is the project's composite score; its constant reliability term makes it a
+bookkeeping device, not a validated utility.}
+\label{tab:results}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.4pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Method} & \textbf{P@5} & \textbf{R@5} & \textbf{Div@10} & \textbf{Cov@20} & \textbf{Lat. (ms)} & \textbf{$\Phi$} \\
+\midrule
+Random            & 0.128 & 0.0006 & 0.958 & 0.254 & 110 & 0.398 \\
+Cuisine match     & 0.904 & 0.0113 & 0.824 & 0.225 & 390 & 0.553 \\
+Jaccard           & 0.548 & 0.0046 & 0.773 & 0.220 & 208 & 0.473 \\
+Weighted (deployed) & \textbf{0.996} & \textbf{0.0157} & 0.869 & 0.234 & 180 & \textbf{0.631} \\
+\bottomrule
+\end{tabular}
+\end{table}

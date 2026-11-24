@@ -1,0 +1,23 @@
+% Table I -- data resources. Numbers verified against
+% data/processed/recipes.parquet, data/interim/phase2/parsed_recipe_ingredients.parquet,
+% data/interim/ifct_final_candidate/ifct_table1_candidate.parquet,
+% data/processed/indb_foods.csv.
+\begin{table}[t]
+\caption{Data resources used by the pipeline. Sizes are the record counts
+observed in the frozen project artifacts.}
+\label{tab:datasets}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}p{1.95cm}rp{2.55cm}@{}}
+\toprule
+\textbf{Resource} & \textbf{Records} & \textbf{Content} \\
+\midrule
+Recipe corpus & 6{,}865 & 75 cuisine and 10 course labels; English ingredient text \\
+Parsed rows & 90{,}862 & 13{,}049 distinct ingredient names \\
+IFCT 2017 & 528 & 9 nutrient fields per 100\,g edible; 18 food groups \\
+INDB 2024.11 & 1{,}014 & Composite dishes with per-100\,g and per-serving values \\
+ICMR-NIN 2020 & -- & Age-, sex- and activity-specific reference intakes \\
+\bottomrule
+\end{tabular}
+\end{table}

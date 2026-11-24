@@ -1,0 +1,23 @@
+import pandas as pd
+
+# Check recipe-ingredient relationships
+ingredients = pd.read_parquet('data/interim/phase2/parsed_recipe_ingredients.parquet')
+print('=== RECIPE-INGREDIENT RELATIONSHIPS ===')
+print(f'Total ingredient lines: {len(ingredients)}')
+print(f'Unique recipes with ingredients: {ingredients["recipe_id"].nunique()}')
+print(f'Unique ingredient names: {ingredients["ingredient_name"].nunique()}')
+print(f'Avg ingredients per recipe: {len(ingredients) / ingredients["recipe_id"].nunique():.1f}')
+print()
+print('Parse status distribution:')
+print(ingredients['parse_status'].value_counts())
+print()
+print('Conversion status:')
+print(ingredients['conversion_status'].value_counts())
+print()
+print('Gram weight stats (non-null):')
+gw = ingredients['gram_weight'].dropna()
+print(f'Count: {len(gw)}')
+print(f'Mean: {gw.mean():.1f}')
+print(f'Median: {gw.median():.1f}')
+print(f'Min: {gw.min():.1f}')
+print(f'Max: {gw.max():.1f}')

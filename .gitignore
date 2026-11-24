@@ -1,0 +1,45 @@
+# ---------- secrets ----------
+.env
+*.pem
+*.key
+
+# ---------- python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---------- virtual environments ----------
+backend/venv/
+venv/
+.venv/
+
+# ---------- node ----------
+frontend/node_modules/
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# ---------- local runtime data ----------
+*.db
+*.sqlite
+*.sqlite3
+app.db
+backend/data/app.db
+
+# ---------- logs ----------
+*.log
+
+# ---------- tooling / editor ----------
+.freebuff/
+.cloud-attachments/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ---------- over GitHub's 100 MB hard file limit ----------
+data/interim/phase2/normalized_ingredients.csv

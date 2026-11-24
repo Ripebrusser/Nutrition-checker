@@ -1,0 +1,22 @@
+% Table I -- data resources. Counts read from data/processed/recipes.parquet,
+% data/interim/phase2/parsed_recipe_ingredients.parquet,
+% data/interim/ifct_final_candidate/ifct_table1_candidate.parquet,
+% data/processed/indb_foods.csv.
+\begin{table}[t]
+\caption{Data resources and record counts observed in the frozen artifacts.}
+\label{tab:datasets}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrp{3.0cm}@{}}
+\toprule
+\textbf{Resource} & \textbf{Records} & \textbf{Content} \\
+\midrule
+Recipes       & 6{,}865 & 75 cuisines, 10 courses, 20 diet labels \\
+Parsed rows   & 90{,}862 & 13{,}049 names; quantity, unit, state \\
+IFCT 2017     & 528 & 18 groups; 9 nutrient fields per 100\,g \\
+INDB 2024.11  & 1{,}014 & 86 columns; per-100\,g and per-serving \\
+ICMR-NIN 2020 & -- & Reference intakes by age, sex, activity \\
+\bottomrule
+\end{tabular}
+\end{table}

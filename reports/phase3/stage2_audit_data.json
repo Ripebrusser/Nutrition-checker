@@ -1,0 +1,52 @@
+{
+  "frozen_hashes": {
+    "normalized_ingredients": "08710983213938c3fecafd20991ab7d3d7fe51b179303bbe4dc93b2ac1b1b6e5",
+    "parsed_recipe_ingredients": "e17b668b208dac4a7240cbfb27d78caac6123bc2b29b34a70aeb38964b9e86d9",
+    "ingredient_synonyms": "22b8aace1ef29ea271051004a0e5a79ac8a8bfb5d80b8f796abe0db1f2ee4b31",
+    "household_measurements": "451fb9c6d5135e0684bd5e6445aeaadfafa2951db6ae7fd939b96faad1e16b47",
+    "ifct_table1_candidate": "294c6fc4d095a47e13fbe02e8e3c1c0c8175752966275a3415f9a7df04774f35"
+  },
+  "total_parsed_records": 90862,
+  "unique_recipe_ids": 6865,
+  "unique_ingredient_record_ids": 90862,
+  "unique_normalized_expressions": 26210,
+  "unique_ingredient_name_expressions": 13049,
+  "unique_with_candidates": 2835,
+  "unique_without_candidates": 10216,
+  "records_with_candidates": 40914,
+  "records_without_candidates": 49948,
+  "candidate_records": 114188,
+  "unique_ifct_codes_matched": 331,
+  "duplicate_candidates": 2475,
+  "invalid_ifct_codes": 0,
+  "missing_evidence": 0,
+  "method_counts": {
+    "TOKEN_SIMILARITY": 109546,
+    "SYNONYM": 2917,
+    "EXACT": 1725
+  },
+  "overlapping_methods": 0,
+  "confidence_counts": {
+    "LOW": 102361,
+    "HIGH": 10850,
+    "MEDIUM": 977
+  },
+  "high_breakdown": {
+    "EXACT": 1725,
+    "SYNONYM": 2114,
+    "TOKEN_SIMILARITY": 7011
+  },
+  "review_counts": {
+    "true": 112463,
+    "false": 1725
+  },
+  "unmatched_records": 49948,
+  "unmatched_unique": 10216,
+  "pct_unmatched_records": 54.97127512051243,
+  "pct_matched_records": 45.02872487948758,
+  "pct_unmatched_unique": 78.28952410146371,
+  "pct_matched_unique": 21.72580274350525,
+  "test_passed": 0,
+  "test_failed": 7,
+  "test_skipped": 0
+}

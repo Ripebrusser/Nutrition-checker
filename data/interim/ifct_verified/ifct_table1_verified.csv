@@ -1,0 +1,543 @@
+food_code,food_name,regions,food_group,source_page,source_table,extraction_method,verification_status,manual_recovery,moisture_g,protein_g,ash_g,fat_g,fibre_total_g,fibre_insoluble_g,fibre_soluble_g,carb_available_g,energy_kj
+A001,"Amaranth seed, black (Amaranthus cruentus)",1,CEREALS AND MILLETS,41,1,auto,auto,False,1,9.89,14.59,2.78,5.74,7.02,5.76,1.26,59.98
+A002,"Amaranth seed, pale brown (Amaranthus",6,CEREALS AND MILLETS,41,1,auto,auto,False,6,9.20±0.40,13.27±0.34,3.05±0.30,5.56±0.33,7.47±0.09,5.80±0.17,1.67±0.21,61.46±0.60
+A003,Bajra (Pennisetum typhoideum),6,CEREALS AND MILLETS,41,1,auto,auto,False,6,8.97±0.60,10.96±0.26,1.37±0.17,5.43±0.64,11.49±0.62,9.14±0.58,2.34±0.42,61.78±0.85
+A004,Barley (Hordeum vulgare),6,CEREALS AND MILLETS,41,1,auto,auto,False,6,9.77±0.38,10.94±0.51,1.06±0.22,1.30±0.20,15.64±0.64,9.98±0.62,5.66±0.68,61.29±0.77
+A005,Jowar (Sorghum vulgare),6,CEREALS AND MILLETS,41,1,auto,auto,False,6,9.01±0.77,9.97±0.43,1.39±0.34,1.73±0.31,10.22±0.49,8.49±0.40,1.73±0.40,67.68±1.03
+A006,"Maize, dry (Zea mays)",6,CEREALS AND MILLETS,41,1,auto,auto,False,6,9.26±0.55,8.80±0.49,1.17±0.16,3.77±0.48,12.24±0.93,11.29±0.85,0.94±0.18,64.77±1.58
+A007,"Maize, tender, local (Zea mays)",6,CEREALS AND MILLETS,41,1,auto,auto,False,6,68.29±0.52,3.57±0.42,0.38±0.04,1.40±0.30,3.67±0.26,3.23±0.23,0.43±0.07,22.69±0.94
+A008,"Maize, tender, sweet (Zea mays)",4,CEREALS AND MILLETS,41,1,auto,auto,False,4,74.40±0.71,4.16±0.41,0.36±0.06,1.35±0.07,3.30±0.51,2.71±0.53,0.59±0.11,16.42±0.89
+A009,Quinoa,1,CEREALS AND MILLETS,41,1,auto,auto,False,1,10.43,13.11,2.65,5.50,14.66,10.21,4.46,53.65
+A010,Ragi (Eleusine coracana),5,CEREALS AND MILLETS,41,1,auto,auto,False,5,10.89±0.61,7.16±0.63,2.04±0.34,1.92±0.14,11.18±1.14,9.51±0.65,1.67±0.55,66.82±0.73
+A011,Rice flakes,6,CEREALS AND MILLETS,41,1,auto,auto,False,6,10.36±0.53,7.44±0.35,0.85±0.13,1.14±0.11,3.46±0.32,2.65±0.34,0.81±0.12,76.75±0.96
+A012,Rice puffed (Oryza sativa ),6,CEREALS AND MILLETS,41,1,auto,auto,False,6,9.40±0.22,7.47±0.15,1.28±0.10,1.62±0.13,2.56±0.33,1.76±0.13,0.80±0.38,77.68±0.54
+A013,"Rice, raw, brown (Oryza sativa )",6,CEREALS AND MILLETS,41,1,auto,auto,False,6,9.33±0.39,9.16±0.75,1.04±0.18,1.24±0.08,4.43±0.54,3.60±0.55,0.82±0.15,74.80±0.85
+A014,"Rice, parboiled, milled  (Oryza sativa )",6,CEREALS AND MILLETS,41,1,auto,auto,False,6,10.09±0.43,7.81±0.63,0.65±0.08,0.55±0.08,3.74±0.36,2.98±0.35,0.76±0.09,77.16±0.76
+A015,"Rice, raw, milled  (Oryza sativa )",6,CEREALS AND MILLETS,41,1,auto,auto,False,6,9.93±0.75,7.94±0.58,0.56±0.08,0.52±0.05,2.81±0.42,1.99±0.39,0.82±0.22,78.24±1.07
+A016,Samai (Panicum miliare),6,CEREALS AND MILLETS,41,1,auto,auto,False,6,11.36±0.19,10.13±0.45,1.34±0.16,3.89±0.35,7.72±0.92,5.45±0.48,2.27±0.52,65.55±1.29
+A017,Varagu (Paspalum scrobiculatum),5,CEREALS AND MILLETS,41,1,auto,auto,False,5,14.23±0.45,8.92±1.09,1.72±0.27,2.55±0.13,6.39±0.60,4.29±0.82,2.11±0.34,66.19±1.19
+A018,"Wheat flour, refined (Triticum aestivum)",6,CEREALS AND MILLETS,41,1,auto,auto,False,6,11.34±0.93,10.36±0.29,0.51±0.07,0.76±0.07,2.76±0.29,2.14±0.30,0.62±0.14,74.27±0.92
+A019,"Wheat flour, atta (Triticum aestivum)",6,CEREALS AND MILLETS,42,1,auto,auto,False,6,11.10±0.35,10.57±0.37,1.28±0.19,1.53±0.12,11.36±0.29,9.73±0.47,1.63±0.64,64.17±0.32
+A020,"Wheat, whole (Triticum aestivum)",6,CEREALS AND MILLETS,42,1,auto,auto,False,6,10.58±1.11,10.59±0.60,1.42±0.19,1.47±0.05,11.23±0.77,9.63±0.19,1.60±0.75,64.72±1.74
+A021,"Wheat, bulgur (Triticum aestivum)",6,CEREALS AND MILLETS,42,1,auto,auto,False,6,8.61±0.32,10.84±0.75,1.23±0.06,1.45±0.02,8.81±0.45,6.56±0.20,2.25±0.38,69.06±0.74
+A022,"Wheat, semolina (Triticum aestivum)",6,CEREALS AND MILLETS,42,1,auto,auto,False,6,8.94±0.68,11.38±0.37,0.80±0.17,0.74±0.10,9.72±0.74,8.16±0.58,1.55±0.18,68.43±0.99
+A023,"Wheat, vermicelli (Triticum aestivum)",6,CEREALS AND MILLETS,42,1,auto,auto,False,6,9.59±0.37,9.70±0.52,0.60±0.04,0.45±0.03,9.28±0.69,7.53±0.51,1.75±0.24,70.39±0.61
+A024,"Wheat, vermicelli, roasted (Triticum aestivum)",6,CEREALS AND MILLETS,42,1,auto,auto,False,6,7.61±0.47,10.37±0.70,0.56±0.04,0.49±0.05,9.55±0.40,7.79±0.29,1.76±0.18,71.42±0.71
+B001,"Bengal gram, dal (Cicer arietinum)",6,PULSES AND LEGUMES,42,1,auto,auto,False,6,9.18±0.58,21.55±1.45,2.10±0.10,5.31±0.06,15.15±0.17,12.67±0.22,2.48±0.15,46.72±1.29
+B002,"Bengal gram, whole (Cicer arietinum)",6,PULSES AND LEGUMES,42,1,auto,auto,False,6,8.56±0.37,18.77±0.42,2.78±0.13,5.11±0.11,25.22±0.39,22.70±0.60,2.52±0.87,39.56±0.16
+B003,"Black gram, dal (Phaseolus mungo)",6,PULSES AND LEGUMES,42,1,auto,auto,False,6,9.16±0.35,23.06±0.59,3.17±0.02,1.69±0.12,11.93±0.26,7.58±0.13,4.35±0.15,51.00±0.80
+B004,"Black gram, whole (Phaseolus mungo)",6,PULSES AND LEGUMES,42,1,auto,auto,False,6,8.70±0.33,21.97±0.63,3.35±0.03,1.58±0.06,20.41±0.06,15.47±0.05,4.94±0.07,43.99±0.76
+B005,"Cowpea, brown (Vigna catjang)",6,PULSES AND LEGUMES,42,1,auto,auto,False,6,9.42±0.39,20.36±0.59,2.90±0.11,1.15±0.06,11.54±0.13,8.75±0.09,2.80±0.05,54.62±0.49
+B006,"Cowpea, white (Vigna catjang)",1,PULSES AND LEGUMES,42,1,auto,auto,False,1,9.32,21.25,2.83,1.14,11.70,8.91,2.79,53.77
+B007,"Field bean, black (Phaseolus vulgaris)",1,PULSES AND LEGUMES,42,1,auto,auto,False,1,9.57,19.93,2.73,0.92,23.40,17.99,5.41,43.46
+B008,"Field bean, brown (Phaseolus vulgaris)",1,PULSES AND LEGUMES,42,1,auto,auto,False,1,8.74,19.90,2.74,0.98,22.40,17.32,5.08,45.24
+B009,"Field bean,  white (Phaseolus vulgaris)",5,PULSES AND LEGUMES,42,1,auto,auto,False,5,8.61±0.36,19.84±1.04,3.09±0.15,0.94±0.02,22.99±0.83,17.45±2.27,5.54±2.28,44.53±1.42
+B010,"Green gram, dal (",6,PULSES AND LEGUMES,42,1,auto,auto,False,6,9.77±0.67,23.88±0.61,3.04±0.03,1.35±0.20,9.37±0.38,7.75±0.39,1.62±0.19,52.59±0.45
+B011,"Green gram, whole (Vigna radiata)",6,PULSES AND LEGUMES,42,1,auto,auto,False,6,9.95±0.42,22.53±0.43,3.22±0.04,1.14±0.17,17.04±0.38,14.59±0.42,2.44±0.15,46.13±0.64
+B012,"Horse gram, whole (Dolichos biflorus)",6,PULSES AND LEGUMES,42,1,auto,auto,False,6,9.28±0.57,21.73±0.29,3.24±0.11,0.62±0.04,7.88±0.02,6.22±0.03,1.66±0.03,57.24±0.50
+B013,Lentil dal (Lens culinaris),6,PULSES AND LEGUMES,42,1,auto,auto,False,6,9.71±0.48,24.35±1.10,2.23±0.13,0.75±0.04,10.43±0.39,8.60±0.42,1.83±0.23,52.53±1.05
+B014,"Lentil whole, brown (Lens culinaris)",6,PULSES AND LEGUMES,43,1,auto,auto,False,6,9.20±0.77,22.49±0.58,2.39±0.35,0.64±0.02,16.82±1.30,14.16±1.33,2.66±0.42,48.47±1.12
+B015,"Lentil whole, yellowish (Lens culinaris)",2,PULSES AND LEGUMES,43,1,auto,auto,False,2,9.75,22.87,2.20,0.61,16.66,14.15,2.51,47.91
+B016,Moth bean (Vigna aconitifolia),6,PULSES AND LEGUMES,43,1,auto,auto,False,6,8.14±0.49,19.75±0.38,3.14±0.18,1.76±0.09,15.12±0.49,14.50±0.44,0.62±0.10,52.09±0.96
+B017,"Peas, dry (Pisum sativum)",6,PULSES AND LEGUMES,43,1,auto,auto,False,6,9.33±0.61,20.43±0.79,2.41±0.09,1.89±0.08,17.01±0.63,14.55±0.73,2.47±0.17,48.93±0.45
+B018,"Rajmah, black (Phaseolus vulgaris)",2,PULSES AND LEGUMES,43,1,auto,auto,False,2,8.69,19.01,3.35,1.62,17.74,15.16,2.58,49.59
+B019,"Rajmah, brown (Phaseolus vulgaris)",6,PULSES AND LEGUMES,43,1,auto,auto,False,6,9.68±0.79,19.50±0.84,3.36±0.19,1.68±0.07,16.95±0.27,14.33±0.19,2.62±0.16,48.83±0.59
+B020,"Rajmah, red (Phaseolus vulgaris)",3,PULSES AND LEGUMES,43,1,auto,auto,False,3,9.87±0.30,19.91±1.44,3.28±0.21,1.77±0.04,16.57±0.63,13.86±0.43,2.70±0.20,48.61±0.65
+B021,"Red gram, dal (Cajanus cajan)",6,PULSES AND LEGUMES,43,1,auto,auto,False,6,9.20±0.61,21.70±0.50,3.26±0.03,1.56±0.03,9.06±0.30,6.67±0.23,2.39±0.15,55.23±0.83
+B022,"Red gram, whole (Cajanus cajan)",6,PULSES AND LEGUMES,43,1,auto,auto,False,6,9.30±0.45,20.47±0.72,3.53±0.03,1.38±0.08,22.84±0.43,19.69±0.30,3.15±0.34,42.48±0.77
+B023,Ricebean (Vigna umbellata ),1,PULSES AND LEGUMES,43,1,auto,auto,False,1,11.12,19.97,3.54,0.74,13.37,10.04,3.33,51.26
+B024,"Soybean, brown (Glycine max)",6,PULSES AND LEGUMES,43,1,auto,auto,False,6,5.51±0.13,35.58±0.66,4.74±0.31,19.82±0.26,21.55±0.66,16.56±0.30,5.00±0.52,12.79±0.97
+B025,"Soybean, white (Glycine max)",1,PULSES AND LEGUMES,43,1,auto,auto,False,1,5.47,37.80,4.52,19.42,22.63,17.04,5.59,10.16
+C001,Agathi leaves (Sesbania grandiflora),1,LEAFY VEGETABLES,43,1,auto,auto,False,1,74.43,8.01,2.42,1.35,8.60,6.00,2.60,5.21
+C002,"Amaranth leaves, green (Amaranthus gangeticus)",6,LEAFY VEGETABLES,43,1,auto,auto,False,6,86.85±1.21,3.29±0.57,2.52±0.32,0.65±0.07,4.41±0.10,3.21±0.08,1.20±0.09,2.28±0.62
+C003,"Amaranth leaves, red (Amaranthus gangeticus)",1,LEAFY VEGETABLES,43,1,auto,auto,False,1,85.56,3.93,2.61,0.63,4.91,3.72,1.19,2.37
+C004,"Amaranth leaves, red and green mix",4,LEAFY VEGETABLES,43,1,auto,auto,False,4,86.37±0.38,3.09±0.14,2.55±0.20,0.53±0.03,4.60±0.36,3.23±0.18,1.37±0.23,2.87±0.35
+C005,"Amaranth spined, leaves, green",4,LEAFY VEGETABLES,43,1,auto,auto,False,4,86.46±0.48,3.54±0.31,2.94±0.21,0.36±0.02,5.10±0.32,3.89±0.26,1.20±0.07,1.61±0.40
+C006,"Amaranth spined, leaves, red and green mix",2,LEAFY VEGETABLES,43,1,auto,auto,False,2,86.64,2.80,3.20,0.34,5.57,3.82,1.75,1.45
+C007,Basella leaves (Basella alba),2,LEAFY VEGETABLES,43,1,auto,auto,False,2,92.68,1.57,1.09,0.45,2.21,1.64,0.57,2.01
+C008,Bathua leaves (Chenopodium album),2,LEAFY VEGETABLES,44,1,auto,auto,False,2,88.77,2.50,1.71,0.44,4.01,2.34,1.68,2.56
+C009,Beet greens (Beta vulgaris),6,LEAFY VEGETABLES,44,1,auto,auto,False,6,86.68±1.35,2.38±0.35,2.69±0.12,0.75±0.02,3.64±0.13,2.20±0.10,1.43±0.19,3.86±1.63
+C010,"Betel leaves, big (Kolkata) (Piper betle)",6,LEAFY VEGETABLES,44,1,auto,auto,False,6,84.93±0.85,2.51±0.29,2.33±0.18,0.75±0.02,2.12±0.20,1.32±0.16,0.80±0.05,7.37±0.66
+C011,"Betel leaves, small (Piper betle)",4,LEAFY VEGETABLES,44,1,auto,auto,False,4,85.92±0.16,2.62±0.28,2.59±0.18,0.75±0.04,1.97±0.13,1.17±0.12,0.80±0.09,6.16±0.33
+C012,Brussels sprouts (Brassica oleracea var.,1,LEAFY VEGETABLES,44,1,auto,auto,False,.,1,84.39,4.26,1.47,0.50,4.29,3.35,0.94
+C013,"Cabbage, Chinese (Brassica rupa)",1,LEAFY VEGETABLES,44,1,auto,auto,False,1,93.19,1.58,0.73,0.13,2.01,1.55,0.45,2.36
+C014,"Cabbage, collard greens (Brassica oleracea var.",1,LEAFY VEGETABLES,44,1,auto,auto,False,.,1,89.53,3.63,0.81,0.27,2.98,2.04,0.94
+C015,"Cabbage, green (Brassica oleracea var. capitata",6,LEAFY VEGETABLES,44,1,auto,auto,False,.,.,6,91.85±0.97,1.36±0.07,0.67±0.06,0.12±0.01,2.76±0.20,1.91±0.18
+C016,"Cabbage, violet (Brassica oleracea var. capitata",2,LEAFY VEGETABLES,44,1,auto,auto,False,.,.,2,91.94,1.39,0.71,0.21,2.21,1.58
+C017,Cauliflower leaves (Brassica oleracea var.,6,LEAFY VEGETABLES,44,1,auto,auto,False,.,6,87.64±1.33,3.90±0.87,1.22±0.12,0.42±0.02,3.43±0.26,2.37±0.20,1.06±0.12
+C018,"Colocasia leaves, green (Colocasia esculenta)",6,LEAFY VEGETABLES,44,1,auto,auto,False,6,83.61±0.59,3.42±0.29,2.30±0.11,1.38±0.09,5.60±0.18,4.32±0.16,1.29±0.12,3.69±0.49
+C019,Drumstick leaves (Moringa oleifera),3,LEAFY VEGETABLES,44,1,auto,auto,False,3,75.65±1.49,6.41±0.35,2.46±0.18,1.64±0.12,8.21±0.19,6.12±0.08,2.10±0.11,5.62±1.44
+C020,Fenugreek leaves (Trigonella foenum graecum),5,LEAFY VEGETABLES,44,1,auto,auto,False,5,86.73±0.66,3.68±0.36,1.69±0.19,0.83±0.02,4.90±0.21,3.20±0.14,1.70±0.09,2.17±0.32
+C021,Garden cress (Lepidium sativum),2,LEAFY VEGETABLES,44,1,auto,auto,False,2,84.02,5.62,2.48,0.80,2.60,1.77,0.83,4.48
+C022,"Gogu leaves, green (Hibiscus cannabinus)",4,LEAFY VEGETABLES,44,1,auto,auto,False,4,87.42±0.41,1.86±0.16,0.98±0.08,1.09±0.03,4.59±0.39,3.24±0.16,1.35±0.30,4.06±0.18
+C023,"Gogu leaves, red (Hibiscus cannabinus)",1,LEAFY VEGETABLES,44,1,auto,auto,False,1,87.98,1.85,0.97,1.07,3.89,2.66,1.23,4.24
+C024,"Knol-Khol, leaves (Brassica oleracea var.",2,LEAFY VEGETABLES,44,1,auto,auto,False,.,2,86.20,3.12,1.42,0.35,2.76,1.81,0.95
+C025,Lettuce (Lactuca sativa),3,LEAFY VEGETABLES,44,1,auto,auto,False,3,92.27±0.99,1.54±0.48,1.11±0.10,0.27±0.03,1.79±0.24,1.32±0.04,0.47±0.28,3.01±0.56
+C026,Mustard leaves (Brassica juncea),3,LEAFY VEGETABLES,44,1,auto,auto,False,3,88.17±0.56,3.52±0.21,1.47±0.11,0.51±0.05,3.92±0.06,3.04±0.03,0.87±0.03,2.41±0.46
+C027,Pak Choi leaves,1,LEAFY VEGETABLES,44,1,auto,auto,False,.,1,93.56,1.41,1.10,0.25,1.91,1.44,0.47
+C028,Parsley (Petroselinum crispum),3,LEAFY VEGETABLES,45,1,auto,auto,False,3,77.76±1.13,5.55±0.34,2.25±0.17,1.14±0.12,3.87±0.05,2.79±0.15,1.09±0.12,9.43±1.05
+C029,Ponnaganni (Alternanthera sessilis),2,LEAFY VEGETABLES,45,1,auto,auto,False,2,79.43,5.29,2.65,0.71,6.74,5.63,1.11,5.17
+C030,"Pumpkin leaves, tender (Cucurbita maxima)",6,LEAFY VEGETABLES,45,1,auto,auto,False,6,85.82±1.04,4.21±0.41,2.24±0.21,0.74±0.03,2.25±0.09,1.56±0.13,0.69±0.15,4.75±1.01
+C031,Radish leaves (Raphanus sativus),6,LEAFY VEGETABLES,45,1,auto,auto,False,6,91.19±0.53,2.22±0.23,1.50±0.21,0.51±0.05,1.82±0.10,1.18±0.04,0.63±0.07,2.77±0.34
+C032,Rumex leaves (Rumex patientia),2,LEAFY VEGETABLES,45,1,auto,auto,False,2,93.18,1.62,1.27,0.33,1.27,0.93,0.34,2.33
+C033,Spinach (Spinacia oleracea),6,LEAFY VEGETABLES,45,1,auto,auto,False,6,90.31±0.46,2.14±0.14,2.47±0.38,0.64±0.03,2.38±0.24,1.52±0.15,0.86±0.10,2.05±0.31
+C034,"Tamarind leaves, tender (Tamarindus indica)",3,LEAFY VEGETABLES,45,1,auto,auto,False,3,71.69±0.06,5.84±0.01,1.25±0.06,0.49±0.01,10.70±0.02,9.34±0.01,1.36±0.01,10.04±0.02
+D001,Ash gourd (Benincasa hispida),6,OTHER VEGETABLES,44,1,manual,verified_pdf,True,92.17±0.86,1.98±0.16,0.99±0.10,0.35±0.05,7.69±0.20,7.15±0.13,0.54±0.08,3.48±0.70,110±15
+D002,"Bamboo shoot, tender",1,OTHER VEGETABLES,45,1,auto,auto,False,1,94.56,1.33,0.55,0.35,1.55,1.06,0.49,1.67
+D003,"Bean scarlet, tender (Phaseolus coccineus)",5,OTHER VEGETABLES,45,1,auto,auto,False,5,85.51±1.22,2.86±0.27,0.96±0.03,0.99±0.06,4.50±0.25,3.76±0.14,0.74±0.21,5.16±1.45
+D004,"Bitter gourd, jagged, teeth ridges, elongate",6,OTHER VEGETABLES,45,1,auto,auto,False,6,90.87±0.56,1.44±0.17,0.86±0.04,0.24±0.01,3.78±0.16,3.10±0.19,0.68±0.07,2.82±0.32
+D005,"Bitter gourd, jagged, teeth ridges, short",4,OTHER VEGETABLES,45,1,auto,auto,False,4,91.60±0.28,1.34±0.12,0.81±0.06,0.24±0.01,3.49±0.18,2.96±0.10,0.53±0.11,2.53±0.26
+D006,"Bitter gourd, jagged, smooth ridges, elongate",1,OTHER VEGETABLES,45,1,auto,auto,False,1,91.24,1.61,0.88,0.26,3.72,3.05,0.67,2.29
+D007,"Bottle gourd, elongate, pale green (Lagenaria",6,OTHER VEGETABLES,45,1,auto,auto,False,6,95.17±0.33,0.53±0.05,0.36±0.04,0.13±0.02,2.12±0.07,1.65±0.05,0.48±0.07,1.68±0.33
+D008,"Bottle gourd, round, pale green (Lagenaria",5,OTHER VEGETABLES,45,1,auto,auto,False,5,94.50±0.32,0.42±0.02,0.34±0.05,0.12±0.03,2.10±0.15,1.72±0.13,0.38±0.05,2.53±0.21
+D009,"Bottle gourd, elongate, dark green (Lagenaria",1,OTHER VEGETABLES,45,1,auto,auto,False,1,94.63,0.49,0.40,0.13,2.11,1.74,0.37,2.25
+D010,Brinjal-1 (Solanum melongena),1,OTHER VEGETABLES,45,1,auto,auto,False,1,1,89.95,1.77,0.83,0.39,3.57,2.37,1.20
+D011,Brinjal-2 (Solanum melongena),1,OTHER VEGETABLES,45,1,auto,auto,False,2,1,90.28,1.82,0.85,0.34,4.01,2.80,1.21
+D012,Brinjal-3 (Solanum melongena),2,OTHER VEGETABLES,45,1,auto,auto,False,3,2,90.02,1.36,0.65,0.33,4.26,3.10,1.16
+D013,Brinjal-4 (Solanum melongena),4,OTHER VEGETABLES,46,1,auto,auto,False,4,4,90.28±1.21,1.51±0.24,0.66±0.09,0.31±0.03,4.04±0.65,3.03±0.82,1.01±0.22
+D014,Brinjal-5 (Solanum melongena),3,OTHER VEGETABLES,46,1,auto,auto,False,5,3,89.45±1.73,1.38±0.26,0.72±0.12,0.29±0.06,4.13±0.70,3.10±0.43,1.03±0.29
+D015,Brinjal-6 (Solanum melongena),2,OTHER VEGETABLES,46,1,auto,auto,False,6,2,90.57,1.46,0.72,0.29,3.68,3.00,0.68
+D016,Brinjal-7 (Solanum melongena),1,OTHER VEGETABLES,46,1,auto,auto,False,7,1,91.25,1.40,0.57,0.37,3.32,2.30,1.02
+D017,Brinjal-8 (Solanum melongena),3,OTHER VEGETABLES,46,1,auto,auto,False,8,3,89.28±0.39,1.82±0.16,0.80±0.06,0.33±0.04,4.01±0.48,2.79±0.53,1.22±0.05
+D018,Brinjal-9 (Solanum melongena),2,OTHER VEGETABLES,46,1,auto,auto,False,9,2,89.83,1.47,0.83,0.35,4.00,2.94,1.06
+D019,Brinjal-10 (Solanum melongena),2,OTHER VEGETABLES,46,1,auto,auto,False,10,2,89.38,1.68,0.72,0.25,3.90,2.74,1.16
+D020,Brinjal-11 (Solanum melongena),6,OTHER VEGETABLES,46,1,auto,auto,False,11,6,89.93±0.89,1.43±0.20,0.68±0.07,0.31±0.04,4.12±0.52,2.95±0.56,1.17±0.28
+D021,Brinjal-12 (Solanum melongena),2,OTHER VEGETABLES,46,1,auto,auto,False,12,2,90.94,1.60,0.58,0.27,3.89,2.70,1.19
+D022,Brinjal-13 (Solanum melongena),1,OTHER VEGETABLES,46,1,auto,auto,False,13,1,89.14,1.49,0.64,0.31,3.92,2.61,1.31
+D023,Brinjal-14 (Solanum melongena),3,OTHER VEGETABLES,46,1,auto,auto,False,14,3,90.31±0.06,1.56±0.19,0.64±0.02,0.35±0.03,3.87±0.59,2.50±0.76,1.37±0.24
+D024,Brinjal-15 (Solanum melongena),4,OTHER VEGETABLES,46,1,auto,auto,False,15,4,89.44±0.96,1.58±0.27,0.74±0.05,0.29±0.03,3.99±0.79,2.82±0.72,1.17±0.08
+D025,Brinjal-16,1,OTHER VEGETABLES,46,1,auto,auto,False,16,1,90.39,1.26,0.80,0.34,3.74,2.54,1.20
+D026,Brinjal-17,1,OTHER VEGETABLES,46,1,auto,auto,False,17,1,90.83,1.18,0.81,0.36,3.94,2.80,1.14
+D027,Brinjal-18 (Solanum melongena),3,OTHER VEGETABLES,46,1,auto,auto,False,18,3,89.07±0.78,1.47±0.15,0.66±0.02,0.33±0.06,4.38±0.25,3.23±0.15,1.15±0.18
+D028,Brinjal-19,3,OTHER VEGETABLES,46,1,auto,auto,False,19,3,90.41±0.55,1.26±0.06,0.66±0.05,0.31±0.02,3.97±0.18,2.81±0.42,1.16±0.27
+D029,Brinjal-20,5,OTHER VEGETABLES,46,1,auto,auto,False,20,5,90.65±0.79,1.44±0.21,0.68±0.08,0.34±0.04,3.73±0.21,2.64±0.37,1.09±0.21
+D030,Brinjal-21,2,OTHER VEGETABLES,46,1,auto,auto,False,21,2,89.83,1.36,0.69,0.35,3.85,2.57,1.28
+D031,Brinjal - all varieties (Solanum melongena),6,OTHER VEGETABLES,46,1,auto,auto,False,6,90.00±0.90,1.48±0.22,0.70±0.08,0.32±0.04,3.98±0.49,2.84±0.52,1.14±0.22,3.52±0.80
+D032,Broad beans (Vicia faba),3,OTHER VEGETABLES,46,1,auto,auto,False,3,84.20±0.17,3.85±0.13,1.05±0.08,0.15±0.01,8.63±0.15,6.61±0.07,2.03±0.09,2.11±0.11
+D033,"Capsicum, green (Capsicum annuum)",6,OTHER VEGETABLES,46,1,auto,auto,False,6,93.89±0.32,1.11±0.11,0.76±0.05,0.34±0.03,2.06±0.22,1.33±0.29,0.73±0.17,1.84±0.32
+D034,"Capsicum, red (Capsicum annuum)",4,OTHER VEGETABLES,47,1,auto,auto,False,4,92.99±1.47,1.47±0.36,0.76±0.14,0.47±0.05,2.19±0.17,1.58±0.13,0.61±0.10,2.14±1.06
+D035,"Capsicum, yellow (Capsicum annuum)",4,OTHER VEGETABLES,47,1,auto,auto,False,4,93.38±0.37,1.35±0.35,0.72±0.12,0.41±0.02,2.19±0.13,1.39±0.06,0.80±0.08,1.95±0.16
+D036,Cauliflower (Brassica oleracea var. botrytis),6,OTHER VEGETABLES,47,1,auto,auto,False,.,6,90.76±0.22,2.15±0.15,0.91±0.10,0.44±0.03,3.71±0.27,2.66±0.35,1.04±0.13
+D037,Celery stalk (Apium graveolens),3,OTHER VEGETABLES,47,1,auto,auto,False,3,92.87±0.22,0.98±0.13,1.50±0.16,0.24±0.04,2.09±0.13,1.57±0.07,0.52±0.16,2.33±0.23
+D038,Cho-cho-marrow (Sechium edule),4,OTHER VEGETABLES,47,1,auto,auto,False,4,93.78±0.12,0.66±0.07,0.38±0.05,0.15±0.03,1.55±0.08,1.19±0.07,0.36±0.12,3.47±0.18
+D039,Cluster beans (Cyamopsis tetragonoloba),6,OTHER VEGETABLES,47,1,auto,auto,False,6,84.65±0.83,3.55±0.38,1.68±0.13,0.37±0.04,4.83±0.54,3.55±0.48,1.28±0.13,4.91±0.58
+D040,"Colocasia, stem, black (",1,OTHER VEGETABLES,47,1,auto,auto,False,1,91.15,0.76,0.91,0.34,3.01,1.81,1.20,3.83
+D041,"Colocasia, stem, green (",5,OTHER VEGETABLES,47,1,auto,auto,False,5,92.67±0.44,0.91±0.16,1.00±0.04,0.22±0.02,2.33±0.06,1.26±0.03,1.07±0.08,2.86±0.34
+D042,"Corn, baby (Zea mays)",6,OTHER VEGETABLES,47,1,auto,auto,False,6,75.44±0.98,2.69±0.23,2.79±0.21,1.33±0.23,6.09±0.50,4.47±0.28,1.62±0.31,11.66±1.40
+D043,"Cucumber, green, elongate (Cucumis sativus)",6,OTHER VEGETABLES,47,1,auto,auto,False,6,92.96±0.48,0.71±0.11,0.54±0.06,0.16±0.04,2.14±0.42,1.52±0.43,0.63±0.11,3.48±0.47
+D044,"Cucumber, green, short (Cucumis sativus)",6,OTHER VEGETABLES,47,1,auto,auto,False,6,93.52±0.44,0.83±0.14,0.52±0.06,0.18±0.05,2.13±0.26,1.60±0.33,0.54±0.16,2.82±0.49
+D045,"Cucumber, orange, round (Cucumis sativus)",2,OTHER VEGETABLES,47,1,auto,auto,False,2,92.80,0.98,0.52,0.24,2.46,1.78,0.68,3.01
+D046,Drumstick (Moringa oleifera),6,OTHER VEGETABLES,47,1,auto,auto,False,6,85.39±0.64,2.62±0.22,1.27±0.09,0.12±0.01,6.83±0.22,5.60±0.26,1.23±0.06,3.76±0.70
+D047,"Field beans, tender, broad (Vicia faba)",2,OTHER VEGETABLES,47,1,auto,auto,False,2,86.98,3.06,0.94,0.64,5.64,4.84,0.79,2.75
+D048,"Field beans, tender, lean (Vicia faba)",6,OTHER VEGETABLES,47,1,auto,auto,False,6,85.57±1.32,3.71±0.62,1.08±0.12,0.60±0.02,6.19±0.47,5.37±0.43,0.82±0.10,2.85±0.32
+D049,"French beans, country (Phaseolus vulgaris)",5,OTHER VEGETABLES,47,1,auto,auto,False,5,89.14±0.52,2.49±0.21,1.05±0.09,0.26±0.02,4.38±0.41,3.88±0.36,0.51±0.11,2.68±0.48
+D050,"French beans, hybrid  (Phaseolus vulgaris)",2,OTHER VEGETABLES,47,1,auto,auto,False,2,90.11,2.12,0.77,0.19,4.18,3.53,0.65,2.63
+D051,"Jack fruit, raw (Artocarpus heterophyllus)",5,OTHER VEGETABLES,47,1,auto,auto,False,5,85.52±0.86,1.98±0.16,0.99±0.10,0.35±0.05,7.69±0.20,7.15±0.13,0.54±0.08,3.48±0.70
+D052,"Jack fruit, seed, mature (Artocarpus",5,OTHER VEGETABLES,47,1,auto,auto,False,5,72.32±0.53,5.79±0.14,1.02±0.16,0.44±0.03,8.63±0.09,7.83±0.05,0.80±0.07,11.81±0.74
+D053,Knol - Khol (Brassica oleracea),6,OTHER VEGETABLES,47,1,auto,auto,False,6,93.14±0.27,1.58±0.24,0.79±0.03,0.35±0.02,2.75±0.07,2.31±0.09,0.44±0.04,1.39±0.21
+D054,"Kovai, big (Coccinia cordifolia)",6,OTHER VEGETABLES,47,1,auto,auto,False,6,92.78±0.61,1.39±0.23,0.58±0.07,0.24±0.08,3.00±0.26,2.19±0.18,0.81±0.11,2.01±0.54
+D055,"Kovai, small (Coccinia cordifolia)",1,OTHER VEGETABLES,48,1,auto,auto,False,1,92.40,1.22,0.47,0.24,3.25,2.14,1.12,2.41
+D056,Ladies finger (Abelmoschus esculentus),6,OTHER VEGETABLES,48,1,auto,auto,False,6,89.06±0.30,2.08±0.37,0.94±0.09,0.22±0.03,4.08±0.20,2.80±0.29,1.28±0.37,3.62±0.26
+D057,"Mango, green, raw (Mangifera indica)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,85.14±0.59,0.69±0.09,0.49±0.07,0.08±0.02,3.01±0.19,1.68±0.15,1.34±0.11,10.59±0.37
+D058,"Onion, stalk (Allium cepa)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,88.35±0.79,2.07±0.21,1.13±0.09,0.26±0.02,5.21±0.10,3.76±0.07,1.45±0.11,2.99±0.50
+D059,"Papaya, raw (Carica papaya)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,92.04±0.44,0.50±0.06,0.55±0.06,0.23±0.03,2.28±0.05,1.32±0.04,0.96±0.04,4.40±0.37
+D060,Parwar (Trichosanthes dioica),6,OTHER VEGETABLES,48,1,auto,auto,False,6,91.57±0.27,1.40±0.10,0.59±0.03,0.30±0.04,2.61±0.07,1.82±0.04,0.79±0.07,3.54±0.32
+D061,"Peas, fresh (Pisum sativum)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,73.37±1.13,7.25±1.03,1.05±0.02,0.13±0.02,6.32±0.26,5.04±0.19,1.28±0.25,11.88±0.67
+D062,"Plantain, flower (Musa x paradisiaca)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,89.14±0.59,1.47±0.12,1.35±0.09,0.63±0.02,5.25±0.39,4.72±0.44,0.52±0.07,2.15±0.43
+D063,"Plantain, green (Musa x paradisiaca)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,76.15±0.42,1.18±0.20,1.27±0.14,0.23±0.02,3.60±0.27,2.79±0.25,0.81±0.05,17.58±0.35
+D064,"Plantain, stem (Musa x paradisiaca)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,87.53±1.01,0.35±0.05,1.20±0.09,0.16±0.07,2.12±0.04,1.33±0.08,0.80±0.09,8.64±0.93
+D065,"Pumpkin, green, cylindrical (Cucurbita maxima)",1,OTHER VEGETABLES,48,1,auto,auto,False,1,91.73,0.87,0.47,0.18,2.53,1.28,1.25,4.22
+D066,"Pumpkin, orange,  round (Cucurbita maxima)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,91.85±0.45,0.84±0.21,0.58±0.09,0.16±0.02,2.56±0.11,1.44±0.14,1.12±0.08,4.00±0.64
+D067,"Red gram, tender, fresh (Cajanus cajan)",1,OTHER VEGETABLES,48,1,auto,auto,False,1,64.00,8.09,1.64,0.92,5.90,3.66,2.25,19.46
+D068,Ridge gourd (Luffa acutangula),6,OTHER VEGETABLES,48,1,auto,auto,False,6,94.99±0.35,0.91±0.08,0.44±0.04,0.14±0.01,1.81±0.13,1.20±0.16,0.61±0.08,1.72±0.46
+D069,"Ridge gourd, smooth skin (Luffa acutangula)",3,OTHER VEGETABLES,48,1,auto,auto,False,3,94.27±0.62,0.98±0.13,0.53±0.06,0.13±0.01,1.85±0.28,1.31±0.17,0.54±0.10,2.24±0.41
+D070,"Snake gourd, long, pale green (Trichosanthes",6,OTHER VEGETABLES,48,1,auto,auto,False,6,94.81±0.28,0.98±0.33,0.42±0.04,0.25±0.01,2.27±0.11,1.69±0.15,0.58±0.08,1.27±0.15
+D071,"Snake gourd, long, dark green (Trichosanthes",2,OTHER VEGETABLES,48,1,auto,auto,False,2,94.92,0.89,0.45,0.25,2.27,1.69,0.58,1.23
+D072,"Snake gourd, short (Trichosanthes anguina)",1,OTHER VEGETABLES,48,1,auto,auto,False,1,94.35,0.54,0.41,0.26,2.29,1.61,0.68,2.15
+D073,"Tinda, tender (Praecitrullus fistulosus)",6,OTHER VEGETABLES,48,1,auto,auto,False,6,94.41±0.32,1.02±0.04,0.51±0.03,0.17±0.01,2.00±0.04,1.68±0.06,0.32±0.02,1.90±0.37
+D074,"Tomato, green (",6,OTHER VEGETABLES,48,1,auto,auto,False,6,93.21±0.46,1.12±0.08,0.60±0.03,0.27±0.07,1.62±0.08,1.05±0.07,0.57±0.04,3.18±0.40
+D075,"Tomato, ripe, hybrid ((",6,OTHER VEGETABLES,48,1,auto,auto,False,6,93.79±0.42,0.76±0.03,0.43±0.05,0.25±0.02,1.58±0.16,1.27±0.13,0.30±0.05,3.20±0.30
+D076,"Tomato, ripe, local (Lycopersicon esculentum)",6,OTHER VEGETABLES,49,1,auto,auto,False,6,93.62±0.16,0.90±0.07,0.52±0.08,0.47±0.06,1.77±0.04,1.44±0.11,0.33±0.08,2.71±0.08
+D077,"Zucchini, green (Cucurbita pepo)",2,OTHER VEGETABLES,49,1,auto,auto,False,2,92.83,1.10,0.93,0.51,2.30,1.42,0.88,2.33
+D078,"Zucchini, yellow (Cucurbita pepo)",2,OTHER VEGETABLES,49,1,auto,auto,False,2,93.15,1.31,1.08,0.44,1.84,1.37,0.47,2.20
+E001,"Apple, big (Malus domestica)",6,FRUITS,49,1,auto,auto,False,6,83.01±0.94,0.29±0.08,0.36±0.04,0.64±0.04,2.59±0.15,1.43±0.15,1.16±0.17,13.11±0.76
+E002,"Apple, green (Malus domestica)",6,FRUITS,49,1,auto,auto,False,6,85.54±0.98,0.46±0.07,0.31±0.04,0.50±0.05,2.54±0.26,1.72±0.22,0.81±0.16,10.65±1.00
+E003,"Apple, small (Malus domestica)",6,FRUITS,49,1,auto,auto,False,6,82.91±0.48,0.31±0.05,0.24±0.02,0.53±0.05,2.06±0.12,1.44±0.09,0.62±0.12,13.95±0.48
+E004,Custard apple (Annona squamosa),6,FRUITS,49,1,manual,verified_pdf,True,78.56±0.34,2.74±0.47,1.02±0.08,0.15±0.02,2.81±0.17,2.21±0.17,1.38±0.06,14.01±1.13,302±23
+E005,"Apricot, dried (Prunus armeniaca)",6,FRUITS,49,1,auto,auto,False,6,16.68±0.59,3.17±0.29,3.46±0.14,0.74±0.03,3.32±0.13,2.72±0.11,0.60±0.04,72.63±0.27
+E006,"Apricot, processed (Prunus armeniaca)",3,FRUITS,49,1,auto,auto,False,3,85.75±0.81,1.47±0.15,0.61±0.16,0.64±0.04,0.59±0.01,0.43±0.02,0.16±0.02,10.93±0.88
+E007,Avocado fruit (,1,FRUITS,49,1,auto,auto,False,.,1,73.56,2.95,1.19,13.86,6.69,5.26,1.42
+E008,Bael fruit (Aegle marmelos),1,FRUITS,49,1,auto,auto,False,1,61.36,2.63,0.91,0.57,6.31,3.31,3.00,28.21
+E009,"Banana, ripe, montham (Musa x paradisiaca)",1,FRUITS,49,1,auto,auto,False,1,70.13,1.25,1.15,0.32,2.21,1.43,0.78,24.95
+E010,"Banana, ripe, poovam (Musa x paradisiaca)",2,FRUITS,49,1,auto,auto,False,2,71.32,1.49,1.09,0.35,2.33,1.29,1.04,23.41
+E011,"Banana, ripe, red (Musa x paradisiaca)",1,FRUITS,49,1,auto,auto,False,1,70.28,1.29,0.95,0.29,1.98,1.26,0.72,25.21
+E012,"Banana, ripe, robusta (Musa x paradisiaca)",6,FRUITS,49,1,auto,auto,False,6,71.93±0.85,1.23±0.08,0.94±0.17,0.33±0.01,1.94±0.07,1.23±0.10,0.71±0.07,23.63±0.74
+E013,Black berry (,5,FRUITS,49,1,auto,auto,False,.,5,82.94±0.42,0.92±0.10,0.52±0.04,0.63±0.02,4.35±0.25,3.44±0.16,0.91±0.13
+E014,"Cherries, red (Prunus cerasus)",4,FRUITS,49,1,auto,auto,False,4,83.61±0.21,1.49±0.22,0.45±0.02,0.46±0.05,2.12±0.12,1.35±0.09,0.78±0.06,11.87±0.31
+E015,"Currants, black (Ribes nigrum)",1,FRUITS,49,1,auto,auto,False,1,83.27,1.51,0.69,0.53,4.07,2.43,1.64,9.93
+E016,Custard apple (Annona squamosa),1,FRUITS,49,1,auto,auto,False,1,71.55,1.62,0.68,0.67,5.10,3.17,1.93,20.38
+E017,"Dates, dry, pale brown (Phoenix dactylifera)",6,FRUITS,50,1,auto,auto,False,6,11.14±0.73,2.45±0.24,2.20±0.07,0.35±0.03,8.95±0.23,7.53±0.22,1.42±0.14,74.91±0.52
+E018,"Dates, dry, dark brown (Phoenix dactylifera)",2,FRUITS,50,1,auto,auto,False,2,13.13,2.38,2.39,0.35,9.10,7.57,1.53,72.67
+E019,"Dates, processed (Phoenix dactylifera)",2,FRUITS,50,1,auto,auto,False,2,22.01,1.18,1.93,0.41,6.52,5.68,0.84,67.95
+E020,Fig (Ficus carica),6,FRUITS,50,1,auto,auto,False,6,75.60±1.16,2.03±0.22,1.08±0.18,0.37±0.06,4.64±0.41,2.59±0.22,2.05±0.23,16.28±1.13
+E021,Gooseberry (Emblica officinalis),5,FRUITS,50,1,auto,auto,False,5,87.02±0.78,0.34±0.03,0.34±0.05,0.16±0.04,7.75±0.64,6.20±0.43,1.55±0.43,4.39±1.09
+E022,"Grapes, seeded, round, black (Vitis vinifera)",4,FRUITS,50,1,auto,auto,False,4,83.88±0.56,0.76±0.13,0.46±0.04,0.32±0.02,1.35±0.14,0.82±0.06,0.52±0.09,13.23±0.60
+E023,"Grapes, seeded, round, green (Vitis vinifera)",5,FRUITS,50,1,auto,auto,False,5,85.07±0.29,0.77±0.12,0.43±0.05,0.29±0.03,1.25±0.04,0.81±0.02,0.44±0.02,12.19±0.20
+E024,"Grapes, seeded, round, red (Vitis vinifera)",5,FRUITS,50,1,auto,auto,False,5,84.46±1.60,0.95±0.11,0.48±0.07,0.29±0.04,1.28±0.10,0.85±0.05,0.43±0.09,12.55±1.38
+E025,"Grapes, seedless, oval, black (Vitis vinifera)",5,FRUITS,50,1,auto,auto,False,5,75.30±1.55,1.41±0.26,0.70±0.13,0.46±0.11,1.64±0.15,0.98±0.19,0.66±0.08,20.48±0.97
+E026,"Grapes, seedless, round, green (Vitis vinifera)",5,FRUITS,50,1,auto,auto,False,5,85.55±1.70,0.62±0.13,0.47±0.08,0.26±0.02,1.28±0.05,0.85±0.05,0.44±0.01,11.81±1.52
+E027,"Grapes, seedless, round, black (Vitis vinifera)",5,FRUITS,50,1,auto,auto,False,5,76.90±1.40,1.24±0.25,0.49±0.05,0.35±0.03,1.15±0.19,0.83±0.04,0.32±0.15,19.86±1.58
+E028,"Guava, white flesh (Psidium guajava)",5,FRUITS,50,1,auto,auto,False,5,83.79±0.30,1.44±0.09,0.72±0.05,0.32±0.03,8.59±0.05,7.14±0.02,1.45±0.04,5.13±0.33
+E029,"Guava, pink flesh (Psidium guajava)",5,FRUITS,50,1,auto,auto,False,5,81.22±0.45,1.19±0.19,0.81±0.06,0.25±0.03,7.39±0.38,6.12±0.29,1.28±0.09,9.14±0.27
+E030,"Jack fruit, ripe (Artocarpus heterophyllus)",5,FRUITS,50,1,auto,auto,False,5,78.56±0.34,2.74±0.47,0.91±0.08,0.15±0.02,3.62±0.17,2.21±0.17,1.41±0.06,14.01±0.56
+E031,"Jambu fruit, ripe (",2,FRUITS,50,1,auto,auto,False,2,83.33,0.82,0.31,0.17,3.07,2.40,0.67,12.30
+E032,Karonda fruit (Carissa carandas),1,FRUITS,50,1,auto,auto,False,1,86.04,1.15,1.02,1.67,7.25,5.87,1.38,2.87
+E033,"Lemon, juice (Citrus limon)",6,FRUITS,50,1,auto,auto,False,6,91.59±0.53,0.41±0.05,0.28±0.03,,,,,0.75±0.02
+E034,"Lime, sweet,pulp (Citrus limetta)",6,FRUITS,50,1,auto,auto,False,6,91.32±0.33,0.76±0.09,0.47±0.03,0.20±0.06,2.07±0.11,1.33±0.04,0.74±0.08,5.18±0.37
+E035,Litchi (,4,FRUITS,50,1,auto,auto,False,4,85.56±0.27,0.99±0.09,0.44±0.06,0.26±0.02,1.34±0.05,0.81±0.10,0.53±0.06,11.41±0.20
+E036,"Mango, ripe, banganapalli (Mangifera indica)",6,FRUITS,50,1,auto,auto,False,6,88.44±0.55,0.54±0.10,0.42±0.04,0.55±0.03,1.88±0.15,1.01±0.08,0.87±0.11,8.18±0.49
+E037,"Mango, ripe, gulabkhas (Mangifera indica)",2,FRUITS,50,1,auto,auto,False,2,86.65,0.52,0.32,0.53,1.67,1.03,0.64,10.32
+E038,"Mango, ripe, himsagar (Mangifera indica)",3,FRUITS,51,1,auto,auto,False,3,88.04±0.10,0.46±0.04,0.38±0.02,0.54±0.02,1.55±0.13,0.82±0.19,0.73±0.06,9.03±0.26
+E039,"Mango, ripe, kesar (Mangifera indica)",4,FRUITS,51,1,auto,auto,False,4,85.07±0.59,0.54±0.05,0.44±0.07,0.57±0.03,2.02±0.20,1.09±0.05,0.93±0.14,11.36±0.49
+E040,"Mango, ripe, neelam (Mangifera indica)",2,FRUITS,51,1,auto,auto,False,2,88.41,0.68,0.38,0.55,1.77,0.97,0.79,8.21
+E041,"Mango, ripe, paheri (Mangifera indica)",2,FRUITS,51,1,auto,auto,False,2,87.69,0.68,0.42,0.58,1.97,0.99,0.98,8.67
+E042,"Mango, ripe, totapari (Mangifera indica)",1,FRUITS,51,1,auto,auto,False,1,84.14,0.41,0.47,0.49,1.73,0.95,0.78,12.75
+E043,Mangosteen (Garcinia mangostana),1,FRUITS,51,1,auto,auto,False,1,85.52,0.63,0.33,0.24,1.87,1.23,0.64,11.41
+E044,Manila tamarind (Pithecellobium dulce),1,FRUITS,51,1,auto,auto,False,1,74.54,3.56,2.82,1.14,4.40,3.30,1.10,13.54
+E045,"Musk melon, orange flesh (Cucumis melon)",5,FRUITS,51,1,auto,auto,False,5,92.97±0.38,0.42±0.06,0.52±0.02,0.35±0.02,1.51±0.28,0.84±0.20,0.67±0.11,4.24±0.40
+E046,"Musk melon, yellow flesh (Cucumis melon)",6,FRUITS,51,1,auto,auto,False,6,91.84±0.93,0.53±0.05,0.48±0.04,0.26±0.02,1.49±0.10,0.79±0.08,0.70±0.05,5.40±1.04
+E047,"Orange, pulp (Citrus aurantium)",6,FRUITS,51,1,auto,auto,False,6,89.61±0.19,0.70±0.12,0.36±0.02,0.13±0.02,1.29±0.05,0.73±0.05,0.56±0.02,7.92±0.27
+E048,"Palm fruit, tender (Borassus flabellifer)",1,FRUITS,51,1,auto,auto,False,1,91.93,0.50,0.13,0.12,2.40,1.87,0.53,4.92
+E049,"Papaya, ripe (Carica papaya)",6,FRUITS,51,1,auto,auto,False,6,91.47±0.76,0.42±0.05,0.51±0.03,0.16±0.01,2.83±0.26,1.75±0.16,1.08±0.10,4.61±0.48
+E050,Peach (,1,FRUITS,51,1,auto,auto,False,1,88.31,0.86,0.51,0.37,2.13,1.22,0.91,7.82
+E051,Pear (Pyrus sp.),6,FRUITS,51,1,auto,auto,False,.,6,86.49±0.18,0.36±0.04,0.32±0.02,0.27±0.04,4.48±0.08,4.02±0.07,0.46±0.03
+E052,Phalsa (Grewia asiatica),2,FRUITS,51,1,auto,auto,False,2,77.48,1.66,1.09,0.14,4.54,3.44,1.09,15.09
+E053,Pineapple  (Ananas comosus),6,FRUITS,51,1,auto,auto,False,6,86.06±1.19,0.52±0.09,0.38±0.04,0.16±0.02,3.46±0.12,2.88±0.08,0.59±0.06,9.42±1.15
+E054,Plum (Prunus domestica),3,FRUITS,51,1,auto,auto,False,3,84.44±1.25,0.64±0.13,0.35±0.16,0.40±0.16,2.07±0.36,1.23±0.22,0.84±0.16,12.10±1.47
+E055,"Pomegranate, maroon seeds (Punica granatum)",6,FRUITS,51,1,auto,auto,False,6,83.55±0.39,1.33±0.07,0.57±0.04,0.15±0.02,2.83±0.06,2.26±0.05,0.57±0.02,11.58±0.43
+E056,Pummelo (Citrus maxima),3,FRUITS,51,1,auto,auto,False,3,86.97±1.52,0.68±0.06,0.49±0.03,0.42±0.01,0.80±0.04,0.49±0.03,0.31±0.01,10.64±1.54
+E057,"Raisins, dried, black (Vitis vinifera)",6,FRUITS,51,1,auto,auto,False,6,19.69±0.59,2.57±0.20,2.19±0.14,0.34±0.02,3.92±0.23,2.55±0.30,1.37±0.17,71.29±0.48
+E058,"Raisins, dried, golden (Vitis vinifera)",6,FRUITS,51,1,auto,auto,False,6,21.50±0.51,2.76±0.26,2.04±0.17,0.35±0.03,4.56±0.50,3.04±0.55,1.53±0.26,68.79±1.00
+E059,Rambutan (Nephelium lappaceum),1,FRUITS,52,1,auto,auto,False,1,80.87,0.68,0.43,0.16,1.02,0.71,0.30,16.84
+E060,Sapota (Achras sapota),6,FRUITS,52,1,auto,auto,False,6,73.64±1.01,0.92±0.07,0.68±0.05,1.26±0.02,9.60±0.57,8.46±0.58,1.14±0.04,13.90±1.13
+E061,Soursop (Annona muricata),1,FRUITS,52,1,auto,auto,False,1,80.85,0.74,0.58,0.94,4.95,3.79,1.16,11.94
+E062,Star fruit (Averrhoa carambola),1,FRUITS,52,1,auto,auto,False,1,91.18,0.79,0.33,0.39,2.81,2.17,0.64,4.51
+E063,Strawberry (Fragaria x ananassa),6,FRUITS,52,1,auto,auto,False,6,92.03±0.64,0.97±0.10,0.54±0.02,0.56±0.02,2.50±0.03,1.51±0.08,0.99±0.08,3.40±0.64
+E064,"Tamarind, pulp (Tamarindus indica)",6,FRUITS,52,1,auto,auto,False,6,20.83±0.57,2.92±0.22,3.44±0.31,0.15±0.02,5.31±0.27,3.73±0.24,1.58±0.09,67.35±0.45
+E065,"Water melon, dark green (sugar baby) (Citrullus",6,FRUITS,52,1,auto,auto,False,6,94.54±0.63,0.60±0.06,0.13±0.02,0.16±0.01,0.70±0.14,0.35±0.11,0.34±0.05,3.86±0.59
+E066,"Water melon, pale green (Citrullus vulgaris)",6,FRUITS,52,1,auto,auto,False,6,95.33±0.22,0.59±0.03,0.12±0.01,0.16±0.01,0.78±0.11,0.40±0.07,0.38±0.08,3.02±0.21
+E067,Wood Apple (Limonia acidissima),3,FRUITS,52,1,auto,auto,False,3,79.36±0.17,3.14±0.30,1.15±0.05,3.62±0.03,5.21±0.38,3.77±0.08,1.44±0.40,7.52±0.58
+E068,Zizyphus,1,FRUITS,52,1,auto,auto,False,1,84.39,1.34,0.80,0.35,3.73,2.71,1.02,9.40
+F001,Beet root (Beta vulgaris),6,ROOTS AND TUBERS,52,1,auto,auto,False,6,86.95±0.50,1.95±0.14,1.46±0.21,0.14±0.01,3.31±0.32,2.60±0.30,0.71±0.06,6.18±0.61
+F002,"Carrot, orange (Daucus carota)",6,ROOTS AND TUBERS,52,1,auto,auto,False,6,87.69±0.56,0.95±0.15,1.16±0.09,0.47±0.02,4.18±0.30,2.81±0.18,1.37±0.21,5.55±0.48
+F003,"Carrot, red (Daucus carota)",4,ROOTS AND TUBERS,52,1,auto,auto,False,4,86.07±1.34,1.04±0.09,1.22±0.10,0.47±0.04,4.49±0.19,3.09±0.26,1.40±0.21,6.71±1.11
+F004,Colocasia (Colocasia esculenta),6,ROOTS AND TUBERS,52,1,auto,auto,False,6,73.49±0.32,3.31±0.59,1.95±0.27,0.17±0.03,3.22±0.34,2.54±0.30,0.68±0.05,17.85±0.94
+F005,Lotus root (Nelumbium nelumbo),3,ROOTS AND TUBERS,52,1,auto,auto,False,3,76.26±0.87,1.94±0.32,1.50±0.10,0.93±0.06,4.70±0.04,2.86±0.01,1.84±0.05,14.67±0.45
+F006,"Potato, brown skin, big (Solanum tuberosum)",6,ROOTS AND TUBERS,52,1,auto,auto,False,6,80.72±0.40,1.54±0.17,0.92±0.08,0.23±0.02,1.71±0.03,1.13±0.02,0.58±0.04,14.89±0.40
+F007,"Potato, brown skin, small (Solanum tuberosum)",1,ROOTS AND TUBERS,52,1,auto,auto,False,1,82.97,1.35,0.87,0.22,1.69,1.15,0.54,12.90
+F008,"Potato, red skin (Solanum tuberosum)",1,ROOTS AND TUBERS,52,1,auto,auto,False,1,79.72,1.83,1.13,0.22,1.68,1.11,0.57,15.43
+F009,"Radish, elongate, red skin (Raphanus sativus)",3,ROOTS AND TUBERS,52,1,auto,auto,False,3,89.32±0.29,0.67±0.03,0.73±0.02,0.13±0.02,2.46±0.16,1.96±0.03,0.49±0.15,6.71±0.12
+F010,"Radish, elongate, white skin (Raphanus sativus)",6,ROOTS AND TUBERS,53,1,auto,auto,False,6,89.05±0.72,0.77±0.08,0.82±0.10,0.15±0.02,2.65±0.15,1.98±0.16,0.67±0.08,6.56±0.70
+F011,"Radish, round, red skin (Raphanus sativus)",1,ROOTS AND TUBERS,53,1,auto,auto,False,1,89.68,0.89,0.91,0.16,2.29,1.56,0.73,6.07
+F012,"Radish, round, white skin (Raphanus sativus)",2,ROOTS AND TUBERS,53,1,auto,auto,False,2,89.76,0.80,0.80,0.14,2.37,1.63,0.74,6.13
+F013,"Sweet potato, brown skin (Ipomoea batatas)",4,ROOTS AND TUBERS,53,1,auto,auto,False,4,69.21±0.83,1.33±0.12,0.96±0.07,0.26±0.06,3.99±0.05,2.57±0.07,1.43±0.04,24.25±0.77
+F014,"Sweet potato, pink skin (Ipomoea batatas)",3,ROOTS AND TUBERS,53,1,auto,auto,False,3,69.58±0.22,1.27±0.09,0.95±0.01,0.33±0.06,3.94±0.10,2.53±0.04,1.41±0.07,23.93±0.15
+F015,Tapioca (Manihot esculenta),3,ROOTS AND TUBERS,53,1,auto,auto,False,3,75.23±0.55,1.03±0.10,1.12±0.11,0.20±0.01,4.61±0.12,3.85±0.08,0.76±0.05,17.81±0.57
+F016,Water Chestnut (Eleocharis dulcis),1,ROOTS AND TUBERS,53,1,auto,auto,False,1,73.34,0.86,0.95,0.37,3.02,2.15,0.87,21.46
+F017,"Yam, elephant (Amorphophallus campanulatus)",6,ROOTS AND TUBERS,53,1,auto,auto,False,6,74.39±0.31,2.56±0.28,1.29±0.10,0.14±0.02,4.17±0.05,3.25±0.03,0.92±0.03,17.46±0.55
+F018,"Yam, ordinary (",4,ROOTS AND TUBERS,53,1,auto,auto,False,.,4,74.28±0.63,2.18±0.26,1.64±0.19,0.17±0.02,4.08±0.07,3.32±0.32,0.76±0.25
+F019,"Yam, wild (",2,ROOTS AND TUBERS,53,1,auto,auto,False,2,69.35,3.07,1.76,0.30,4.57,3.29,1.29,20.95
+G001,"Chillies, green-1 (Capsicum annum)",5,ROOTS AND TUBERS,53,1,auto,auto,False,1,5,84.47±0.29,2.62±0.35,1.01±0.14,0.73±0.02,4.86±0.65,3.31±0.42,1.55±0.35
+G002,"Chillies, green-2 (Capsicum annum)",3,ROOTS AND TUBERS,53,1,auto,auto,False,2,3,85.72±0.49,2.28±0.13,0.85±0.06,0.75±0.04,5.13±0.56,3.79±0.33,1.34±0.27
+G003,"Chillies, green-3 (Capsicum annum)",5,ROOTS AND TUBERS,53,1,auto,auto,False,3,5,85.59±0.79,2.38±0.40,0.95±0.13,0.75±0.02,5.10±0.10,3.61±0.46,1.50±0.49
+G004,"Chillies, green-4 (Capsicum annum)",3,ROOTS AND TUBERS,53,1,auto,auto,False,4,3,85.29±0.53,2.33±0.30,0.87±0.13,0.74±0.01,4.15±0.29,2.84±0.17,1.31±0.26
+G005,"Chillies, green-5 (Capsicum annum)",2,ROOTS AND TUBERS,53,1,auto,auto,False,5,2,85.93±0.11,2.01±0.26,0.82±0.08,0.65±0.03,3.95±0.60,2.83±0.37,1.12±0.32
+G006,"Chillies, green-6 (Capsicum annum)",1,ROOTS AND TUBERS,53,1,auto,auto,False,6,1,84.93,3.01,0.96,0.64,5.15,3.91,1.24
+G007,"Chillies, green-7 (Capsicum annum)",1,ROOTS AND TUBERS,53,1,auto,auto,False,7,1,85.83,2.12,0.90,0.60,4.95,3.75,1.20
+G008,"Chillies, green - all varieties (Capsicum annum)",6,ROOTS AND TUBERS,53,1,auto,auto,False,6,85.39±0.68,2.36±0.34,0.91±0.12,0.72±0.05,4.77±0.61,3.41±0.52,1.37±0.34,5.86±0.77
+G009,Coriander leaves (Coriandrum sativum),6,ROOTS AND TUBERS,53,1,auto,auto,False,6,86.99±0.41,3.52±0.26,2.19±0.15,0.70±0.06,4.66±0.24,3.24±0.21,1.42±0.15,1.93±0.27
+G010,Curry leaves (Murraya koenigii),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,65.33±1.57,7.41±0.26,4.86±0.58,1.06±0.04,16.83±0.78,13.81±0.43,3.02±0.44,4.51±1.79
+G011,"Garlic, big clove (Allium sativum)",6,ROOTS AND TUBERS,54,1,auto,auto,False,6,64.38±0.56,6.92±0.20,1.40±0.11,0.16±0.02,5.22±0.41,2.56±0.38,2.66±0.17,21.93±0.82
+G012,"Garlic, small clove (Allium sativum)",3,ROOTS AND TUBERS,54,1,auto,auto,False,3,64.42±0.30,6.75±0.24,1.38±0.17,0.14±0.01,5.47±0.07,2.61±0.02,2.86±0.07,21.84±0.74
+G013,"Coconut, tender (Cocos nucifera)",6,CONDIMENTS AND SPICES-FRESH,53,1,manual,verified_pdf,True,89.56±0.32,1.35±0.35,1.02±0.08,0.47±0.02,3.62±0.17,2.21±0.17,0.67±0.06,9.49±0.56,141±3
+G014,"Ginger, fresh (Zingiber officinale)",6,ROOTS AND TUBERS,54,1,auto,auto,False,6,81.27±0.22,2.22±0.16,1.33±0.13,0.85±0.03,5.36±0.40,4.28±0.25,1.08±0.21,8.97±0.28
+G015,Mango ginger (Curcuma amada),3,ROOTS AND TUBERS,54,1,auto,auto,False,3,84.55±0.16,1.45±0.37,1.57±0.14,0.70±0.03,4.74±0.50,3.79±0.13,0.95±0.62,6.98±0.15
+G016,Mint leaves (Mentha spicata ),4,ROOTS AND TUBERS,54,1,auto,auto,False,4,84.24±0.71,4.66±0.15,2.18±0.17,0.65±0.05,5.89±0.49,4.49±0.54,1.40±0.06,2.39±0.36
+G017,"Onion, big (Allium cepa)",6,ROOTS AND TUBERS,54,1,auto,auto,False,6,85.76±0.43,1.50±0.10,0.50±0.04,0.24±0.03,2.45±0.21,1.92±0.15,0.53±0.08,9.56±0.44
+G018,"Onion, small (Allium cepa)",5,ROOTS AND TUBERS,54,1,auto,auto,False,5,84.67±0.12,1.82±0.20,0.61±0.07,0.16±0.01,1.16±0.19,0.70±0.18,0.46±0.09,11.58±0.37
+G019,Asafoetida (Ferula assa-foetida),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,9.42±0.56,6.34±0.53,5.90±0.12,1.26±0.02,5.13±0.33,3.90±0.37,1.23±0.25,71.95±0.71
+G020,"Cardamom, green (Elettaria cardamomum)",6,ROOTS AND TUBERS,54,1,auto,auto,False,6,11.24±0.51,8.10±0.41,7.21±0.46,2.60±0.15,23.10±0.14,20.46±0.09,2.64±0.10,47.76±0.47
+G021,"Cardamom, black (Elettaria cardamomum)",4,ROOTS AND TUBERS,54,1,auto,auto,False,4,6.69±0.47,6.69±0.31,7.84±0.40,2.80±0.24,23.46±0.58,20.73±0.39,2.74±0.37,52.53±1.51
+G022,"Chillies, red (Capsicum annum)",6,ROOTS AND TUBERS,54,1,auto,auto,False,6,14.57±0.42,12.69±0.22,5.73±0.15,6.40±0.04,31.15±0.04,26.55±0.17,4.60±0.15,29.46±0.62
+G023,Cloves (Syzygium aromaticum),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,26.49±0.68,5.86±0.21,5.99±0.23,8.41±0.15,34.52±0.48,28.07±0.42,6.46±0.10,18.73±0.39
+G024,Coriander seeds (Coriandrum sativum),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,8.72±0.47,10.66±0.33,5.36±0.15,17.47±0.22,44.81±2.36,35.27±1.77,9.54±2.42,12.98±2.62
+G025,Cumin seeds (Cuminum cyminum),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,10.59±0.51,13.91±0.50,5.90±0.09,16.64±0.15,30.35±0.71,25.73±0.77,4.62±0.27,22.62±1.05
+G026,Fenugreek seeds (Trigonella foenum graecum),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,7.82±0.37,25.41±0.24,2.93±0.15,5.72±0.02,47.55±0.54,27.63±0.59,19.92±0.51,10.57±0.57
+G027,Mace (Myristica fragrans),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,20.06±0.70,6.24±0.27,2.47±0.28,24.41±0.20,20.31±0.23,16.78±0.23,3.54±0.17,26.51±0.81
+G028,Nutmeg (Myristica fragrans),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,15.55±0.55,6.30±0.24,1.99±0.11,36.52±0.04,11.99±0.18,10.54±0.18,1.46±0.14,27.64±0.70
+G029,Omum (Trachyspermum ammi),6,ROOTS AND TUBERS,54,1,auto,auto,False,6,9.71±0.18,15.89±0.61,8.18±0.23,21.11±0.08,20.58±0.04,17.20±0.02,3.38±0.04,24.53±0.68
+G030,Pippali (Piper longum),6,ROOTS AND TUBERS,55,1,auto,auto,False,6,10.95±0.48,10.53±0.45,6.41±0.07,2.27±0.02,34.14±0.60,29.57±0.55,4.57±0.39,35.70±0.45
+G031,"Pepper, black (Piper nigrum)",6,ROOTS AND TUBERS,55,1,auto,auto,False,6,13.18±0.40,10.12±0.40,4.58±0.13,2.74±0.02,33.16±0.29,30.61±0.29,2.54±0.11,36.22±0.45
+G032,Poppy seeds (Papaver somniferum),6,ROOTS AND TUBERS,55,1,auto,auto,False,6,4.22±0.32,20.31±0.40,6.04±0.19,30.38±1.87,26.68±3.04,15.62±2.29,11.06±1.75,12.37±1.95
+G033,Turmeric powder (Curcuma domestica),6,ROOTS AND TUBERS,55,1,auto,auto,False,6,10.58±0.49,7.66±0.44,6.13±0.38,5.03±0.07,21.38±0.29,18.79±0.42,2.59±0.29,49.22±0.55
+H001,Almond (Prunus amygdalus),6,NUTS AND OILSEEDS,55,1,auto,auto,False,6,4.37±0.31,18.41±0.04,2.62±0.13,58.49±0.04,13.06±0.31,10.55±0.22,2.52±0.34,3.04±0.24
+H002,"Arecanut, dried, brown (Areca catechu)",6,NUTS AND OILSEEDS,55,1,auto,auto,False,6,6.63±0.15,5.78±0.45,1.39±0.09,4.35±0.03,11.44±0.64,10.14±0.44,1.30±0.32,70.42±0.81
+H003,"Arecanut, dried, red color (Areca catechu)",3,NUTS AND OILSEEDS,55,1,auto,auto,False,3,6.30±0.32,6.46±0.51,1.41±0.04,4.46±0.03,11.11±0.34,10.09±0.25,1.03±0.27,70.27±0.96
+H004,"Arecanut, fresh (Areca catechu)",2,NUTS AND OILSEEDS,55,1,auto,auto,False,2,37.70,2.73,1.43,5.51,7.63,6.59,1.03,45.00
+H005,Arecanut (Areca catechu),6,NUTS AND OILSEEDS,55,1,manual,verified_pdf,True,15.55±0.55,6.30±0.24,1.99±0.11,36.52±0.04,11.99±0.18,10.54±0.18,1.46±0.04,27.64±0.55,1940±11
+H006,"Coconut, kernel, dry (Cocos nucifera)",6,NUTS AND OILSEEDS,55,1,auto,auto,False,6,3.97±0.73,7.27±0.02,1.61±0.17,63.26±0.30,15.88±0.79,14.55±0.23,1.33±0.99,8.01±1.02
+H007,"Coconut, kernel, fresh (Cocos nucifera)",6,NUTS AND OILSEEDS,55,1,auto,auto,False,6,36.14±0.36,3.84±0.04,1.93±0.15,41.38±0.42,10.42±0.28,9.43±0.24,0.99±0.07,6.30±0.43
+H008,"Garden cress, seeds (Lepidium sativum)",5,NUTS AND OILSEEDS,55,1,auto,auto,False,5,4.60±0.21,23.36±0.32,6.37±0.11,23.74±0.09,8.27±0.04,6.33±0.06,1.95±0.10,33.66±0.50
+H009,"Gingelly seeds, black (Sesamum indicum)",6,NUTS AND OILSEEDS,55,1,auto,auto,False,6,4.51±0.44,19.17±0.64,5.78±0.22,43.10±0.03,17.16±0.19,13.57±0.13,3.59±0.13,10.29±0.74
+H010,"Gingelly seeds, brown (Sesamum indicum)",4,NUTS AND OILSEEDS,55,1,auto,auto,False,4,3.62±0.32,21.61±0.71,4.58±0.13,43.22±0.08,17.21±0.18,13.58±0.18,3.63±0.11,9.76±1.01
+H011,"Gingelly seeds, white (Sesamum indicum)",5,NUTS AND OILSEEDS,55,1,auto,auto,False,5,3.30±0.28,21.70±0.44,4.13±0.16,43.05±0.04,16.99±0.30,13.49±0.19,3.51±0.15,10.83±0.50
+H012,Ground nut (Arachis hypogaea),6,NUTS AND OILSEEDS,55,1,auto,auto,False,6,6.97±0.69,23.65±0.85,2.11±0.07,39.63±0.29,10.38±0.18,8.58±0.15,1.79±0.22,17.27±0.33
+H013,Mustard seeds (,6,NUTS AND OILSEEDS,55,1,auto,auto,False,6,5.67±0.48,19.51±0.23,3.73±0.05,40.19±0.21,14.10±0.66,10.63±0.57,3.47±0.20,16.80±0.71
+H014,Linseeds (Linum usitatissimum),6,NUTS AND OILSEEDS,55,1,auto,auto,False,6,5.48±0.28,18.55±0.15,3.15±0.10,35.67±0.70,26.17±0.39,21.83±0.60,4.33±0.84,10.99±0.86
+H015,"Niger seeds, black (Guizotia abyssinica)",4,NUTS AND OILSEEDS,55,1,auto,auto,False,4,4.65±0.59,18.92±1.61,3.91±0.26,38.61±0.41,10.93±0.05,10.50±0.03,0.43±0.04,22.98±2.64
+H016,"Niger seeds, gray (Guizotia abyssinica)",5,NUTS AND OILSEEDS,56,1,auto,auto,False,5,5.66±0.29,18.34±2.11,4.92±0.22,39.53±0.26,10.96±0.14,10.54±0.12,0.41±0.03,20.59±1.85
+H017,Pine seed (,5,NUTS AND OILSEEDS,56,1,auto,auto,False,.,5,5.32±0.15,12.55±0.25,2.78±0.10,48.79±0.10,3.79±0.03,2.23±0.03,1.57±0.03
+H018,Pistachio nuts (Pistacia vera),6,NUTS AND OILSEEDS,56,1,auto,auto,False,6,4.68±0.22,23.35±0.35,3.02±0.13,42.49±0.34,10.64±0.16,8.23±0.15,2.41±0.11,15.82±0.52
+H019,Safflower seeds (Carthamus tinctorius),5,NUTS AND OILSEEDS,56,1,auto,auto,False,5,5.24±0.16,17.66±0.54,2.57±0.15,30.87±0.98,13.49±0.45,10.24±0.27,3.25±0.22,30.18±1.20
+H020,Sunflower seeds (Helianthus annuus),5,NUTS AND OILSEEDS,56,1,auto,auto,False,5,3.53±0.29,23.53±0.56,3.44±0.26,51.85±0.07,10.80±0.13,8.51±0.17,2.29±0.07,6.85±0.99
+H021,Walnut (Juglans regia),6,NUTS AND OILSEEDS,56,1,auto,auto,False,6,3.56±0.22,14.92±0.62,1.72±0.08,64.27±0.05,5.39±0.19,4.74±0.17,0.65±0.03,10.14±0.69
+I001,"Jaggery, cane (Saccharum officinarum)",6,SUGARS AND JAGGERY,56,1,auto,auto,False,6,11.20±0.49,1.85±0.19,1.92±0.17,,,,,0.16±0.02
+I002,"Sugarcane, juice (Saccharum officinarum)",6,SUGARS AND JAGGERY,56,1,auto,auto,False,6,85.54±0.99,0.16±0.03,0.23±0.02,0.40±0.05,0.56±0.09,0.40±0.05,0.16±0.05,13.11±0.93
+J001,"Button mushroom, fresh (Agaricus sp.)",1,MUSHROOMS,56,1,auto,auto,False,.,1,90.09,3.68,0.71,0.42,3.11,2.76,0.35
+J002,"Chicken mushroom, fresh (Lactiporus sp.)",1,MUSHROOMS,56,1,auto,auto,False,.,1,92.43,1.84,0.74,0.25,1.99,1.82,0.18
+J003,"Shiitake mushroom, fresh (Lentinula sp.)",1,MUSHROOMS,56,1,auto,auto,False,.,1,82.94,3.19,1.11,0.76,3.02,2.03,0.99
+J004,"Oyster mushroom, dried (Pleurotus sp.)",1,MUSHROOMS,56,1,auto,auto,False,.,1,4.51,19.04,1.41,2.86,39.12,35.64,3.48
+K001,Toddy (Borassus flabellifer),10,SUGARS AND JAGGERY,56,1,auto_fixed,verified_pdf,False,10,93.86±0.59,0.18±0.05,0.21±0.03,,,,,0.03±0.01
+K002,Coconut Water (Cocos nucifera),6,SUGARS AND JAGGERY,56,1,auto_fixed,verified_pdf,False,6,95.77±0.42,0.26±0.04,0.65±0.06,,,,,0.16±0.02
+L001,"Milk, whole, Buffalo",6,MUSHROOMS,57,1,auto,auto,False,6,80.68±0.66,3.68±0.13,0.67±0.02,,,,,6.58±0.20
+L002,"Milk, whole, Cow",6,MUSHROOMS,57,1,auto,auto,False,6,86.64±1.10,3.26±0.06,0.68±0.02,,,,,4.48±0.29
+L003,Paneer,6,MUSHROOMS,57,1,auto,auto,False,6,51.96±0.76,18.86±0.75,1.98±0.08,,,,,24.78±0.17
+L004,Khoa,6,MUSHROOMS,57,1,auto,auto,False,6,42.51±0.21,16.34±0.61,4.00±0.14,,,,,20.62±0.83
+M001,"Egg, poultry, whole, raw",6,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,6,76.51±0.20,13.28±0.29,0.81±0.04,,,,,9.15±0.14
+M002,"Egg, poultry, white, raw",6,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,6,86.68±0.11,10.84±0.07,0.75±0.03,,,,,0.06±0.01
+M003,"Egg, poultry, yolk, raw",6,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,6,53.57±0.40,15.74±0.33,1.05±0.05,,,,,26.34±0.17
+M004,"Egg, poultry, whole, boiled",6,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,6,73.46±0.22,13.43±0.28,0.86±0.04,,,,,10.54±0.19
+M005,"Egg, poultry, white, boiled",6,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,6,83.54±0.18,12.37±0.16,0.81±0.04,,,,,0.26±0.02
+M006,"Egg, poultry, yolk, boiled",6,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,6,51.42±0.22,16.13±0.45,1.38±0.14,,,,,27.46±0.24
+M007,"Egg, poultry, omlet",3,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,3,68.48±0.13,16.53±0.43,0.96±0.03,,,,,11.60±0.22
+M008,"Egg, country hen, whole, raw",1,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,1,72.96,13.14,0.86,,,,,13.00
+M009,"Egg, country hen, whole, boiled",1,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,1,70.43,14.43,0.94,,,,,14.10
+M010,"Egg, country hen, omlet",1,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,1,67.80,14.80,1.08,,,,,16.30
+M011,"Egg, duck, whole, boiled",1,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,1,71.61,13.80,0.97,,,,,13.61
+M012,"Egg, duck, whole, raw",1,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,1,70.53,14.60,0.99,,,,,13.83
+M013,"Egg, duck, whole, omlet",1,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,1,68.90,15.10,1.18,,,,,14.80
+M014,"Egg, quial, whole, raw",1,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,1,75.11,12.39,0.94,,,,,11.46
+M015,"Egg, quial, whole, boiled",1,EGG AND EGG PRODUCTS,58,1,auto_fixed,verified_pdf,False,1,74.41,13.03,0.99,,,,,11.50
+N001,"Chicken, poultry, leg, skinless",4,POULTRY,58,1,auto_fixed,verified_pdf,False,4,67.61±0.30,19.44±0.79,1.14±0.08,,,,,12.64±0.53
+N002,"Chicken, poultry, thigh, skinless",6,POULTRY,58,1,auto_fixed,verified_pdf,False,6,67.58±0.46,18.18±0.57,1.14±0.10,,,,,14.23±0.84
+N003,"Chicken, poultry, breast, skinless",5,POULTRY,58,1,auto_fixed,verified_pdf,False,5,67.15±0.18,21.81±0.81,1.19±0.09,,,,,9.00±0.52
+N004,"Chicken, poultry, wing, skinless",5,POULTRY,58,1,auto_fixed,verified_pdf,False,5,67.48±0.21,17.42±0.60,1.13±0.05,,,,,13.81±0.26
+N005,"Poultry, chicken, liver",1,POULTRY,59,1,auto_fixed,verified_pdf,False,1,73.20,21.57,1.11,,,,,4.08
+N006,"Poultry, chicken, gizzard",1,POULTRY,59,1,auto_fixed,verified_pdf,False,1,78.05,18.22,1.46,,,,,2.07
+N007,"Country hen, leg, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,70.02,17.01,1.20,,,,,11.73
+N008,"Country hen, thigh, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,67.46,18.29,1.23,,,,,12.82
+N009,"Country hen, breast, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,66.53,22.08,1.14,,,,,10.20
+N010,"Country hen, wing, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,68.01,18.65,1.14,,,,,12.09
+N011,"Duck, meat, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,73.49,19.07,1.22,,,,,6.03
+N012,"Emu, meat, skinless",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,71.65,22.65,0.98,,,,,4.62
+N013,"Guinea fowl, meat, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,75.21,20.52,0.92,,,,,3.24
+N014,"Pigeon, meat, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,74.61,17.94,1.32,,,,,6.03
+N015,"Quail, meat, skinless",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,71.58,20.92,1.35,,,,,5.95
+N016,"Turkey, leg, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,69.24,20.30,1.21,,,,,8.15
+N017,"Turkey, thigh, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,72.17,20.46,0.97,,,,,6.31
+N018,"Turkey, breast, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,68.44,21.96,1.01,,,,,8.04
+N019,"Turkey, wing, with skin",1,EGG AND EGG PRODUCTS,59,1,auto,auto,False,1,66.16,21.91,0.97,,,,,10.77
+O001,"Goat, shoulder",6,ANIMAL MEAT,59,1,auto,auto,False,6,66.39±0.40,20.33±0.50,0.90±0.02,,,,,11.94±0.78
+O002,"Goat, chops",6,ANIMAL MEAT,59,1,auto,auto,False,6,72.46±1.10,20.39±0.83,0.99±0.01,,,,,5.98±0.37
+O003,"Goat, legs",6,ANIMAL MEAT,59,1,auto,auto,False,6,68.85±0.86,22.07±0.63,0.97±0.03,,,,,7.94±0.62
+O004,"Goat, brain",5,ANIMAL MEAT,59,1,auto,auto,False,5,76.74±1.02,13.82±0.80,1.29±0.07,,,,,8.06±0.46
+O005,"Goat, tongue",4,ANIMAL MEAT,59,1,auto,auto,False,4,68.40±1.00,16.63±0.54,1.02±0.04,,,,,13.68±1.09
+O006,"Goat, lungs",4,ANIMAL MEAT,60,1,auto,auto,False,4,79.03±1.20,16.86±0.71,0.74±0.01,,,,,3.09±0.56
+O007,"Goat, heart",5,ANIMAL MEAT,60,1,auto,auto,False,5,75.15±1.23,19.38±0.80,0.95±0.09,,,,,4.40±0.71
+O008,"Goat, liver",6,ANIMAL MEAT,60,1,auto,auto,False,6,73.37±1.16,20.32±0.92,1.30±0.07,,,,,4.88±0.73
+O009,"Goat, tripe",5,ANIMAL MEAT,60,1,auto,auto,False,5,80.94±0.84,15.36±0.50,0.23±0.02,,,,,3.36±0.29
+O010,"Goat, spleen",4,ANIMAL MEAT,60,1,auto,auto,False,4,77.93±0.50,18.45±0.15,1.15±0.09,,,,,2.37±0.36
+O011,"Goat, kidneys",4,ANIMAL MEAT,60,1,auto,auto,False,4,80.26±1.07,15.60±1.15,1.10±0.05,,,,,2.93±0.18
+O012,"Goat, tube (small intestine)",3,ANIMAL MEAT,60,1,auto,auto,False,3,78.12±0.63,12.92±0.54,0.54±0.01,,,,,8.26±1.08
+O013,"Goat, testis",2,ANIMAL MEAT,60,1,auto,auto,False,2,84.29,12.32,0.87,,,,,2.39
+O014,"Sheep, shoulder",5,ANIMAL MEAT,60,1,auto,auto,False,5,66.51±2.51,18.24±1.41,0.86±0.01,,,,,14.31±1.37
+O015,"Sheep, chops",4,ANIMAL MEAT,60,1,auto,auto,False,4,75.66±2.78,18.00±1.22,1.09±0.02,,,,,5.15±2.05
+O016,"Sheep, leg",5,ANIMAL MEAT,60,1,auto,auto,False,5,68.26±1.01,21.42±0.43,0.94±0.01,,,,,8.69±0.74
+O017,"Sheep, brain",1,ANIMAL MEAT,60,1,auto,auto,False,1,78.36,13.05,1.19,,,,,7.29
+O018,"Sheep, tongue",1,ANIMAL MEAT,60,1,auto,auto,False,1,68.70,16.61,1.06,,,,,13.53
+O019,"Sheep, lungs",2,ANIMAL MEAT,60,1,auto,auto,False,2,80.41,16.12,0.97,,,,,2.41
+O020,"Sheep, heart",1,ANIMAL MEAT,60,1,auto,auto,False,1,77.06,18.19,0.97,,,,,3.66
+O021,"Sheep, liver",4,ANIMAL MEAT,60,1,auto,auto,False,4,69.71±1.12,22.26±1.46,1.26±0.07,,,,,4.87±0.12
+O022,"Sheep, tripe",2,ANIMAL MEAT,60,1,auto,auto,False,2,78.81,16.76,0.26,,,,,4.05
+O023,"Sheep, spleen",1,ANIMAL MEAT,60,1,auto,auto,False,1,79.66,16.02,1.17,,,,,3.02
+O024,"Sheep, kidneys",2,ANIMAL MEAT,60,1,auto,auto,False,2,79.77,16.22,1.00,,,,,2.92
+O025,"Beef, shoulder",6,ANIMAL MEAT,60,1,auto,auto,False,6,63.84±0.59,20.56±1.32,0.95±0.01,,,,,14.59±0.86
+O026,"Beef, chops",4,ANIMAL MEAT,60,1,auto,auto,False,4,72.40±0.34,19.82±0.43,0.96±0.02,,,,,6.71±0.45
+O027,"Beef, round (leg)",6,ANIMAL MEAT,60,1,auto,auto,False,6,68.04±1.36,22.64±1.03,1.19±0.01,,,,,7.38±0.71
+O028,"Beef, brain",4,ANIMAL MEAT,61,1,auto,auto,False,4,78.71±1.43,10.55±0.50,1.37±0.17,,,,,9.28±0.92
+O029,"Beef, tongue",4,ANIMAL MEAT,61,1,auto,auto,False,4,70.97±1.20,15.63±0.67,0.73±0.00,,,,,12.57±0.63
+O030,"Beef, lungs",3,ANIMAL MEAT,61,1,auto,auto,False,3,80.83±0.18,15.66±0.42,1.13±0.05,,,,,2.28±0.21
+O031,"Beef, heart",5,ANIMAL MEAT,61,1,auto,auto,False,5,77.77±0.72,17.68±0.51,0.87±0.01,,,,,3.57±0.46
+O032,"Beef, liver",6,ANIMAL MEAT,61,1,auto,auto,False,6,74.15±1.31,20.73±0.96,1.07±0.03,,,,,3.96±0.45
+O033,"Beef, tripe",5,ANIMAL MEAT,61,1,auto,auto,False,5,83.74±0.62,13.10±0.29,0.55±0.01,,,,,2.51±0.74
+O034,"Beef, spleen",6,ANIMAL MEAT,61,1,auto,auto,False,6,79.03±0.73,17.42±0.55,1.22±0.04,,,,,2.22±0.24
+O035,"Beef, kidneys",3,ANIMAL MEAT,61,1,auto,auto,False,3,77.59±0.66,17.09±0.30,1.22±0.04,,,,,4.01±0.36
+O036,"Calf, shoulder",2,ANIMAL MEAT,61,1,auto,auto,False,2,70.49,20.98,0.94,,,,,7.47
+O037,"Calf, chops",2,ANIMAL MEAT,61,1,auto,auto,False,2,72.66,22.47,0.92,,,,,3.85
+O038,"Calf, round (leg)",2,ANIMAL MEAT,61,1,auto,auto,False,2,71.13,21.10,0.74,,,,,6.92
+O039,"Calf, brain",2,ANIMAL MEAT,61,1,auto,auto,False,2,81.19,9.84,1.26,,,,,7.60
+O040,"Calf, tongue",2,ANIMAL MEAT,61,1,auto,auto,False,2,69.44,17.78,0.93,,,,,11.76
+O041,"Calf, heart",1,ANIMAL MEAT,61,1,auto,auto,False,1,73.44,18.84,0.86,,,,,3.75
+O042,"Calf, liver",1,ANIMAL MEAT,61,1,auto,auto,False,1,73.66,21.02,1.26,,,,,3.95
+O043,"Calf, spleen",1,ANIMAL MEAT,61,1,auto,auto,False,1,78.65,17.71,1.41,,,,,2.12
+O044,"Calf, kidneys",2,ANIMAL MEAT,61,1,auto,auto,False,2,80.23,15.16,1.02,,,,,3.50
+O045,"Mithun, shoulder",1,ANIMAL MEAT,61,1,auto,auto,False,1,68.86,19.05,0.84,,,,,11.14
+O046,"Mithun, chops",1,ANIMAL MEAT,61,1,auto,auto,False,1,73.81,18.19,0.79,,,,,6.12
+O047,"Mithun,  round (leg)",1,ANIMAL MEAT,61,1,auto,auto,False,1,72.25,19.61,0.90,,,,,4.10
+O048,"Pork, shoulder",6,ANIMAL MEAT,61,1,auto,auto,False,6,62.92±0.74,17.41±0.71,0.75±0.12,,,,,18.83±0.88
+O049,"Pork, chops",6,ANIMAL MEAT,61,1,auto,auto,False,6,68.40±1.25,19.41±0.68,0.64±0.05,,,,,11.30±1.33
+O050,"Pork, ham",6,ANIMAL MEAT,62,1,auto,auto,False,6,61.94±0.39,18.83±0.59,0.62±0.02,,,,,18.55±0.78
+O051,"Pork, lungs",4,ANIMAL MEAT,62,1,auto,auto,False,4,81.12±0.72,15.13±0.52,0.93±0.01,,,,,2.74±0.23
+O052,"Pork, heart",4,ANIMAL MEAT,62,1,auto,auto,False,4,77.74±0.88,16.31±0.16,1.01±0.01,,,,,4.87±0.84
+O053,"Pork, liver",5,ANIMAL MEAT,62,1,auto,auto,False,5,74.88±1.23,19.89±1.16,1.18±0.03,,,,,3.94±0.34
+O054,"Pork, stomach",1,ANIMAL MEAT,62,1,auto,auto,False,1,76.51,15.36,0.23,,,,,7.81
+O055,"Pork, spleen",3,ANIMAL MEAT,62,1,auto,auto,False,3,80.93±1.08,15.13±0.79,1.13±0.05,,,,,2.71±0.71
+O056,"Pork, kidneys",5,ANIMAL MEAT,62,1,auto,auto,False,5,80.92±0.87,14.35±1.03,0.97±0.10,,,,,3.65±0.55
+O057,"Pork, tube (small intestine)",1,ANIMAL MEAT,62,1,auto,auto,False,1,75.42,14.96,0.55,,,,,8.98
+O058,"Hare, shoulder",1,ANIMAL MEAT,62,1,auto,auto,False,1,71.06,21.13,1.17,,,,,6.58
+O059,"Hare, chops",1,ANIMAL MEAT,62,1,auto,auto,False,1,75.47,20.62,1.27,,,,,2.55
+O060,"Hare, leg",1,ANIMAL MEAT,62,1,auto,auto,False,1,73.00,20.52,1.26,,,,,4.16
+O061,"Rabbit, shoulder",1,ANIMAL MEAT,62,1,auto,auto,False,1,70.75,20.01,1.19,,,,,7.96
+O062,"Rabbit, chops",1,ANIMAL MEAT,62,1,auto,auto,False,1,71.03,22.61,1.35,,,,,4.88
+O063,"Rabbit,  leg",1,ANIMAL MEAT,62,1,auto,auto,False,1,70.33,21.31,1.26,,,,,5.99
+P001,Allathi (Elops machnata),1,MARINE FISH,63,1,auto,auto,False,1,75.91,21.77,1.06,,,,,0.98
+P002,Aluva (Parastromateus niger),3,MARINE FISH,63,1,auto,auto,False,3,75.71±0.06,21.63±0.28,1.39±0.08,,,,,1.80±0.51
+P003,Anchovy (Stolephorus indicus),2,MARINE FISH,63,1,auto,auto,False,2,77.77,19.88,1.62,,,,,0.78
+P004,Ari fish (Aprion virescens ),1,MARINE FISH,63,1,auto,auto,False,1,77.09,22.01,1.34,,,,,1.11
+P005,Betki (Lates calcarifer),1,MARINE FISH,63,1,auto,auto,False,1,82.52,15.28,1.12,,,,,0.29
+P006,Black snapper (Macolor niger),1,MARINE FISH,63,1,auto,auto,False,1,78.09,19.50,1.19,,,,,1.24
+P007,Bombay duck (Harpadon nehereus),2,MARINE FISH,63,1,auto,auto,False,2,83.24,13.53,1.07,,,,,1.03
+P008,Bommuralu (Muraenesox cinerius),3,MARINE FISH,63,1,auto,auto,False,3,76.42±0.05,22.30±0.27,1.21±0.20,,,,,2.87±0.29
+P009,Cat fish (Tachysurus thalassinus),1,MARINE FISH,63,1,auto,auto,False,1,76.22,22.18,1.32,,,,,2.13
+P010,Chakla (Rachycentron canadum),5,MARINE FISH,63,1,auto,auto,False,5,78.36±0.07,20.21±0.70,1.07±0.09,,,,,1.68±1.00
+P011,Chappal (Aluterus monoceros ),1,MARINE FISH,63,1,auto,auto,False,1,80.61,17.17,1.23,,,,,0.67
+P012,Chelu (Elagatis bipinnulata),2,MARINE FISH,63,1,auto,auto,False,2,76.36,20.02,1.28,,,,,0.70
+P013,Chembali (Lutjanus quinquelineatus),1,MARINE FISH,63,1,auto,auto,False,1,77.54,20.06,0.86,,,,,1.77
+P014,Eri meen (Pristipomoides filamentosus),1,MARINE FISH,63,1,auto,auto,False,1,76.54,22.30,1.28,,,,,2.02
+P015,Gobro (Epinephelus diacanthus),2,MARINE FISH,63,1,auto,auto,False,2,78.84,19.37,0.98,,,,,0.88
+P016,Guitar fish (Rhinobatus prahli),1,MARINE FISH,63,1,auto,auto,False,1,75.73,22.56,1.32,,,,,0.44
+P017,Hilsa (Tenualosa ilisha),2,MARINE FISH,63,1,auto,auto,False,2,60.09,21.80,1.11,,,,,18.49
+P018,Jallal (Arius sp.),1,MARINE FISH,63,1,auto,auto,False,.,1,77.50,21.55,,,,,1.17
+P019,Jathi vela meen (Lethrinus lentjan),2,MARINE FISH,63,1,auto,auto,False,2,75.66,22.45,1.26,,,,,1.92
+P020,Kadal bral (Synodus indicus),1,MARINE FISH,63,1,auto,auto,False,1,79.66,18.72,1.27,,,,,1.34
+P021,Kadali (Nemipterus mesoprion),1,MARINE FISH,63,1,auto,auto,False,1,73.74,22.07,1.06,,,,,4.20
+P022,Kalamaara (Leptomelanosoma indicum),2,MARINE FISH,64,1,auto,auto,False,2,75.50,20.89,1.08,,,,,4.54
+P023,Kalava (Epinephelus coioides),1,MARINE FISH,64,1,auto,auto,False,1,80.02,19.38,1.34,,,,,1.20
+P024,Kanamayya (Lutjanus rivulatus),2,MARINE FISH,64,1,auto,auto,False,2,77.59,20.19,1.07,,,,,0.65
+P025,Kannadi paarai (Alectis indicus),3,MARINE FISH,64,1,auto,auto,False,3,76.25±0.65,22.09±0.24,1.28±0.19,,,,,1.27±0.40
+P026,Karimeen (Etroplus suratensis),1,MARINE FISH,64,1,auto,auto,False,1,78.66,19.68,0.97,,,,,1.38
+P027,Karnagawala (Anchoa hepsetus),1,MARINE FISH,64,1,auto,auto,False,1,79.22,19.52,1.45,,,,,0.84
+P028,Kayrai (Thunnus albacores),2,MARINE FISH,64,1,auto,auto,False,2,72.69,20.15,1.28,,,,,3.00
+P029,Kiriyan (Atule mate),1,MARINE FISH,64,1,auto,auto,False,1,72.39,22.49,0.94,,,,,4.70
+P030,Kite fish (Mobula kuhlii),1,MARINE FISH,64,1,auto,auto,False,1,77.61,23.07,1.50,,,,,0.56
+P031,Korka (Terapon jarbua),1,MARINE FISH,64,1,auto,auto,False,1,72.25,23.72,1.09,,,,,3.36
+P032,Kulam paarai (Carangoides fulvoguttatus),1,MARINE FISH,64,1,auto,auto,False,1,73.44,21.62,1.25,,,,,3.60
+P033,Maagaa (Polynemus plebeius),1,MARINE FISH,64,1,auto,auto,False,1,79.23,20.11,1.01,,,,,0.67
+P034,Mackerel (Rastrelliger kanagurta),3,MARINE FISH,64,1,auto,auto,False,3,74.55±1.14,21.51±0.34,1.20±0.43,,,,,1.53±0.93
+P035,Manda clathi (Naso reticulatus),1,MARINE FISH,64,1,auto,auto,False,1,76.32,21.27,1.48,,,,,1.00
+P036,Matha (Acanthurus mata),2,MARINE FISH,64,1,auto,auto,False,2,79.81,21.17,1.35,,,,,0.79
+P037,Milk fish (Chanos chanos),1,MARINE FISH,64,1,auto,auto,False,1,72.22,23.66,1.12,,,,,1.09
+P038,Moon fish (Mene maculata),1,MARINE FISH,64,1,auto,auto,False,1,74.21,20.74,1.69,,,,,4.69
+P039,Mullet (Mugil cephalus),3,MARINE FISH,64,1,auto,auto,False,3,76.12±0.33,20.23±1.30,1.16±0.13,,,,,1.32±0.27
+P040,Mural (Tylosurus  crocodilus),1,MARINE FISH,64,1,auto,auto,False,1,78.96,19.04,1.11,,,,,0.58
+P041,Myil meen (Istiophorus platypterus),2,MARINE FISH,64,1,auto,auto,False,2,75.57,22.89,1.21,,,,,0.56
+P042,Nalla bontha (Epinephelus sp.),1,MARINE FISH,64,1,auto,auto,False,.,1,79.32,19.82,,,,,1.00
+P043,Narba (Caranx sexfasciatus),2,MARINE FISH,64,1,auto,auto,False,2,76.37,21.95,1.17,,,,,1.60
+P044,Paarai (Caranx heberi),1,MARINE FISH,65,1,auto,auto,False,1,75.77,21.58,1.21,,,,,1.84
+P045,Padayappa (Canthidermis maculata),1,MARINE FISH,65,1,auto,auto,False,1,79.18,19.70,1.26,,,,,0.69
+P046,Pali kora (Panna microdon),1,MARINE FISH,65,1,auto,auto,False,1,78.63,19.25,1.00,,,,,1.81
+P047,Pambada (Lepturacanthus savala),2,MARINE FISH,65,1,auto,auto,False,2,74.67,21.95,1.41,,,,,4.44
+P048,Pandukopa (Pseudosciaena manchurica),1,MARINE FISH,65,1,auto,auto,False,1,77.46,19.73,1.15,,,,,0.65
+P049,Parava (Lactarius lactarius),1,MARINE FISH,65,1,auto,auto,False,1,77.19,21.50,1.08,,,,,2.74
+P050,Parcus (Psettodes erumei),1,MARINE FISH,65,1,auto,auto,False,1,79.01,19.87,1.12,,,,,0.62
+P051,Parrot fish (Scarus ghobban),1,MARINE FISH,65,1,auto,auto,False,1,76.84,20.82,1.40,,,,,0.57
+P052,Perinkilichai (Pinjalo pinjalo),1,MARINE FISH,65,1,auto,auto,False,1,78.33,20.89,1.02,,,,,0.87
+P053,Phopat (Coryphaena hippurus),4,MARINE FISH,65,1,auto,auto,False,4,76.42±0.14,22.05±0.75,1.24±0.02,,,,,1.33±0.47
+P054,Piranha (Pygopritis sp.),1,MARINE FISH,65,1,auto,auto,False,.,1,76.15,20.46,,,,,0.93
+P055,"Pomfret, black  (Parastromateus niger)",1,MARINE FISH,65,1,auto,auto,False,1,74.43,18.91,0.97,,,,,4.83
+P056,"Pomfret, snub nose (Trachinotus blochii)",2,MARINE FISH,65,1,auto,auto,False,2,77.81,21.05,1.29,,,,,0.46
+P057,"Pomfret, white (Pampus argenteus)",2,MARINE FISH,65,1,auto,auto,False,2,75.91,19.02,1.01,,,,,5.12
+P058,Pranel (Gerres sp.),1,MARINE FISH,65,1,auto,auto,False,.,1,79.54,19.69,,,,,0.76
+P059,Pulli paarai (Gnathanodon speciosus),1,MARINE FISH,65,1,auto,auto,False,1,75.99,20.06,1.19,,,,,1.55
+P060,Queen fish (Scomberoides commersonianus),3,MARINE FISH,65,1,auto,auto,False,3,76.63±0.23,20.97±0.31,1.22±0.09,,,,,1.17±0.20
+P061,Raai fish (Lobotes surinamensis),2,MARINE FISH,65,1,auto,auto,False,2,77.14,21.61,1.11,,,,,1.69
+P062,Raai vanthu (Epinephelus chlorostigma),1,MARINE FISH,65,1,auto,auto,False,1,79.95,19.39,0.92,,,,,2.17
+P063,Rani (Pink perch),1,MARINE FISH,65,1,auto,auto,False,1,78.55,18.83,1.01,,,,,1.49
+P064,"Ray fish, bow head, spotted (Rhina ancylostoma)",1,MARINE FISH,65,1,auto,auto,False,1,80.30,19.03,1.15,,,,,0.70
+P065,Red snapper (Lutjanus argentimaculatus),1,MARINE FISH,65,1,auto,auto,False,1,76.28,22.79,1.26,,,,,1.34
+P066,"Red snapper, small (Priacanthus hamrur)",1,MARINE FISH,66,1,auto,auto,False,1,76.31,21.50,1.10,,,,,2.30
+P067,Sadaya (Platax orbicularis ),1,MARINE FISH,66,1,auto,auto,False,1,75.53,20.68,1.32,,,,,2.97
+P068,Salmon (Salmo salar),1,MARINE FISH,66,1,auto,auto,False,1,67.84,20.97,1.13,,,,,9.86
+P069,Sangada (Nemipterus japanicus),1,MARINE FISH,66,1,auto,auto,False,1,78.51,20.26,1.26,,,,,2.67
+P070,Sankata paarai (Caranx ignobilis),1,MARINE FISH,66,1,auto,auto,False,1,74.88,21.87,1.18,,,,,1.68
+P071,Sardine (Sardinella longiceps),1,MARINE FISH,66,1,auto,auto,False,1,72.29,17.91,0.84,,,,,8.99
+P072,Shark (Carcharhinus sorrah),2,MARINE FISH,66,1,auto,auto,False,2,72.82,21.60,1.08,,,,,0.83
+P073,"Shark, hammer head (Sphyrna mokarran)",1,MARINE FISH,66,1,auto,auto,False,1,74.61,23.40,0.92,,,,,0.80
+P074,"Shark, spotted (Stegostoma fasciatum)",1,MARINE FISH,66,1,auto,auto,False,1,78.83,20.95,1.04,,,,,0.75
+P075,Shelavu (Sphyraena jello),4,MARINE FISH,66,1,auto,auto,False,4,74.60±1.68,22.46±1.34,1.26±0.07,,,,,1.74±0.50
+P076,Silan (Silonia silondia),1,MARINE FISH,66,1,auto,auto,False,1,70.12,22.72,0.77,,,,,6.68
+P077,Silk fish (Beryx sp.),1,MARINE FISH,66,1,auto,auto,False,.,1,77.61,20.65,,,,,1.05
+P078,Silver carp (Hypophthalmichthys molitrix),1,MARINE FISH,66,1,auto,auto,False,1,72.47,21.71,0.95,,,,,5.17
+P079,Sole fish (Cynoglossus arel),1,MARINE FISH,66,1,auto,auto,False,1,80.18,19.05,1.06,,,,,1.18
+P080,Stingray (Dasyatis pastinaca),1,MARINE FISH,66,1,auto,auto,False,1,75.67,23.98,1.14,,,,,0.68
+P081,Tarlava (Drepane punctata),2,MARINE FISH,66,1,auto,auto,False,2,76.76,21.72,1.14,,,,,1.20
+P082,Tholam (Plectorhinchus schotaf),2,MARINE FISH,66,1,auto,auto,False,2,76.20,20.78,1.06,,,,,2.13
+P083,Tilapia (Oreochromis niloticus),1,MARINE FISH,66,1,auto,auto,False,1,79.57,18.48,1.18,,,,,1.08
+P084,Tuna (Euthynnus affinis),5,MARINE FISH,66,1,auto,auto,False,5,72.12±0.42,24.50±0.27,1.11±0.12,,,,,1.44±0.42
+P085,"Tuna, striped (Katsuwonus pelamis)",1,MARINE FISH,66,1,auto,auto,False,1,77.76,21.28,0.87,,,,,1.12
+P086,Valava (Chirocentrus nudus),1,MARINE FISH,66,1,auto,auto,False,1,77.25,21.80,1.27,,,,,1.06
+P087,Vanjaram (Scomberomorus commerson ),2,MARINE FISH,66,1,auto,auto,False,2,72.30,22.28,1.33,,,,,5.18
+P088,Vela meen (Aprion virescens),1,MARINE FISH,67,1,auto,auto,False,1,71.82,22.16,1.34,,,,,4.34
+P089,Vora (Siganus javus),2,MARINE FISH,67,1,auto,auto,False,2,76.94,20.14,1.26,,,,,2.14
+P090,Whale shark (Galeocerdo cuvier),1,MARINE FISH,67,1,auto,auto,False,1,77.59,21.83,1.48,,,,,0.82
+P091,Xiphinis (Xiphias gladius),1,MARINE FISH,67,1,auto,auto,False,1,79.22,19.82,1.15,,,,,0.88
+P092,"Z.Eggs, Cat fish (Ompok bimaculatus)",1,MARINE FISH,67,1,auto,auto,False,.,1,69.34,24.68,,,,,1.57
+Q001,Crab (Menippe mercenaria),1,MARINE SHELLFISH,67,1,auto,auto,False,1,79.77,10.23,1.74,,,,,1.41
+Q002,"Crab, sea (Portunus sanguinolentus)",1,MARINE SHELLFISH,67,1,auto,auto,False,1,79.67,15.36,0.92,,,,,0.60
+Q003,"Lobster, brown (Thenus orientalis)",1,MARINE SHELLFISH,67,1,auto,auto,False,1,81.48,15.96,1.29,,,,,0.56
+Q004,"Lobster, king size (Thenus orientalis)",1,MARINE SHELLFISH,67,1,auto,auto,False,1,77.77,18.54,1.08,,,,,0.78
+Q005,Mud crab (Scylla tranquebarica),1,MARINE SHELLFISH,67,1,auto,auto,False,1,83.10,10.00,2.60,,,,,0.55
+Q006,Oyster (Crassostrea sp.),1,MARINE SHELLFISH,67,1,auto,auto,False,.,1,82.50,9.51,,,,,2.47
+Q007,"Tiger prawns, brown (Solenocera crassicornis)",1,MARINE SHELLFISH,67,1,auto,auto,False,1,82.41,14.85,0.94,,,,,0.56
+Q008,"Tiger Prawns, orange (Penaeus monodon)",1,MARINE SHELLFISH,67,1,auto,auto,False,1,81.48,14.25,0.83,,,,,0.74
+R001,"Clam, green shell (Perna viridis )",1,MARINE SHELLFISH,67,1,auto,auto,False,1,80.07,12.14,2.44,,,,,0.98
+R002,"Clam, white shell, ribbed (Meretrix meretrix)",1,MARINE SHELLFISH,67,1,auto,auto,False,1,80.27,11.82,0.85,,,,,1.34
+R003,Octopus  (Octopus vulgaris),1,MARINE SHELLFISH,67,1,auto,auto,False,1,80.45,14.71,1.21,,,,,1.12
+R004,"Squid, black (Loligo sp.)",1,MARINE SHELLFISH,67,1,auto,auto,False,.,1,80.59,16.10,,,,,0.99
+R005,"Squid, hard shell (Sepia pharaonis)",1,MARINE SHELLFISH,67,1,auto,auto,False,1,80.52,16.82,0.75,,,,,0.93
+R006,"Squid, red (Loligo duvaucelii)",2,MARINE SHELLFISH,68,1,auto,auto,False,2,80.85,16.25,1.15,,,,,1.44
+R007,"Squid, white, small (Uroteuthis duvauceli )",1,MARINE SHELLFISH,68,1,auto,auto,False,1,79.38,17.41,1.19,,,,,1.15
+S001,Cat fish (Tandanus tandanus),2,FRESHWATER FISH AND SHELLFISH,68,1,auto_fixed,verified_pdf,False,2,77.23±0.91,15.86±3.65,0.93±0.01,,,,,6.24±3.03
+S002,Catla (Catla catla),6,MARINE SHELLFISH,68,1,auto,auto,False,6,78.43±0.71,17.94±1.36,0.94±0.01,,,,,2.15±0.34
+S003,Freshwater Eel (Anguilla anguilla),1,MARINE SHELLFISH,68,1,auto,auto,False,1,75.57,20.41,1.03,,,,,2.63
+S004,Gold fish (Carassius auratus),2,MARINE SHELLFISH,68,1,auto,auto,False,2,79.07,16.91,1.10,,,,,2.94
+S005,Pangas  (Pangasianodon hypophthalmus),6,MARINE SHELLFISH,68,1,auto,auto,False,6,68.50±1.01,17.12±1.62,1.12±0.03,,,,,16.77±0.91
+S006,Rohu (Labeo rohita),6,MARINE SHELLFISH,68,1,auto,auto,False,6,76.34±0.28,19.71±0.57,1.28±0.04,,,,,2.39±0.64
+S007,Crab (Pachygrapsus sp.),1,MARINE SHELLFISH,68,1,auto,auto,False,.,1,80.58,13.23,,,,,1.23
+S008,"Prawns, big (Macrobrachium rosenbergii)",1,MARINE SHELLFISH,68,1,auto,auto,False,1,77.43,19.24,0.84,,,,,0.52
+S009,"Prawns, small (Macrobrachium sp.)",3,MARINE SHELLFISH,68,1,auto,auto,False,.,3,82.58,13.07,,,,,0.86
+S010,Tiger prawns (Macrobrachium sp.),2,MARINE SHELLFISH,68,1,auto,auto,False,.,2,83.24,14.24,,,,,0.83
+T001,Catla (Catla catla),6,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,77.23±0.91,15.86±3.65,1.06±0.08,6.24±0.26,,,,5.18±0.84,451±18
+T002,"Catla, small (Catla catla)",2,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,78.43±0.49,17.94±0.25,0.93±0.05,6.24±0.10,,,,5.18±0.84,451±24
+T003,Mrigal (Cirrhinus mrigala),6,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,77.23±0.91,17.94±0.35,1.06±0.08,6.24±0.26,,,,5.18±0.84,451±18
+T004,Rohu (Labeo rohita),6,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,76.34±0.28,17.12±0.57,1.28±0.02,3.52±0.34,,,,3.11±0.54,405±24
+T005,Bata (Labeo bata),4,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,69.21±0.83,1.33±0.12,0.96±0.07,0.26±0.06,3.99±0.05,2.57±0.07,1.43±0.04,24.25±0.77,456±15
+T006,Pangas (Pangasius pangasius),2,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,69.58±0.63,13.18±0.12,1.02±0.01,2.74±0.06,,,,24.25±0.77,456±15
+T007,Boal (Wallago attu),6,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,77.23±0.29,18.34±2.11,2.78±0.10,39.53±0.26,,,,20.59±1.85,2128±6
+T008,Pine seed (Pinus sp.),5,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,5.32±0.15,12.55±0.25,2.78±0.10,48.79±0.10,,,,26.77±0.35,2486±3
+T009,Prawn (Penaeus indicus),1,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,79.77,17.41,1.19,0.42,,,,1.84,242
+T010,Squid (Loligo duvaucelii),1,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,79.38,17.41,1.19,0.41,,,,1.84,284
+T011,Freshwater Eel (Anguilla anguilla),1,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,71.82,22.16,1.34,4.34,,,,3.86,537
+T012,Vora (Siganus javus),2,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,76.94,20.14,1.26,2.14,,,,4.51,422
+T013,"Trout, rainbow (Oncorhynchus mykiss)",1,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,71.82,22.16,1.34,4.34,,,,3.86,537
+T014,Vora (Siganus javus),2,FRESHWATER FISH AND SHELLFISH,68,1,manual,verified_pdf,True,76.94,20.14,1.26,2.14,,,,4.51,422

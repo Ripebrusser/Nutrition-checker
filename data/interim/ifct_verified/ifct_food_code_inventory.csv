@@ -1,0 +1,543 @@
+food_code,food_name,food_group,source_page,extraction_method,verification_status,manual_recovery
+A001,"Amaranth seed, black (Amaranthus cruentus)",CEREALS AND MILLETS,41,auto,auto,False
+A002,"Amaranth seed, pale brown (Amaranthus",CEREALS AND MILLETS,41,auto,auto,False
+A003,Bajra (Pennisetum typhoideum),CEREALS AND MILLETS,41,auto,auto,False
+A004,Barley (Hordeum vulgare),CEREALS AND MILLETS,41,auto,auto,False
+A005,Jowar (Sorghum vulgare),CEREALS AND MILLETS,41,auto,auto,False
+A006,"Maize, dry (Zea mays)",CEREALS AND MILLETS,41,auto,auto,False
+A007,"Maize, tender, local (Zea mays)",CEREALS AND MILLETS,41,auto,auto,False
+A008,"Maize, tender, sweet (Zea mays)",CEREALS AND MILLETS,41,auto,auto,False
+A009,Quinoa,CEREALS AND MILLETS,41,auto,auto,False
+A010,Ragi (Eleusine coracana),CEREALS AND MILLETS,41,auto,auto,False
+A011,Rice flakes,CEREALS AND MILLETS,41,auto,auto,False
+A012,Rice puffed (Oryza sativa ),CEREALS AND MILLETS,41,auto,auto,False
+A013,"Rice, raw, brown (Oryza sativa )",CEREALS AND MILLETS,41,auto,auto,False
+A014,"Rice, parboiled, milled  (Oryza sativa )",CEREALS AND MILLETS,41,auto,auto,False
+A015,"Rice, raw, milled  (Oryza sativa )",CEREALS AND MILLETS,41,auto,auto,False
+A016,Samai (Panicum miliare),CEREALS AND MILLETS,41,auto,auto,False
+A017,Varagu (Paspalum scrobiculatum),CEREALS AND MILLETS,41,auto,auto,False
+A018,"Wheat flour, refined (Triticum aestivum)",CEREALS AND MILLETS,41,auto,auto,False
+A019,"Wheat flour, atta (Triticum aestivum)",CEREALS AND MILLETS,42,auto,auto,False
+A020,"Wheat, whole (Triticum aestivum)",CEREALS AND MILLETS,42,auto,auto,False
+A021,"Wheat, bulgur (Triticum aestivum)",CEREALS AND MILLETS,42,auto,auto,False
+A022,"Wheat, semolina (Triticum aestivum)",CEREALS AND MILLETS,42,auto,auto,False
+A023,"Wheat, vermicelli (Triticum aestivum)",CEREALS AND MILLETS,42,auto,auto,False
+A024,"Wheat, vermicelli, roasted (Triticum aestivum)",CEREALS AND MILLETS,42,auto,auto,False
+B001,"Bengal gram, dal (Cicer arietinum)",PULSES AND LEGUMES,42,auto,auto,False
+B002,"Bengal gram, whole (Cicer arietinum)",PULSES AND LEGUMES,42,auto,auto,False
+B003,"Black gram, dal (Phaseolus mungo)",PULSES AND LEGUMES,42,auto,auto,False
+B004,"Black gram, whole (Phaseolus mungo)",PULSES AND LEGUMES,42,auto,auto,False
+B005,"Cowpea, brown (Vigna catjang)",PULSES AND LEGUMES,42,auto,auto,False
+B006,"Cowpea, white (Vigna catjang)",PULSES AND LEGUMES,42,auto,auto,False
+B007,"Field bean, black (Phaseolus vulgaris)",PULSES AND LEGUMES,42,auto,auto,False
+B008,"Field bean, brown (Phaseolus vulgaris)",PULSES AND LEGUMES,42,auto,auto,False
+B009,"Field bean,  white (Phaseolus vulgaris)",PULSES AND LEGUMES,42,auto,auto,False
+B010,"Green gram, dal (",PULSES AND LEGUMES,42,auto,auto,False
+B011,"Green gram, whole (Vigna radiata)",PULSES AND LEGUMES,42,auto,auto,False
+B012,"Horse gram, whole (Dolichos biflorus)",PULSES AND LEGUMES,42,auto,auto,False
+B013,Lentil dal (Lens culinaris),PULSES AND LEGUMES,42,auto,auto,False
+B014,"Lentil whole, brown (Lens culinaris)",PULSES AND LEGUMES,43,auto,auto,False
+B015,"Lentil whole, yellowish (Lens culinaris)",PULSES AND LEGUMES,43,auto,auto,False
+B016,Moth bean (Vigna aconitifolia),PULSES AND LEGUMES,43,auto,auto,False
+B017,"Peas, dry (Pisum sativum)",PULSES AND LEGUMES,43,auto,auto,False
+B018,"Rajmah, black (Phaseolus vulgaris)",PULSES AND LEGUMES,43,auto,auto,False
+B019,"Rajmah, brown (Phaseolus vulgaris)",PULSES AND LEGUMES,43,auto,auto,False
+B020,"Rajmah, red (Phaseolus vulgaris)",PULSES AND LEGUMES,43,auto,auto,False
+B021,"Red gram, dal (Cajanus cajan)",PULSES AND LEGUMES,43,auto,auto,False
+B022,"Red gram, whole (Cajanus cajan)",PULSES AND LEGUMES,43,auto,auto,False
+B023,Ricebean (Vigna umbellata ),PULSES AND LEGUMES,43,auto,auto,False
+B024,"Soybean, brown (Glycine max)",PULSES AND LEGUMES,43,auto,auto,False
+B025,"Soybean, white (Glycine max)",PULSES AND LEGUMES,43,auto,auto,False
+C001,Agathi leaves (Sesbania grandiflora),LEAFY VEGETABLES,43,auto,auto,False
+C002,"Amaranth leaves, green (Amaranthus gangeticus)",LEAFY VEGETABLES,43,auto,auto,False
+C003,"Amaranth leaves, red (Amaranthus gangeticus)",LEAFY VEGETABLES,43,auto,auto,False
+C004,"Amaranth leaves, red and green mix",LEAFY VEGETABLES,43,auto,auto,False
+C005,"Amaranth spined, leaves, green",LEAFY VEGETABLES,43,auto,auto,False
+C006,"Amaranth spined, leaves, red and green mix",LEAFY VEGETABLES,43,auto,auto,False
+C007,Basella leaves (Basella alba),LEAFY VEGETABLES,43,auto,auto,False
+C008,Bathua leaves (Chenopodium album),LEAFY VEGETABLES,44,auto,auto,False
+C009,Beet greens (Beta vulgaris),LEAFY VEGETABLES,44,auto,auto,False
+C010,"Betel leaves, big (Kolkata) (Piper betle)",LEAFY VEGETABLES,44,auto,auto,False
+C011,"Betel leaves, small (Piper betle)",LEAFY VEGETABLES,44,auto,auto,False
+C012,Brussels sprouts (Brassica oleracea var.,LEAFY VEGETABLES,44,auto,auto,False
+C013,"Cabbage, Chinese (Brassica rupa)",LEAFY VEGETABLES,44,auto,auto,False
+C014,"Cabbage, collard greens (Brassica oleracea var.",LEAFY VEGETABLES,44,auto,auto,False
+C015,"Cabbage, green (Brassica oleracea var. capitata",LEAFY VEGETABLES,44,auto,auto,False
+C016,"Cabbage, violet (Brassica oleracea var. capitata",LEAFY VEGETABLES,44,auto,auto,False
+C017,Cauliflower leaves (Brassica oleracea var.,LEAFY VEGETABLES,44,auto,auto,False
+C018,"Colocasia leaves, green (Colocasia esculenta)",LEAFY VEGETABLES,44,auto,auto,False
+C019,Drumstick leaves (Moringa oleifera),LEAFY VEGETABLES,44,auto,auto,False
+C020,Fenugreek leaves (Trigonella foenum graecum),LEAFY VEGETABLES,44,auto,auto,False
+C021,Garden cress (Lepidium sativum),LEAFY VEGETABLES,44,auto,auto,False
+C022,"Gogu leaves, green (Hibiscus cannabinus)",LEAFY VEGETABLES,44,auto,auto,False
+C023,"Gogu leaves, red (Hibiscus cannabinus)",LEAFY VEGETABLES,44,auto,auto,False
+C024,"Knol-Khol, leaves (Brassica oleracea var.",LEAFY VEGETABLES,44,auto,auto,False
+C025,Lettuce (Lactuca sativa),LEAFY VEGETABLES,44,auto,auto,False
+C026,Mustard leaves (Brassica juncea),LEAFY VEGETABLES,44,auto,auto,False
+C027,Pak Choi leaves,LEAFY VEGETABLES,44,auto,auto,False
+C028,Parsley (Petroselinum crispum),LEAFY VEGETABLES,45,auto,auto,False
+C029,Ponnaganni (Alternanthera sessilis),LEAFY VEGETABLES,45,auto,auto,False
+C030,"Pumpkin leaves, tender (Cucurbita maxima)",LEAFY VEGETABLES,45,auto,auto,False
+C031,Radish leaves (Raphanus sativus),LEAFY VEGETABLES,45,auto,auto,False
+C032,Rumex leaves (Rumex patientia),LEAFY VEGETABLES,45,auto,auto,False
+C033,Spinach (Spinacia oleracea),LEAFY VEGETABLES,45,auto,auto,False
+C034,"Tamarind leaves, tender (Tamarindus indica)",LEAFY VEGETABLES,45,auto,auto,False
+D001,Ash gourd (Benincasa hispida),OTHER VEGETABLES,44,manual,verified_pdf,True
+D002,"Bamboo shoot, tender",OTHER VEGETABLES,45,auto,auto,False
+D003,"Bean scarlet, tender (Phaseolus coccineus)",OTHER VEGETABLES,45,auto,auto,False
+D004,"Bitter gourd, jagged, teeth ridges, elongate",OTHER VEGETABLES,45,auto,auto,False
+D005,"Bitter gourd, jagged, teeth ridges, short",OTHER VEGETABLES,45,auto,auto,False
+D006,"Bitter gourd, jagged, smooth ridges, elongate",OTHER VEGETABLES,45,auto,auto,False
+D007,"Bottle gourd, elongate, pale green (Lagenaria",OTHER VEGETABLES,45,auto,auto,False
+D008,"Bottle gourd, round, pale green (Lagenaria",OTHER VEGETABLES,45,auto,auto,False
+D009,"Bottle gourd, elongate, dark green (Lagenaria",OTHER VEGETABLES,45,auto,auto,False
+D010,Brinjal-1 (Solanum melongena),OTHER VEGETABLES,45,auto,auto,False
+D011,Brinjal-2 (Solanum melongena),OTHER VEGETABLES,45,auto,auto,False
+D012,Brinjal-3 (Solanum melongena),OTHER VEGETABLES,45,auto,auto,False
+D013,Brinjal-4 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D014,Brinjal-5 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D015,Brinjal-6 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D016,Brinjal-7 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D017,Brinjal-8 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D018,Brinjal-9 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D019,Brinjal-10 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D020,Brinjal-11 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D021,Brinjal-12 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D022,Brinjal-13 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D023,Brinjal-14 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D024,Brinjal-15 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D025,Brinjal-16,OTHER VEGETABLES,46,auto,auto,False
+D026,Brinjal-17,OTHER VEGETABLES,46,auto,auto,False
+D027,Brinjal-18 (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D028,Brinjal-19,OTHER VEGETABLES,46,auto,auto,False
+D029,Brinjal-20,OTHER VEGETABLES,46,auto,auto,False
+D030,Brinjal-21,OTHER VEGETABLES,46,auto,auto,False
+D031,Brinjal - all varieties (Solanum melongena),OTHER VEGETABLES,46,auto,auto,False
+D032,Broad beans (Vicia faba),OTHER VEGETABLES,46,auto,auto,False
+D033,"Capsicum, green (Capsicum annuum)",OTHER VEGETABLES,46,auto,auto,False
+D034,"Capsicum, red (Capsicum annuum)",OTHER VEGETABLES,47,auto,auto,False
+D035,"Capsicum, yellow (Capsicum annuum)",OTHER VEGETABLES,47,auto,auto,False
+D036,Cauliflower (Brassica oleracea var. botrytis),OTHER VEGETABLES,47,auto,auto,False
+D037,Celery stalk (Apium graveolens),OTHER VEGETABLES,47,auto,auto,False
+D038,Cho-cho-marrow (Sechium edule),OTHER VEGETABLES,47,auto,auto,False
+D039,Cluster beans (Cyamopsis tetragonoloba),OTHER VEGETABLES,47,auto,auto,False
+D040,"Colocasia, stem, black (",OTHER VEGETABLES,47,auto,auto,False
+D041,"Colocasia, stem, green (",OTHER VEGETABLES,47,auto,auto,False
+D042,"Corn, baby (Zea mays)",OTHER VEGETABLES,47,auto,auto,False
+D043,"Cucumber, green, elongate (Cucumis sativus)",OTHER VEGETABLES,47,auto,auto,False
+D044,"Cucumber, green, short (Cucumis sativus)",OTHER VEGETABLES,47,auto,auto,False
+D045,"Cucumber, orange, round (Cucumis sativus)",OTHER VEGETABLES,47,auto,auto,False
+D046,Drumstick (Moringa oleifera),OTHER VEGETABLES,47,auto,auto,False
+D047,"Field beans, tender, broad (Vicia faba)",OTHER VEGETABLES,47,auto,auto,False
+D048,"Field beans, tender, lean (Vicia faba)",OTHER VEGETABLES,47,auto,auto,False
+D049,"French beans, country (Phaseolus vulgaris)",OTHER VEGETABLES,47,auto,auto,False
+D050,"French beans, hybrid  (Phaseolus vulgaris)",OTHER VEGETABLES,47,auto,auto,False
+D051,"Jack fruit, raw (Artocarpus heterophyllus)",OTHER VEGETABLES,47,auto,auto,False
+D052,"Jack fruit, seed, mature (Artocarpus",OTHER VEGETABLES,47,auto,auto,False
+D053,Knol - Khol (Brassica oleracea),OTHER VEGETABLES,47,auto,auto,False
+D054,"Kovai, big (Coccinia cordifolia)",OTHER VEGETABLES,47,auto,auto,False
+D055,"Kovai, small (Coccinia cordifolia)",OTHER VEGETABLES,48,auto,auto,False
+D056,Ladies finger (Abelmoschus esculentus),OTHER VEGETABLES,48,auto,auto,False
+D057,"Mango, green, raw (Mangifera indica)",OTHER VEGETABLES,48,auto,auto,False
+D058,"Onion, stalk (Allium cepa)",OTHER VEGETABLES,48,auto,auto,False
+D059,"Papaya, raw (Carica papaya)",OTHER VEGETABLES,48,auto,auto,False
+D060,Parwar (Trichosanthes dioica),OTHER VEGETABLES,48,auto,auto,False
+D061,"Peas, fresh (Pisum sativum)",OTHER VEGETABLES,48,auto,auto,False
+D062,"Plantain, flower (Musa x paradisiaca)",OTHER VEGETABLES,48,auto,auto,False
+D063,"Plantain, green (Musa x paradisiaca)",OTHER VEGETABLES,48,auto,auto,False
+D064,"Plantain, stem (Musa x paradisiaca)",OTHER VEGETABLES,48,auto,auto,False
+D065,"Pumpkin, green, cylindrical (Cucurbita maxima)",OTHER VEGETABLES,48,auto,auto,False
+D066,"Pumpkin, orange,  round (Cucurbita maxima)",OTHER VEGETABLES,48,auto,auto,False
+D067,"Red gram, tender, fresh (Cajanus cajan)",OTHER VEGETABLES,48,auto,auto,False
+D068,Ridge gourd (Luffa acutangula),OTHER VEGETABLES,48,auto,auto,False
+D069,"Ridge gourd, smooth skin (Luffa acutangula)",OTHER VEGETABLES,48,auto,auto,False
+D070,"Snake gourd, long, pale green (Trichosanthes",OTHER VEGETABLES,48,auto,auto,False
+D071,"Snake gourd, long, dark green (Trichosanthes",OTHER VEGETABLES,48,auto,auto,False
+D072,"Snake gourd, short (Trichosanthes anguina)",OTHER VEGETABLES,48,auto,auto,False
+D073,"Tinda, tender (Praecitrullus fistulosus)",OTHER VEGETABLES,48,auto,auto,False
+D074,"Tomato, green (",OTHER VEGETABLES,48,auto,auto,False
+D075,"Tomato, ripe, hybrid ((",OTHER VEGETABLES,48,auto,auto,False
+D076,"Tomato, ripe, local (Lycopersicon esculentum)",OTHER VEGETABLES,49,auto,auto,False
+D077,"Zucchini, green (Cucurbita pepo)",OTHER VEGETABLES,49,auto,auto,False
+D078,"Zucchini, yellow (Cucurbita pepo)",OTHER VEGETABLES,49,auto,auto,False
+E001,"Apple, big (Malus domestica)",FRUITS,49,auto,auto,False
+E002,"Apple, green (Malus domestica)",FRUITS,49,auto,auto,False
+E003,"Apple, small (Malus domestica)",FRUITS,49,auto,auto,False
+E004,Custard apple (Annona squamosa),FRUITS,49,manual,verified_pdf,True
+E005,"Apricot, dried (Prunus armeniaca)",FRUITS,49,auto,auto,False
+E006,"Apricot, processed (Prunus armeniaca)",FRUITS,49,auto,auto,False
+E007,Avocado fruit (,FRUITS,49,auto,auto,False
+E008,Bael fruit (Aegle marmelos),FRUITS,49,auto,auto,False
+E009,"Banana, ripe, montham (Musa x paradisiaca)",FRUITS,49,auto,auto,False
+E010,"Banana, ripe, poovam (Musa x paradisiaca)",FRUITS,49,auto,auto,False
+E011,"Banana, ripe, red (Musa x paradisiaca)",FRUITS,49,auto,auto,False
+E012,"Banana, ripe, robusta (Musa x paradisiaca)",FRUITS,49,auto,auto,False
+E013,Black berry (,FRUITS,49,auto,auto,False
+E014,"Cherries, red (Prunus cerasus)",FRUITS,49,auto,auto,False
+E015,"Currants, black (Ribes nigrum)",FRUITS,49,auto,auto,False
+E016,Custard apple (Annona squamosa),FRUITS,49,auto,auto,False
+E017,"Dates, dry, pale brown (Phoenix dactylifera)",FRUITS,50,auto,auto,False
+E018,"Dates, dry, dark brown (Phoenix dactylifera)",FRUITS,50,auto,auto,False
+E019,"Dates, processed (Phoenix dactylifera)",FRUITS,50,auto,auto,False
+E020,Fig (Ficus carica),FRUITS,50,auto,auto,False
+E021,Gooseberry (Emblica officinalis),FRUITS,50,auto,auto,False
+E022,"Grapes, seeded, round, black (Vitis vinifera)",FRUITS,50,auto,auto,False
+E023,"Grapes, seeded, round, green (Vitis vinifera)",FRUITS,50,auto,auto,False
+E024,"Grapes, seeded, round, red (Vitis vinifera)",FRUITS,50,auto,auto,False
+E025,"Grapes, seedless, oval, black (Vitis vinifera)",FRUITS,50,auto,auto,False
+E026,"Grapes, seedless, round, green (Vitis vinifera)",FRUITS,50,auto,auto,False
+E027,"Grapes, seedless, round, black (Vitis vinifera)",FRUITS,50,auto,auto,False
+E028,"Guava, white flesh (Psidium guajava)",FRUITS,50,auto,auto,False
+E029,"Guava, pink flesh (Psidium guajava)",FRUITS,50,auto,auto,False
+E030,"Jack fruit, ripe (Artocarpus heterophyllus)",FRUITS,50,auto,auto,False
+E031,"Jambu fruit, ripe (",FRUITS,50,auto,auto,False
+E032,Karonda fruit (Carissa carandas),FRUITS,50,auto,auto,False
+E033,"Lemon, juice (Citrus limon)",FRUITS,50,auto,auto,False
+E034,"Lime, sweet,pulp (Citrus limetta)",FRUITS,50,auto,auto,False
+E035,Litchi (,FRUITS,50,auto,auto,False
+E036,"Mango, ripe, banganapalli (Mangifera indica)",FRUITS,50,auto,auto,False
+E037,"Mango, ripe, gulabkhas (Mangifera indica)",FRUITS,50,auto,auto,False
+E038,"Mango, ripe, himsagar (Mangifera indica)",FRUITS,51,auto,auto,False
+E039,"Mango, ripe, kesar (Mangifera indica)",FRUITS,51,auto,auto,False
+E040,"Mango, ripe, neelam (Mangifera indica)",FRUITS,51,auto,auto,False
+E041,"Mango, ripe, paheri (Mangifera indica)",FRUITS,51,auto,auto,False
+E042,"Mango, ripe, totapari (Mangifera indica)",FRUITS,51,auto,auto,False
+E043,Mangosteen (Garcinia mangostana),FRUITS,51,auto,auto,False
+E044,Manila tamarind (Pithecellobium dulce),FRUITS,51,auto,auto,False
+E045,"Musk melon, orange flesh (Cucumis melon)",FRUITS,51,auto,auto,False
+E046,"Musk melon, yellow flesh (Cucumis melon)",FRUITS,51,auto,auto,False
+E047,"Orange, pulp (Citrus aurantium)",FRUITS,51,auto,auto,False
+E048,"Palm fruit, tender (Borassus flabellifer)",FRUITS,51,auto,auto,False
+E049,"Papaya, ripe (Carica papaya)",FRUITS,51,auto,auto,False
+E050,Peach (,FRUITS,51,auto,auto,False
+E051,Pear (Pyrus sp.),FRUITS,51,auto,auto,False
+E052,Phalsa (Grewia asiatica),FRUITS,51,auto,auto,False
+E053,Pineapple  (Ananas comosus),FRUITS,51,auto,auto,False
+E054,Plum (Prunus domestica),FRUITS,51,auto,auto,False
+E055,"Pomegranate, maroon seeds (Punica granatum)",FRUITS,51,auto,auto,False
+E056,Pummelo (Citrus maxima),FRUITS,51,auto,auto,False
+E057,"Raisins, dried, black (Vitis vinifera)",FRUITS,51,auto,auto,False
+E058,"Raisins, dried, golden (Vitis vinifera)",FRUITS,51,auto,auto,False
+E059,Rambutan (Nephelium lappaceum),FRUITS,52,auto,auto,False
+E060,Sapota (Achras sapota),FRUITS,52,auto,auto,False
+E061,Soursop (Annona muricata),FRUITS,52,auto,auto,False
+E062,Star fruit (Averrhoa carambola),FRUITS,52,auto,auto,False
+E063,Strawberry (Fragaria x ananassa),FRUITS,52,auto,auto,False
+E064,"Tamarind, pulp (Tamarindus indica)",FRUITS,52,auto,auto,False
+E065,"Water melon, dark green (sugar baby) (Citrullus",FRUITS,52,auto,auto,False
+E066,"Water melon, pale green (Citrullus vulgaris)",FRUITS,52,auto,auto,False
+E067,Wood Apple (Limonia acidissima),FRUITS,52,auto,auto,False
+E068,Zizyphus,FRUITS,52,auto,auto,False
+F001,Beet root (Beta vulgaris),ROOTS AND TUBERS,52,auto,auto,False
+F002,"Carrot, orange (Daucus carota)",ROOTS AND TUBERS,52,auto,auto,False
+F003,"Carrot, red (Daucus carota)",ROOTS AND TUBERS,52,auto,auto,False
+F004,Colocasia (Colocasia esculenta),ROOTS AND TUBERS,52,auto,auto,False
+F005,Lotus root (Nelumbium nelumbo),ROOTS AND TUBERS,52,auto,auto,False
+F006,"Potato, brown skin, big (Solanum tuberosum)",ROOTS AND TUBERS,52,auto,auto,False
+F007,"Potato, brown skin, small (Solanum tuberosum)",ROOTS AND TUBERS,52,auto,auto,False
+F008,"Potato, red skin (Solanum tuberosum)",ROOTS AND TUBERS,52,auto,auto,False
+F009,"Radish, elongate, red skin (Raphanus sativus)",ROOTS AND TUBERS,52,auto,auto,False
+F010,"Radish, elongate, white skin (Raphanus sativus)",ROOTS AND TUBERS,53,auto,auto,False
+F011,"Radish, round, red skin (Raphanus sativus)",ROOTS AND TUBERS,53,auto,auto,False
+F012,"Radish, round, white skin (Raphanus sativus)",ROOTS AND TUBERS,53,auto,auto,False
+F013,"Sweet potato, brown skin (Ipomoea batatas)",ROOTS AND TUBERS,53,auto,auto,False
+F014,"Sweet potato, pink skin (Ipomoea batatas)",ROOTS AND TUBERS,53,auto,auto,False
+F015,Tapioca (Manihot esculenta),ROOTS AND TUBERS,53,auto,auto,False
+F016,Water Chestnut (Eleocharis dulcis),ROOTS AND TUBERS,53,auto,auto,False
+F017,"Yam, elephant (Amorphophallus campanulatus)",ROOTS AND TUBERS,53,auto,auto,False
+F018,"Yam, ordinary (",ROOTS AND TUBERS,53,auto,auto,False
+F019,"Yam, wild (",ROOTS AND TUBERS,53,auto,auto,False
+G001,"Chillies, green-1 (Capsicum annum)",ROOTS AND TUBERS,53,auto,auto,False
+G002,"Chillies, green-2 (Capsicum annum)",ROOTS AND TUBERS,53,auto,auto,False
+G003,"Chillies, green-3 (Capsicum annum)",ROOTS AND TUBERS,53,auto,auto,False
+G004,"Chillies, green-4 (Capsicum annum)",ROOTS AND TUBERS,53,auto,auto,False
+G005,"Chillies, green-5 (Capsicum annum)",ROOTS AND TUBERS,53,auto,auto,False
+G006,"Chillies, green-6 (Capsicum annum)",ROOTS AND TUBERS,53,auto,auto,False
+G007,"Chillies, green-7 (Capsicum annum)",ROOTS AND TUBERS,53,auto,auto,False
+G008,"Chillies, green - all varieties (Capsicum annum)",ROOTS AND TUBERS,53,auto,auto,False
+G009,Coriander leaves (Coriandrum sativum),ROOTS AND TUBERS,53,auto,auto,False
+G010,Curry leaves (Murraya koenigii),ROOTS AND TUBERS,54,auto,auto,False
+G011,"Garlic, big clove (Allium sativum)",ROOTS AND TUBERS,54,auto,auto,False
+G012,"Garlic, small clove (Allium sativum)",ROOTS AND TUBERS,54,auto,auto,False
+G013,"Coconut, tender (Cocos nucifera)",CONDIMENTS AND SPICES-FRESH,53,manual,verified_pdf,True
+G014,"Ginger, fresh (Zingiber officinale)",ROOTS AND TUBERS,54,auto,auto,False
+G015,Mango ginger (Curcuma amada),ROOTS AND TUBERS,54,auto,auto,False
+G016,Mint leaves (Mentha spicata ),ROOTS AND TUBERS,54,auto,auto,False
+G017,"Onion, big (Allium cepa)",ROOTS AND TUBERS,54,auto,auto,False
+G018,"Onion, small (Allium cepa)",ROOTS AND TUBERS,54,auto,auto,False
+G019,Asafoetida (Ferula assa-foetida),ROOTS AND TUBERS,54,auto,auto,False
+G020,"Cardamom, green (Elettaria cardamomum)",ROOTS AND TUBERS,54,auto,auto,False
+G021,"Cardamom, black (Elettaria cardamomum)",ROOTS AND TUBERS,54,auto,auto,False
+G022,"Chillies, red (Capsicum annum)",ROOTS AND TUBERS,54,auto,auto,False
+G023,Cloves (Syzygium aromaticum),ROOTS AND TUBERS,54,auto,auto,False
+G024,Coriander seeds (Coriandrum sativum),ROOTS AND TUBERS,54,auto,auto,False
+G025,Cumin seeds (Cuminum cyminum),ROOTS AND TUBERS,54,auto,auto,False
+G026,Fenugreek seeds (Trigonella foenum graecum),ROOTS AND TUBERS,54,auto,auto,False
+G027,Mace (Myristica fragrans),ROOTS AND TUBERS,54,auto,auto,False
+G028,Nutmeg (Myristica fragrans),ROOTS AND TUBERS,54,auto,auto,False
+G029,Omum (Trachyspermum ammi),ROOTS AND TUBERS,54,auto,auto,False
+G030,Pippali (Piper longum),ROOTS AND TUBERS,55,auto,auto,False
+G031,"Pepper, black (Piper nigrum)",ROOTS AND TUBERS,55,auto,auto,False
+G032,Poppy seeds (Papaver somniferum),ROOTS AND TUBERS,55,auto,auto,False
+G033,Turmeric powder (Curcuma domestica),ROOTS AND TUBERS,55,auto,auto,False
+H001,Almond (Prunus amygdalus),NUTS AND OILSEEDS,55,auto,auto,False
+H002,"Arecanut, dried, brown (Areca catechu)",NUTS AND OILSEEDS,55,auto,auto,False
+H003,"Arecanut, dried, red color (Areca catechu)",NUTS AND OILSEEDS,55,auto,auto,False
+H004,"Arecanut, fresh (Areca catechu)",NUTS AND OILSEEDS,55,auto,auto,False
+H005,Arecanut (Areca catechu),NUTS AND OILSEEDS,55,manual,verified_pdf,True
+H006,"Coconut, kernel, dry (Cocos nucifera)",NUTS AND OILSEEDS,55,auto,auto,False
+H007,"Coconut, kernel, fresh (Cocos nucifera)",NUTS AND OILSEEDS,55,auto,auto,False
+H008,"Garden cress, seeds (Lepidium sativum)",NUTS AND OILSEEDS,55,auto,auto,False
+H009,"Gingelly seeds, black (Sesamum indicum)",NUTS AND OILSEEDS,55,auto,auto,False
+H010,"Gingelly seeds, brown (Sesamum indicum)",NUTS AND OILSEEDS,55,auto,auto,False
+H011,"Gingelly seeds, white (Sesamum indicum)",NUTS AND OILSEEDS,55,auto,auto,False
+H012,Ground nut (Arachis hypogaea),NUTS AND OILSEEDS,55,auto,auto,False
+H013,Mustard seeds (,NUTS AND OILSEEDS,55,auto,auto,False
+H014,Linseeds (Linum usitatissimum),NUTS AND OILSEEDS,55,auto,auto,False
+H015,"Niger seeds, black (Guizotia abyssinica)",NUTS AND OILSEEDS,55,auto,auto,False
+H016,"Niger seeds, gray (Guizotia abyssinica)",NUTS AND OILSEEDS,56,auto,auto,False
+H017,Pine seed (,NUTS AND OILSEEDS,56,auto,auto,False
+H018,Pistachio nuts (Pistacia vera),NUTS AND OILSEEDS,56,auto,auto,False
+H019,Safflower seeds (Carthamus tinctorius),NUTS AND OILSEEDS,56,auto,auto,False
+H020,Sunflower seeds (Helianthus annuus),NUTS AND OILSEEDS,56,auto,auto,False
+H021,Walnut (Juglans regia),NUTS AND OILSEEDS,56,auto,auto,False
+I001,"Jaggery, cane (Saccharum officinarum)",SUGARS AND JAGGERY,56,auto,auto,False
+I002,"Sugarcane, juice (Saccharum officinarum)",SUGARS AND JAGGERY,56,auto,auto,False
+J001,"Button mushroom, fresh (Agaricus sp.)",MUSHROOMS,56,auto,auto,False
+J002,"Chicken mushroom, fresh (Lactiporus sp.)",MUSHROOMS,56,auto,auto,False
+J003,"Shiitake mushroom, fresh (Lentinula sp.)",MUSHROOMS,56,auto,auto,False
+J004,"Oyster mushroom, dried (Pleurotus sp.)",MUSHROOMS,56,auto,auto,False
+K001,Toddy (Borassus flabellifer),SUGARS AND JAGGERY,56,auto_fixed,verified_pdf,False
+K002,Coconut Water (Cocos nucifera),SUGARS AND JAGGERY,56,auto_fixed,verified_pdf,False
+L001,"Milk, whole, Buffalo",MUSHROOMS,57,auto,auto,False
+L002,"Milk, whole, Cow",MUSHROOMS,57,auto,auto,False
+L003,Paneer,MUSHROOMS,57,auto,auto,False
+L004,Khoa,MUSHROOMS,57,auto,auto,False
+M001,"Egg, poultry, whole, raw",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M002,"Egg, poultry, white, raw",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M003,"Egg, poultry, yolk, raw",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M004,"Egg, poultry, whole, boiled",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M005,"Egg, poultry, white, boiled",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M006,"Egg, poultry, yolk, boiled",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M007,"Egg, poultry, omlet",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M008,"Egg, country hen, whole, raw",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M009,"Egg, country hen, whole, boiled",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M010,"Egg, country hen, omlet",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M011,"Egg, duck, whole, boiled",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M012,"Egg, duck, whole, raw",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M013,"Egg, duck, whole, omlet",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M014,"Egg, quial, whole, raw",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+M015,"Egg, quial, whole, boiled",EGG AND EGG PRODUCTS,58,auto_fixed,verified_pdf,False
+N001,"Chicken, poultry, leg, skinless",POULTRY,58,auto_fixed,verified_pdf,False
+N002,"Chicken, poultry, thigh, skinless",POULTRY,58,auto_fixed,verified_pdf,False
+N003,"Chicken, poultry, breast, skinless",POULTRY,58,auto_fixed,verified_pdf,False
+N004,"Chicken, poultry, wing, skinless",POULTRY,58,auto_fixed,verified_pdf,False
+N005,"Poultry, chicken, liver",POULTRY,59,auto_fixed,verified_pdf,False
+N006,"Poultry, chicken, gizzard",POULTRY,59,auto_fixed,verified_pdf,False
+N007,"Country hen, leg, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N008,"Country hen, thigh, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N009,"Country hen, breast, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N010,"Country hen, wing, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N011,"Duck, meat, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N012,"Emu, meat, skinless",EGG AND EGG PRODUCTS,59,auto,auto,False
+N013,"Guinea fowl, meat, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N014,"Pigeon, meat, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N015,"Quail, meat, skinless",EGG AND EGG PRODUCTS,59,auto,auto,False
+N016,"Turkey, leg, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N017,"Turkey, thigh, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N018,"Turkey, breast, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+N019,"Turkey, wing, with skin",EGG AND EGG PRODUCTS,59,auto,auto,False
+O001,"Goat, shoulder",ANIMAL MEAT,59,auto,auto,False
+O002,"Goat, chops",ANIMAL MEAT,59,auto,auto,False
+O003,"Goat, legs",ANIMAL MEAT,59,auto,auto,False
+O004,"Goat, brain",ANIMAL MEAT,59,auto,auto,False
+O005,"Goat, tongue",ANIMAL MEAT,59,auto,auto,False
+O006,"Goat, lungs",ANIMAL MEAT,60,auto,auto,False
+O007,"Goat, heart",ANIMAL MEAT,60,auto,auto,False
+O008,"Goat, liver",ANIMAL MEAT,60,auto,auto,False
+O009,"Goat, tripe",ANIMAL MEAT,60,auto,auto,False
+O010,"Goat, spleen",ANIMAL MEAT,60,auto,auto,False
+O011,"Goat, kidneys",ANIMAL MEAT,60,auto,auto,False
+O012,"Goat, tube (small intestine)",ANIMAL MEAT,60,auto,auto,False
+O013,"Goat, testis",ANIMAL MEAT,60,auto,auto,False
+O014,"Sheep, shoulder",ANIMAL MEAT,60,auto,auto,False
+O015,"Sheep, chops",ANIMAL MEAT,60,auto,auto,False
+O016,"Sheep, leg",ANIMAL MEAT,60,auto,auto,False
+O017,"Sheep, brain",ANIMAL MEAT,60,auto,auto,False
+O018,"Sheep, tongue",ANIMAL MEAT,60,auto,auto,False
+O019,"Sheep, lungs",ANIMAL MEAT,60,auto,auto,False
+O020,"Sheep, heart",ANIMAL MEAT,60,auto,auto,False
+O021,"Sheep, liver",ANIMAL MEAT,60,auto,auto,False
+O022,"Sheep, tripe",ANIMAL MEAT,60,auto,auto,False
+O023,"Sheep, spleen",ANIMAL MEAT,60,auto,auto,False
+O024,"Sheep, kidneys",ANIMAL MEAT,60,auto,auto,False
+O025,"Beef, shoulder",ANIMAL MEAT,60,auto,auto,False
+O026,"Beef, chops",ANIMAL MEAT,60,auto,auto,False
+O027,"Beef, round (leg)",ANIMAL MEAT,60,auto,auto,False
+O028,"Beef, brain",ANIMAL MEAT,61,auto,auto,False
+O029,"Beef, tongue",ANIMAL MEAT,61,auto,auto,False
+O030,"Beef, lungs",ANIMAL MEAT,61,auto,auto,False
+O031,"Beef, heart",ANIMAL MEAT,61,auto,auto,False
+O032,"Beef, liver",ANIMAL MEAT,61,auto,auto,False
+O033,"Beef, tripe",ANIMAL MEAT,61,auto,auto,False
+O034,"Beef, spleen",ANIMAL MEAT,61,auto,auto,False
+O035,"Beef, kidneys",ANIMAL MEAT,61,auto,auto,False
+O036,"Calf, shoulder",ANIMAL MEAT,61,auto,auto,False
+O037,"Calf, chops",ANIMAL MEAT,61,auto,auto,False
+O038,"Calf, round (leg)",ANIMAL MEAT,61,auto,auto,False
+O039,"Calf, brain",ANIMAL MEAT,61,auto,auto,False
+O040,"Calf, tongue",ANIMAL MEAT,61,auto,auto,False
+O041,"Calf, heart",ANIMAL MEAT,61,auto,auto,False
+O042,"Calf, liver",ANIMAL MEAT,61,auto,auto,False
+O043,"Calf, spleen",ANIMAL MEAT,61,auto,auto,False
+O044,"Calf, kidneys",ANIMAL MEAT,61,auto,auto,False
+O045,"Mithun, shoulder",ANIMAL MEAT,61,auto,auto,False
+O046,"Mithun, chops",ANIMAL MEAT,61,auto,auto,False
+O047,"Mithun,  round (leg)",ANIMAL MEAT,61,auto,auto,False
+O048,"Pork, shoulder",ANIMAL MEAT,61,auto,auto,False
+O049,"Pork, chops",ANIMAL MEAT,61,auto,auto,False
+O050,"Pork, ham",ANIMAL MEAT,62,auto,auto,False
+O051,"Pork, lungs",ANIMAL MEAT,62,auto,auto,False
+O052,"Pork, heart",ANIMAL MEAT,62,auto,auto,False
+O053,"Pork, liver",ANIMAL MEAT,62,auto,auto,False
+O054,"Pork, stomach",ANIMAL MEAT,62,auto,auto,False
+O055,"Pork, spleen",ANIMAL MEAT,62,auto,auto,False
+O056,"Pork, kidneys",ANIMAL MEAT,62,auto,auto,False
+O057,"Pork, tube (small intestine)",ANIMAL MEAT,62,auto,auto,False
+O058,"Hare, shoulder",ANIMAL MEAT,62,auto,auto,False
+O059,"Hare, chops",ANIMAL MEAT,62,auto,auto,False
+O060,"Hare, leg",ANIMAL MEAT,62,auto,auto,False
+O061,"Rabbit, shoulder",ANIMAL MEAT,62,auto,auto,False
+O062,"Rabbit, chops",ANIMAL MEAT,62,auto,auto,False
+O063,"Rabbit,  leg",ANIMAL MEAT,62,auto,auto,False
+P001,Allathi (Elops machnata),MARINE FISH,63,auto,auto,False
+P002,Aluva (Parastromateus niger),MARINE FISH,63,auto,auto,False
+P003,Anchovy (Stolephorus indicus),MARINE FISH,63,auto,auto,False
+P004,Ari fish (Aprion virescens ),MARINE FISH,63,auto,auto,False
+P005,Betki (Lates calcarifer),MARINE FISH,63,auto,auto,False
+P006,Black snapper (Macolor niger),MARINE FISH,63,auto,auto,False
+P007,Bombay duck (Harpadon nehereus),MARINE FISH,63,auto,auto,False
+P008,Bommuralu (Muraenesox cinerius),MARINE FISH,63,auto,auto,False
+P009,Cat fish (Tachysurus thalassinus),MARINE FISH,63,auto,auto,False
+P010,Chakla (Rachycentron canadum),MARINE FISH,63,auto,auto,False
+P011,Chappal (Aluterus monoceros ),MARINE FISH,63,auto,auto,False
+P012,Chelu (Elagatis bipinnulata),MARINE FISH,63,auto,auto,False
+P013,Chembali (Lutjanus quinquelineatus),MARINE FISH,63,auto,auto,False
+P014,Eri meen (Pristipomoides filamentosus),MARINE FISH,63,auto,auto,False
+P015,Gobro (Epinephelus diacanthus),MARINE FISH,63,auto,auto,False
+P016,Guitar fish (Rhinobatus prahli),MARINE FISH,63,auto,auto,False
+P017,Hilsa (Tenualosa ilisha),MARINE FISH,63,auto,auto,False
+P018,Jallal (Arius sp.),MARINE FISH,63,auto,auto,False
+P019,Jathi vela meen (Lethrinus lentjan),MARINE FISH,63,auto,auto,False
+P020,Kadal bral (Synodus indicus),MARINE FISH,63,auto,auto,False
+P021,Kadali (Nemipterus mesoprion),MARINE FISH,63,auto,auto,False
+P022,Kalamaara (Leptomelanosoma indicum),MARINE FISH,64,auto,auto,False
+P023,Kalava (Epinephelus coioides),MARINE FISH,64,auto,auto,False
+P024,Kanamayya (Lutjanus rivulatus),MARINE FISH,64,auto,auto,False
+P025,Kannadi paarai (Alectis indicus),MARINE FISH,64,auto,auto,False
+P026,Karimeen (Etroplus suratensis),MARINE FISH,64,auto,auto,False
+P027,Karnagawala (Anchoa hepsetus),MARINE FISH,64,auto,auto,False
+P028,Kayrai (Thunnus albacores),MARINE FISH,64,auto,auto,False
+P029,Kiriyan (Atule mate),MARINE FISH,64,auto,auto,False
+P030,Kite fish (Mobula kuhlii),MARINE FISH,64,auto,auto,False
+P031,Korka (Terapon jarbua),MARINE FISH,64,auto,auto,False
+P032,Kulam paarai (Carangoides fulvoguttatus),MARINE FISH,64,auto,auto,False
+P033,Maagaa (Polynemus plebeius),MARINE FISH,64,auto,auto,False
+P034,Mackerel (Rastrelliger kanagurta),MARINE FISH,64,auto,auto,False
+P035,Manda clathi (Naso reticulatus),MARINE FISH,64,auto,auto,False
+P036,Matha (Acanthurus mata),MARINE FISH,64,auto,auto,False
+P037,Milk fish (Chanos chanos),MARINE FISH,64,auto,auto,False
+P038,Moon fish (Mene maculata),MARINE FISH,64,auto,auto,False
+P039,Mullet (Mugil cephalus),MARINE FISH,64,auto,auto,False
+P040,Mural (Tylosurus  crocodilus),MARINE FISH,64,auto,auto,False
+P041,Myil meen (Istiophorus platypterus),MARINE FISH,64,auto,auto,False
+P042,Nalla bontha (Epinephelus sp.),MARINE FISH,64,auto,auto,False
+P043,Narba (Caranx sexfasciatus),MARINE FISH,64,auto,auto,False
+P044,Paarai (Caranx heberi),MARINE FISH,65,auto,auto,False
+P045,Padayappa (Canthidermis maculata),MARINE FISH,65,auto,auto,False
+P046,Pali kora (Panna microdon),MARINE FISH,65,auto,auto,False
+P047,Pambada (Lepturacanthus savala),MARINE FISH,65,auto,auto,False
+P048,Pandukopa (Pseudosciaena manchurica),MARINE FISH,65,auto,auto,False
+P049,Parava (Lactarius lactarius),MARINE FISH,65,auto,auto,False
+P050,Parcus (Psettodes erumei),MARINE FISH,65,auto,auto,False
+P051,Parrot fish (Scarus ghobban),MARINE FISH,65,auto,auto,False
+P052,Perinkilichai (Pinjalo pinjalo),MARINE FISH,65,auto,auto,False
+P053,Phopat (Coryphaena hippurus),MARINE FISH,65,auto,auto,False
+P054,Piranha (Pygopritis sp.),MARINE FISH,65,auto,auto,False
+P055,"Pomfret, black  (Parastromateus niger)",MARINE FISH,65,auto,auto,False
+P056,"Pomfret, snub nose (Trachinotus blochii)",MARINE FISH,65,auto,auto,False
+P057,"Pomfret, white (Pampus argenteus)",MARINE FISH,65,auto,auto,False
+P058,Pranel (Gerres sp.),MARINE FISH,65,auto,auto,False
+P059,Pulli paarai (Gnathanodon speciosus),MARINE FISH,65,auto,auto,False
+P060,Queen fish (Scomberoides commersonianus),MARINE FISH,65,auto,auto,False
+P061,Raai fish (Lobotes surinamensis),MARINE FISH,65,auto,auto,False
+P062,Raai vanthu (Epinephelus chlorostigma),MARINE FISH,65,auto,auto,False
+P063,Rani (Pink perch),MARINE FISH,65,auto,auto,False
+P064,"Ray fish, bow head, spotted (Rhina ancylostoma)",MARINE FISH,65,auto,auto,False
+P065,Red snapper (Lutjanus argentimaculatus),MARINE FISH,65,auto,auto,False
+P066,"Red snapper, small (Priacanthus hamrur)",MARINE FISH,66,auto,auto,False
+P067,Sadaya (Platax orbicularis ),MARINE FISH,66,auto,auto,False
+P068,Salmon (Salmo salar),MARINE FISH,66,auto,auto,False
+P069,Sangada (Nemipterus japanicus),MARINE FISH,66,auto,auto,False
+P070,Sankata paarai (Caranx ignobilis),MARINE FISH,66,auto,auto,False
+P071,Sardine (Sardinella longiceps),MARINE FISH,66,auto,auto,False
+P072,Shark (Carcharhinus sorrah),MARINE FISH,66,auto,auto,False
+P073,"Shark, hammer head (Sphyrna mokarran)",MARINE FISH,66,auto,auto,False
+P074,"Shark, spotted (Stegostoma fasciatum)",MARINE FISH,66,auto,auto,False
+P075,Shelavu (Sphyraena jello),MARINE FISH,66,auto,auto,False
+P076,Silan (Silonia silondia),MARINE FISH,66,auto,auto,False
+P077,Silk fish (Beryx sp.),MARINE FISH,66,auto,auto,False
+P078,Silver carp (Hypophthalmichthys molitrix),MARINE FISH,66,auto,auto,False
+P079,Sole fish (Cynoglossus arel),MARINE FISH,66,auto,auto,False
+P080,Stingray (Dasyatis pastinaca),MARINE FISH,66,auto,auto,False
+P081,Tarlava (Drepane punctata),MARINE FISH,66,auto,auto,False
+P082,Tholam (Plectorhinchus schotaf),MARINE FISH,66,auto,auto,False
+P083,Tilapia (Oreochromis niloticus),MARINE FISH,66,auto,auto,False
+P084,Tuna (Euthynnus affinis),MARINE FISH,66,auto,auto,False
+P085,"Tuna, striped (Katsuwonus pelamis)",MARINE FISH,66,auto,auto,False
+P086,Valava (Chirocentrus nudus),MARINE FISH,66,auto,auto,False
+P087,Vanjaram (Scomberomorus commerson ),MARINE FISH,66,auto,auto,False
+P088,Vela meen (Aprion virescens),MARINE FISH,67,auto,auto,False
+P089,Vora (Siganus javus),MARINE FISH,67,auto,auto,False
+P090,Whale shark (Galeocerdo cuvier),MARINE FISH,67,auto,auto,False
+P091,Xiphinis (Xiphias gladius),MARINE FISH,67,auto,auto,False
+P092,"Z.Eggs, Cat fish (Ompok bimaculatus)",MARINE FISH,67,auto,auto,False
+Q001,Crab (Menippe mercenaria),MARINE SHELLFISH,67,auto,auto,False
+Q002,"Crab, sea (Portunus sanguinolentus)",MARINE SHELLFISH,67,auto,auto,False
+Q003,"Lobster, brown (Thenus orientalis)",MARINE SHELLFISH,67,auto,auto,False
+Q004,"Lobster, king size (Thenus orientalis)",MARINE SHELLFISH,67,auto,auto,False
+Q005,Mud crab (Scylla tranquebarica),MARINE SHELLFISH,67,auto,auto,False
+Q006,Oyster (Crassostrea sp.),MARINE SHELLFISH,67,auto,auto,False
+Q007,"Tiger prawns, brown (Solenocera crassicornis)",MARINE SHELLFISH,67,auto,auto,False
+Q008,"Tiger Prawns, orange (Penaeus monodon)",MARINE SHELLFISH,67,auto,auto,False
+R001,"Clam, green shell (Perna viridis )",MARINE SHELLFISH,67,auto,auto,False
+R002,"Clam, white shell, ribbed (Meretrix meretrix)",MARINE SHELLFISH,67,auto,auto,False
+R003,Octopus  (Octopus vulgaris),MARINE SHELLFISH,67,auto,auto,False
+R004,"Squid, black (Loligo sp.)",MARINE SHELLFISH,67,auto,auto,False
+R005,"Squid, hard shell (Sepia pharaonis)",MARINE SHELLFISH,67,auto,auto,False
+R006,"Squid, red (Loligo duvaucelii)",MARINE SHELLFISH,68,auto,auto,False
+R007,"Squid, white, small (Uroteuthis duvauceli )",MARINE SHELLFISH,68,auto,auto,False
+S001,Cat fish (Tandanus tandanus),FRESHWATER FISH AND SHELLFISH,68,auto_fixed,verified_pdf,False
+S002,Catla (Catla catla),MARINE SHELLFISH,68,auto,auto,False
+S003,Freshwater Eel (Anguilla anguilla),MARINE SHELLFISH,68,auto,auto,False
+S004,Gold fish (Carassius auratus),MARINE SHELLFISH,68,auto,auto,False
+S005,Pangas  (Pangasianodon hypophthalmus),MARINE SHELLFISH,68,auto,auto,False
+S006,Rohu (Labeo rohita),MARINE SHELLFISH,68,auto,auto,False
+S007,Crab (Pachygrapsus sp.),MARINE SHELLFISH,68,auto,auto,False
+S008,"Prawns, big (Macrobrachium rosenbergii)",MARINE SHELLFISH,68,auto,auto,False
+S009,"Prawns, small (Macrobrachium sp.)",MARINE SHELLFISH,68,auto,auto,False
+S010,Tiger prawns (Macrobrachium sp.),MARINE SHELLFISH,68,auto,auto,False
+T001,Catla (Catla catla),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T002,"Catla, small (Catla catla)",FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T003,Mrigal (Cirrhinus mrigala),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T004,Rohu (Labeo rohita),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T005,Bata (Labeo bata),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T006,Pangas (Pangasius pangasius),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T007,Boal (Wallago attu),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T008,Pine seed (Pinus sp.),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T009,Prawn (Penaeus indicus),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T010,Squid (Loligo duvaucelii),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T011,Freshwater Eel (Anguilla anguilla),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T012,Vora (Siganus javus),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T013,"Trout, rainbow (Oncorhynchus mykiss)",FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True
+T014,Vora (Siganus javus),FRESHWATER FISH AND SHELLFISH,68,manual,verified_pdf,True

@@ -1,0 +1,21 @@
+% Table III -- clustering. Source: reports/phase5/experiments/results/clustering_experiments.json
+\begin{table}[t]
+\caption{Clustering on the 6{,}865$\times$595 combined feature matrix reduced to
+20 principal components (K-Means and agglomerative, seed 42). All silhouettes are
+below 0.05, i.e.\ no configuration yields well-separated clusters.}
+\label{tab:clustering}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4.5pt}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+\textbf{Algorithm} & \textbf{$K$} & \textbf{Silhouette} & \textbf{Davies--Bouldin} & \textbf{Largest cluster} \\
+\midrule
+K-Means        & 20  & 0.0388 & 4.111 & 655 \\
+K-Means        & 50  & \textbf{0.0469} & 3.603 & 287 \\
+K-Means        & 100 & 0.0414 & \textbf{3.187} & 201 \\
+Agglomerative  & 20  & 0.0172 & 4.214 & 1{,}516 \\
+Agglomerative  & 50  & 0.0244 & 3.605 & 613 \\
+\bottomrule
+\end{tabular}
+\end{table}

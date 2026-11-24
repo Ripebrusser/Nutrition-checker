@@ -1,0 +1,19 @@
+food_code,food_name,food_group,extraction_method,verification_status,source_page,source_table,recovery_date
+D001,Ash gourd (Benincasa hispida),OTHER VEGETABLES,manual,verified_pdf,44,1,2026-11-15T14:38:48.728246
+E004,Custard apple (Annona squamosa),FRUITS,manual,verified_pdf,49,1,2026-11-15T14:38:48.728287
+G013,"Coconut, tender (Cocos nucifera)",CONDIMENTS AND SPICES-FRESH,manual,verified_pdf,53,1,2026-11-15T14:38:48.728312
+H005,Arecanut (Areca catechu),NUTS AND OILSEEDS,manual,verified_pdf,55,1,2026-11-15T14:38:48.728333
+T001,Catla (Catla catla),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728353
+T002,"Catla, small (Catla catla)",FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728374
+T003,Mrigal (Cirrhinus mrigala),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728394
+T004,Rohu (Labeo rohita),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728413
+T005,Bata (Labeo bata),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728432
+T006,Pangas (Pangasius pangasius),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728451
+T007,Boal (Wallago attu),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728470
+T008,Pine seed (Pinus sp.),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728489
+T009,Prawn (Penaeus indicus),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728508
+T010,Squid (Loligo duvaucelii),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728527
+T011,Freshwater Eel (Anguilla anguilla),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728546
+T012,Vora (Siganus javus),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728565
+T013,"Trout, rainbow (Oncorhynchus mykiss)",FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728583
+T014,Vora (Siganus javus),FRESHWATER FISH AND SHELLFISH,manual,verified_pdf,68,1,2026-11-15T14:38:48.728601

@@ -1,0 +1,965 @@
+{
+  "empty_ingredients": [],
+  "generic_ingredients": [
+    {
+      "query_id": 12,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 13,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 21,
+      "generic_terms": [
+        "oil"
+      ]
+    },
+    {
+      "query_id": 32,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 42,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 45,
+      "generic_terms": [
+        "water"
+      ]
+    },
+    {
+      "query_id": 49,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 50,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 51,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 52,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 71,
+      "generic_terms": [
+        "water",
+        "salt"
+      ]
+    },
+    {
+      "query_id": 76,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 77,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 82,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 83,
+      "generic_terms": [
+        "salt"
+      ]
+    },
+    {
+      "query_id": 92,
+      "generic_terms": [
+        "water"
+      ]
+    }
+  ],
+  "cuisine_mismatch": [
+    {
+      "query_id": 12,
+      "query_cuisine": "Continental",
+      "candidate_id": 8520,
+      "candidate_cuisine": "Italian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 12,
+      "query_cuisine": "Continental",
+      "candidate_id": 3628,
+      "candidate_cuisine": "European",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 12,
+      "query_cuisine": "Continental",
+      "candidate_id": 1057,
+      "candidate_cuisine": "Mexican",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 13,
+      "query_cuisine": "Andhra",
+      "candidate_id": 4202,
+      "candidate_cuisine": "Maharashtrian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 13,
+      "query_cuisine": "Andhra",
+      "candidate_id": 8205,
+      "candidate_cuisine": "South Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 17,
+      "query_cuisine": "Indian",
+      "candidate_id": 5808,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 17,
+      "query_cuisine": "Indian",
+      "candidate_id": 4657,
+      "candidate_cuisine": "Chettinad",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 17,
+      "query_cuisine": "Indian",
+      "candidate_id": 10715,
+      "candidate_cuisine": "Karnataka",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 20,
+      "query_cuisine": "Chettinad",
+      "candidate_id": 8174,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 20,
+      "query_cuisine": "Chettinad",
+      "candidate_id": 2606,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 20,
+      "query_cuisine": "Chettinad",
+      "candidate_id": 1784,
+      "candidate_cuisine": "Punjabi",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 21,
+      "query_cuisine": "Tamil Nadu",
+      "candidate_id": 3420,
+      "candidate_cuisine": "Andhra",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 21,
+      "query_cuisine": "Tamil Nadu",
+      "candidate_id": 4198,
+      "candidate_cuisine": "South Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 21,
+      "query_cuisine": "Tamil Nadu",
+      "candidate_id": 4690,
+      "candidate_cuisine": "Indian",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 32,
+      "query_cuisine": "Sindhi",
+      "candidate_id": 9170,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 32,
+      "query_cuisine": "Sindhi",
+      "candidate_id": 5513,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 35,
+      "query_cuisine": "South Indian Recipes",
+      "candidate_id": 4797,
+      "candidate_cuisine": "Tamil Nadu",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 35,
+      "query_cuisine": "South Indian Recipes",
+      "candidate_id": 5832,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 35,
+      "query_cuisine": "South Indian Recipes",
+      "candidate_id": 7017,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 42,
+      "query_cuisine": "Chettinad",
+      "candidate_id": 4031,
+      "candidate_cuisine": "Tamil Nadu",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 42,
+      "query_cuisine": "Chettinad",
+      "candidate_id": 2984,
+      "candidate_cuisine": "Kongunadu",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 42,
+      "query_cuisine": "Chettinad",
+      "candidate_id": 6234,
+      "candidate_cuisine": "Goan Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 45,
+      "query_cuisine": "North Indian Recipes",
+      "candidate_id": 426,
+      "candidate_cuisine": "Bengali Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 45,
+      "query_cuisine": "North Indian Recipes",
+      "candidate_id": 2107,
+      "candidate_cuisine": "Indian",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 49,
+      "query_cuisine": "Punjabi",
+      "candidate_id": 1324,
+      "candidate_cuisine": "Rajasthani",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 49,
+      "query_cuisine": "Punjabi",
+      "candidate_id": 1946,
+      "candidate_cuisine": "South Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 49,
+      "query_cuisine": "Punjabi",
+      "candidate_id": 9365,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 50,
+      "query_cuisine": "Gujarati Recipes\ufeff",
+      "candidate_id": 500,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 50,
+      "query_cuisine": "Gujarati Recipes\ufeff",
+      "candidate_id": 2009,
+      "candidate_cuisine": "Maharashtrian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 50,
+      "query_cuisine": "Gujarati Recipes\ufeff",
+      "candidate_id": 5608,
+      "candidate_cuisine": "Karnataka",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 51,
+      "query_cuisine": "Continental",
+      "candidate_id": 4673,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 51,
+      "query_cuisine": "Continental",
+      "candidate_id": 4803,
+      "candidate_cuisine": "Mexican",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 52,
+      "query_cuisine": "Andhra",
+      "candidate_id": 8675,
+      "candidate_cuisine": "South Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 52,
+      "query_cuisine": "Andhra",
+      "candidate_id": 3571,
+      "candidate_cuisine": "Karnataka",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 52,
+      "query_cuisine": "Andhra",
+      "candidate_id": 6665,
+      "candidate_cuisine": "Goan Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 71,
+      "query_cuisine": "North Indian Recipes",
+      "candidate_id": 4849,
+      "candidate_cuisine": "Indian",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 71,
+      "query_cuisine": "North Indian Recipes",
+      "candidate_id": 8499,
+      "candidate_cuisine": "South Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 71,
+      "query_cuisine": "North Indian Recipes",
+      "candidate_id": 3520,
+      "candidate_cuisine": "Indian",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 75,
+      "query_cuisine": "Indian",
+      "candidate_id": 11986,
+      "candidate_cuisine": "Bengali Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 75,
+      "query_cuisine": "Indian",
+      "candidate_id": 8567,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 76,
+      "query_cuisine": "Fusion",
+      "candidate_id": 2157,
+      "candidate_cuisine": "Indian",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 76,
+      "query_cuisine": "Fusion",
+      "candidate_id": 7562,
+      "candidate_cuisine": "North Indian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 76,
+      "query_cuisine": "Fusion",
+      "candidate_id": 6148,
+      "candidate_cuisine": "Indian",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 77,
+      "query_cuisine": "Continental",
+      "candidate_id": 1714,
+      "candidate_cuisine": "Fusion",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 77,
+      "query_cuisine": "Continental",
+      "candidate_id": 10895,
+      "candidate_cuisine": "Italian Recipes",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 77,
+      "query_cuisine": "Continental",
+      "candidate_id": 2630,
+      "candidate_cuisine": "Fusion",
+      "method": "jaccard"
+    },
+    {
+      "query_id": 83,
+      "query_cuisine": "Continental",
+      "candidate_id": 1177,
+      "candidate_cuisine": "Italian Recipes",
+      "method": "jaccard"
+    }
+  ],
+  "diet_conflict": [],
+  "near_duplicates": [
+    {
+      "query_id": 32,
+      "method": "content",
+      "recipe_1": 1572,
+      "recipe_2": 2641,
+      "jaccard": 1.0
+    }
+  ],
+  "method_disagreement": [
+    {
+      "query_id": 12,
+      "recommendations": {
+        "content": [
+          2125,
+          7406,
+          10393,
+          4702,
+          6188
+        ],
+        "cuisine": [
+          5833,
+          5384,
+          8048,
+          8362,
+          9351
+        ],
+        "jaccard": [
+          8520,
+          3628,
+          1057,
+          5052,
+          5062
+        ]
+      }
+    },
+    {
+      "query_id": 13,
+      "recommendations": {
+        "content": [
+          5048,
+          247,
+          2410,
+          4968,
+          8902
+        ],
+        "cuisine": [
+          822,
+          5048,
+          9331,
+          247,
+          12105
+        ],
+        "jaccard": [
+          4202,
+          8205,
+          822,
+          497,
+          11098
+        ]
+      }
+    },
+    {
+      "query_id": 17,
+      "recommendations": {
+        "content": [
+          12551,
+          1980,
+          8886,
+          504,
+          6680
+        ],
+        "cuisine": [
+          5861,
+          9540,
+          5353,
+          1678,
+          595
+        ],
+        "jaccard": [
+          5808,
+          4657,
+          10715,
+          703,
+          8460
+        ]
+      }
+    },
+    {
+      "query_id": 20,
+      "recommendations": {
+        "content": [
+          3356,
+          5385,
+          4189,
+          4659,
+          852
+        ],
+        "cuisine": [
+          8340,
+          3356,
+          2888,
+          852,
+          2190
+        ],
+        "jaccard": [
+          8174,
+          2606,
+          1784,
+          4025,
+          12348
+        ]
+      }
+    },
+    {
+      "query_id": 21,
+      "recommendations": {
+        "content": [
+          658,
+          4797,
+          3581,
+          860,
+          9627
+        ],
+        "cuisine": [
+          5921,
+          658,
+          3709,
+          1716,
+          6003
+        ],
+        "jaccard": [
+          3420,
+          4198,
+          4690,
+          1627,
+          5921
+        ]
+      }
+    },
+    {
+      "query_id": 32,
+      "recommendations": {
+        "content": [
+          3323,
+          1572,
+          2641,
+          3394,
+          7280
+        ],
+        "cuisine": [
+          3323,
+          3394,
+          7280,
+          10240,
+          3075
+        ],
+        "jaccard": [
+          3323,
+          9170,
+          5513,
+          3394,
+          8506
+        ]
+      }
+    },
+    {
+      "query_id": 35,
+      "recommendations": {
+        "content": [
+          8845,
+          4089,
+          8374,
+          5403,
+          8119
+        ],
+        "cuisine": [
+          1254,
+          2475,
+          699,
+          3362,
+          321
+        ],
+        "jaccard": [
+          4797,
+          5832,
+          7017,
+          1254,
+          8190
+        ]
+      }
+    },
+    {
+      "query_id": 42,
+      "recommendations": {
+        "content": [
+          272,
+          7796,
+          764,
+          5700,
+          3596
+        ],
+        "cuisine": [
+          9120,
+          6924,
+          5698,
+          764,
+          1006
+        ],
+        "jaccard": [
+          4031,
+          2984,
+          6234,
+          887,
+          3561
+        ]
+      }
+    },
+    {
+      "query_id": 45,
+      "recommendations": {
+        "content": [
+          325,
+          429,
+          5257,
+          8386,
+          6238
+        ],
+        "cuisine": [
+          325,
+          90,
+          1785,
+          2274,
+          6488
+        ],
+        "jaccard": [
+          325,
+          426,
+          2107,
+          2502,
+          1509
+        ]
+      }
+    },
+    {
+      "query_id": 49,
+      "recommendations": {
+        "content": [
+          2948,
+          5660,
+          4523,
+          2431,
+          10113
+        ],
+        "cuisine": [
+          1050,
+          7936,
+          2849,
+          1622,
+          2948
+        ],
+        "jaccard": [
+          1324,
+          1946,
+          9365,
+          842,
+          1608
+        ]
+      }
+    },
+    {
+      "query_id": 50,
+      "recommendations": {
+        "content": [
+          1530,
+          669,
+          2162,
+          714,
+          1988
+        ],
+        "cuisine": [
+          1530,
+          6283,
+          8821,
+          10618,
+          3319
+        ],
+        "jaccard": [
+          500,
+          2009,
+          5608,
+          5520,
+          730
+        ]
+      }
+    },
+    {
+      "query_id": 51,
+      "recommendations": {
+        "content": [
+          6188,
+          13392,
+          7047,
+          2125,
+          518
+        ],
+        "cuisine": [
+          1592,
+          9619,
+          503,
+          3782,
+          3168
+        ],
+        "jaccard": [
+          4673,
+          4803,
+          1592,
+          4193,
+          9619
+        ]
+      }
+    },
+    {
+      "query_id": 52,
+      "recommendations": {
+        "content": [
+          2250,
+          3992,
+          2586,
+          2452,
+          3337
+        ],
+        "cuisine": [
+          2250,
+          2759,
+          5542,
+          7843,
+          3992
+        ],
+        "jaccard": [
+          8675,
+          3571,
+          6665,
+          3163,
+          3319
+        ]
+      }
+    },
+    {
+      "query_id": 71,
+      "recommendations": {
+        "content": [
+          3296,
+          1886,
+          9289,
+          4521,
+          2179
+        ],
+        "cuisine": [
+          3714,
+          6560,
+          3076,
+          13036,
+          662
+        ],
+        "jaccard": [
+          4849,
+          8499,
+          3520,
+          3751,
+          4453
+        ]
+      }
+    },
+    {
+      "query_id": 75,
+      "recommendations": {
+        "content": [
+          3359,
+          4301,
+          157,
+          5545,
+          2973
+        ],
+        "cuisine": [
+          6035,
+          7093,
+          11118,
+          8027,
+          6680
+        ],
+        "jaccard": [
+          11986,
+          6035,
+          8567,
+          4041,
+          12141
+        ]
+      }
+    },
+    {
+      "query_id": 76,
+      "recommendations": {
+        "content": [
+          1051,
+          4072,
+          3763,
+          3015,
+          3791
+        ],
+        "cuisine": [
+          5281,
+          8941,
+          1051,
+          1535,
+          6343
+        ],
+        "jaccard": [
+          2157,
+          7562,
+          6148,
+          5288,
+          6153
+        ]
+      }
+    },
+    {
+      "query_id": 77,
+      "recommendations": {
+        "content": [
+          1245,
+          5377,
+          9096,
+          9471,
+          2146
+        ],
+        "cuisine": [
+          560,
+          907,
+          1245,
+          9938,
+          723
+        ],
+        "jaccard": [
+          1714,
+          10895,
+          2630,
+          3260,
+          3294
+        ]
+      }
+    },
+    {
+      "query_id": 82,
+      "recommendations": {
+        "content": [
+          5562,
+          8506,
+          5252,
+          4605,
+          269
+        ],
+        "cuisine": [
+          5562,
+          8506,
+          6570,
+          9170,
+          9400
+        ],
+        "jaccard": [
+          5562,
+          8506,
+          6570,
+          4274,
+          8857
+        ]
+      }
+    },
+    {
+      "query_id": 83,
+      "recommendations": {
+        "content": [
+          277,
+          2985,
+          4704,
+          8362,
+          11890
+        ],
+        "cuisine": [
+          7870,
+          4594,
+          394,
+          2397,
+          4037
+        ],
+        "jaccard": [
+          1177,
+          7870,
+          4594,
+          8169,
+          2032
+        ]
+      }
+    },
+    {
+      "query_id": 92,
+      "recommendations": {
+        "content": [
+          8718,
+          993,
+          3584,
+          3776,
+          1211
+        ],
+        "cuisine": [
+          5301,
+          8718,
+          9349,
+          993,
+          3584
+        ],
+        "jaccard": [
+          5301,
+          8718,
+          9349,
+          993,
+          9763
+        ]
+      }
+    }
+  ]
+}

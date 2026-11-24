@@ -1,0 +1,31 @@
+{
+  "frozen_hashes": {
+    "normalized_ingredients": "08710983213938c3fecafd20991ab7d3d7fe51b179303bbe4dc93b2ac1b1b6e5",
+    "parsed_recipe_ingredients": "e17b668b208dac4a7240cbfb27d78caac6123bc2b29b34a70aeb38964b9e86d9",
+    "ingredient_synonyms": "22b8aace1ef29ea271051004a0e5a79ac8a8bfb5d80b8f796abe0db1f2ee4b31",
+    "household_measurements": "451fb9c6d5135e0684bd5e6445aeaadfafa2951db6ae7fd939b96faad1e16b47",
+    "ifct_table1_candidate": "294c6fc4d095a47e13fbe02e8e3c1c0c8175752966275a3415f9a7df04774f35"
+  },
+  "output_hashes": {
+    "disambiguated": "505ef72b9449a20f014c318d9329546fa6e2b5d0950422303da5e65acceca194",
+    "candidates": "e7f9bf2ebb234b6b0c1badda298edcf446d9dc072f023cec185c65dcaa05b81a",
+    "unmatched": "4d4e2b84e3b3323552c600bf90eefba81c5e44ee8f455298f331c190ced08102",
+    "household": "4c169cba077c49f384e699129e9051929ad130dda2221ac2692cf9c34e04567e"
+  },
+  "total_input_records": 90862,
+  "candidate_records": 119474,
+  "unmatched_records": 63244,
+  "disambiguated_records": 90862,
+  "unique_primary_ingredients": 2725,
+  "unique_ifct_codes_matched": 340,
+  "auto_accept_count": 7613,
+  "auto_accept_by_method": {
+    "EXACT": 7583,
+    "SYNONYM": 30
+  },
+  "exact_count": 7583,
+  "records_with_candidates": 27618,
+  "records_without_candidates": 63244,
+  "test_passed": 0,
+  "test_failed": 7
+}

@@ -1,0 +1,22 @@
+% Table IV -- clustering results.
+% Source: reports/phase5/experiments/results/clustering_experiments.json
+\begin{table}[t]
+\caption{Clustering on the combined feature matrix reduced to 20 principal
+components (seed 42). Every silhouette is below 0.05 and every Davies--Bouldin
+index above 3, i.e.\ no configuration produces well-separated clusters.}
+\label{tab:clustering}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+\textbf{Algorithm} & \textbf{$K$} & \textbf{Silhouette} & \textbf{Davies--Bouldin} & \textbf{Largest} \\
+\midrule
+K-Means       & 20  & 0.0388 & 4.111 & 655 \\
+K-Means       & 50  & \textbf{0.0469} & 3.603 & 287 \\
+K-Means       & 100 & 0.0414 & \textbf{3.187} & 201 \\
+Agglomerative & 20  & 0.0172 & 4.214 & 1{,}516 \\
+Agglomerative & 50  & 0.0244 & 3.605 & 613 \\
+\bottomrule
+\end{tabular}
+\end{table}

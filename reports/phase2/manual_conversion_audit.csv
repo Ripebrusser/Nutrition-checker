@@ -1,0 +1,71 @@
+ingredient,unit,quantity,converted_g,conversion_status,source,verification,notes
+basmati rice (raw),cup,1.0,195.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Standard USDA conversion"
+rice (raw),cup,1.0,195.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Standard USDA conversion"
+wheat flour (whole),cup,1.0,120.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Standard USDA conversion"
+wheat flour (refined),cup,1.0,125.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Standard USDA conversion"
+chickpea flour (besan),cup,1.0,92.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Standard USDA conversion"
+rice flour,cup,1.0,158.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Standard USDA conversion"
+semolina (coarse),cup,1.0,167.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Standard USDA conversion"
+sugar (white),cup,1.0,200.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Standard USDA conversion"
+brown sugar,cup,1.0,220.0,RESOLVED_HOUSEHOLD,USDA,PASS,"Packed brown sugar"
+jaggery,cup,1.0,180.0,RESOLVED_HOUSEHOLD,Indian kitchen,PASS,"Grated jaggery"
+mustard oil,tablespoon,1.0,13.5,RESOLVED_HOUSEHOLD,USDA,PASS,"Density ~0.91 g/ml"
+coconut oil,tablespoon,1.0,13.6,RESOLVED_HOUSEHOLD,USDA,PASS,"Density ~0.92 g/ml"
+groundnut oil,tablespoon,1.0,13.5,RESOLVED_HOUSEHOLD,USDA,PASS,
+sesame oil,tablespoon,1.0,13.6,RESOLVED_HOUSEHOLD,USDA,PASS,
+sunflower oil,tablespoon,1.0,13.6,RESOLVED_HOUSEHOLD,USDA,PASS,
+ghee,tablespoon,1.0,12.8,RESOLVED_HOUSEHOLD,USDA,PASS,"Density ~0.91 g/ml"
+butter,tablespoon,1.0,14.2,RESOLVED_HOUSEHOLD,USDA,PASS,
+cumin seeds,tablespoon,1.0,6.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+cumin powder,tablespoon,1.0,6.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+coriander seeds,tablespoon,1.0,5.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+coriander powder,tablespoon,1.0,5.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+turmeric powder,tablespoon,1.0,9.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+red chili powder,tablespoon,1.0,7.5,RESOLVED_HOUSEHOLD,USDA,PASS,
+black pepper,tablespoon,1.0,7.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+mustard seeds,tablespoon,1.0,11.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+fenugreek seeds,tablespoon,1.0,11.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+kasuri methi,tablespoon,1.0,3.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+fennel seeds,tablespoon,1.0,5.5,RESOLVED_HOUSEHOLD,USDA,PASS,
+carom seeds,tablespoon,1.0,11.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+nigella seeds,tablespoon,1.0,9.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+asafoetida,teaspoon,1.0,2.0,RESOLVED_HOUSEHOLD,Indian kitchen,PASS,Compounded
+bay leaf,piece,1.0,0.5,RESOLVED_HOUSEHOLD,USDA,PASS,
+cinnamon (stick),piece,1.0,5.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+cinnamon powder,tablespoon,1.0,7.5,RESOLVED_HOUSEHOLD,USDA,PASS,
+clove,piece,1.0,0.2,RESOLVED_HOUSEHOLD,USDA,PASS,
+cardamom (green),piece,1.0,0.6,RESOLVED_HOUSEHOLD,Indian kitchen,PASS,
+cardamom (black),piece,1.0,1.5,RESOLVED_HOUSEHOLD,Indian kitchen,PASS,
+nutmeg,teaspoon,1.0,2.2,RESOLVED_HOUSEHOLD,USDA,PASS,
+mace,teaspoon,1.0,2.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+poppy seeds,tablespoon,1.0,9.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+white sesame seeds,tablespoon,1.0,9.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+black sesame seeds,tablespoon,1.0,9.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+onion (bulb),cup,1.0,160.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+garlic,clove,1.0,3.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+ginger,tablespoon,1.0,6.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+tomato,piece,1.0,123.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+green chili,piece,1.0,7.0,RESOLVED_HOUSEHOLD,Indian kitchen,PASS,
+red chili (fresh),piece,1.0,5.0,RESOLVED_HOUSEHOLD,Indian kitchen,PASS,
+green peas (fresh),cup,1.0,145.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+carrot,cup,1.0,128.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+cauliflower,cup,1.0,100.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+cabbage,cup,1.0,89.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+potato,piece,1.0,173.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+sweet potato,piece,1.0,130.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+mango (ripe),piece,1.0,200.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+banana (ripe),piece,1.0,118.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+apple,piece,1.0,182.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+pigeon pea (toor dal),cup,1.0,200.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+green gram (split) (moong dal),cup,1.0,195.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+black gram (split) (urad dal),cup,1.0,195.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+bengal gram (split) (chana dal),cup,1.0,190.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+chickpea (kabuli),cup,1.0,164.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+red lentil (split) (masoor dal),cup,1.0,195.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+cashew,cup,1.0,137.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+almond,cup,1.0,143.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+walnut,cup,1.0,100.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+pistachio,cup,1.0,123.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+peanut (raw),cup,1.0,146.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+fresh coconut kernel,cup,1.0,80.0,RESOLVED_HOUSEHOLD,USDA,PASS,
+dried coconut,cup,1.0,93.0,RESOLVED_HOUSEHOLD,USDA,PASS,

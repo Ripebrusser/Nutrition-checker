@@ -1,0 +1,34 @@
+recipe_id,normalized_ingredient,source_reconciliation,raw_match,en_match,discrepancy_flag,has_raw,has_en,raw_match_detail,en_match_detail
+1,1 onion (bulb) - thinly sliced,canonical,True,True,False,True,True,True,True
+1,1 tablespoon amchur (dry mango (ripe) powder),canonical,True,True,False,True,True,True,True
+1,1 tablespoon coriander powder (dhania),canonical,True,True,False,True,True,True,True
+1,1 tablespoon red chilli powder,canonical,True,True,False,True,True,True,True
+1,2 teaspoons cumin seeds (jeera),canonical,True,True,False,True,True,True,True
+1,2 teaspoons turmeric powder (haldi),canonical,True,True,False,True,True,True,True
+1,3 tablespoon gram flour (besan),canonical,True,True,False,True,True,True,True
+1,6 karela (bitter gourd/ pavakkai) - deseeded,canonical,True,True,False,True,True,True,True
+1,salt - to taste,canonical,True,True,False,True,True,True,True
+1,sunflower oil - as required,canonical,True,True,False,True,True,True,True
+2,1-1 / 2 cups rice - cooked,en_only,False,True,True,False,True,False,True
+2,1/2 teaspoon cumin seeds,en_only,False,True,True,False,True,False,True
+2,1 teaspoon chickpea lentils,en_only,False,True,True,False,True,False,True
+2,1-1 / 2 tablespoon oil - 1/2 teaspoon asafoetida,en_only,False,True,True,False,True,False,True
+2,1 teaspoon white urad dal,en_only,False,True,True,False,True,False,True
+2,2-1 / 2 cups rice - cooked,raw_only,True,False,True,True,False,True,False
+2,3 teaspoons bc belle bhat powder,en_only,False,True,True,False,True,False,True
+2,3 tomatoes,en_only,False,True,True,False,True,False,True
+2,3 tsp mustard,en_only,False,True,True,False,True,False,True
+2,3 small dried red chilli,en_only,False,True,True,False,True,False,True
+2,1 tsp cumin seeds,en_only,False,True,True,False,True,False,True
+3,1-1/2 cups rice vermicelli noodles (thin),canonical,True,True,False,True,True,True,True
+3,1/2 cup carrots (gajjar) - chopped,canonical,True,True,False,True,True,True,True
+3,1/3 cup green peas (fresh) (matar),canonical,True,True,False,True,True,True,True
+3,1 onion (bulb) - sliced,canonical,True,True,False,True,True,True,True
+3,1 sprig curry leaves,raw_only,True,False,True,True,False,True,False
+3,1 tsp asafoetida (hing),canonical,True,True,False,True,True,True,True
+3,1 tsp ghee,canonical,True,True,False,True,True,True,True
+3,1 tsp lemon juice,raw_only,True,False,True,True,False,True,False
+3,1 tsp mustard seeds,canonical,True,True,False,True,True,True,True
+3,2 green chillies,canonical,True,True,False,True,True,True,True
+3,1/2 cup carrots (gajjar) - chopped,canonical,True,True,False,True,True,True,True
+3,1/3 cup green peas (fresh) (matar),canonical,True,True,False,True,True,True,True

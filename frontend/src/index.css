@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  body {
+    @apply bg-neutral-50 text-neutral-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-600 rounded-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-neutral-700 bg-white border border-neutral-300 rounded-lg hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-neutral-700 bg-transparent hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors;
+  }
+
+  .input-field {
+    @apply w-full px-3 py-2 text-sm text-neutral-900 bg-white border border-neutral-300 rounded-lg placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-neutral-700 mb-1;
+  }
+
+  .card {
+    @apply bg-white rounded-xl border border-neutral-200 shadow-card overflow-hidden;
+  }
+
+  .card-hover {
+    @apply transition-shadow hover:shadow-card-hover;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-success {
+    @apply bg-green-100 text-green-800;
+  }
+
+  .badge-warning {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+
+  .badge-error {
+    @apply bg-red-100 text-red-800;
+  }
+
+  .badge-info {
+    @apply bg-blue-100 text-blue-800;
+  }
+
+  .badge-gray {
+    @apply bg-neutral-100 text-neutral-800;
+  }
+
+  .input-error {
+    @apply border-red-500 focus:ring-red-500 focus:border-red-500;
+  }
+
+  .error-message {
+    @apply text-sm text-red-600 mt-1;
+  }
+
+  .page-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold text-neutral-900 mb-6;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-neutral-600 mb-4;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Custom scrollbar for webkit browsers */
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-neutral-100;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-neutral-300 rounded-full;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-neutral-400;
+  }
+}
+
+/* Toast customization */
+@layer components {
+  .toast-success {
+    @apply bg-green-50 text-green-800 border-green-200;
+  }
+  .toast-error {
+    @apply bg-red-50 text-red-800 border-red-200;
+  }
+  .toast-warning {
+    @apply bg-yellow-50 text-yellow-800 border-yellow-200;
+  }
+  .toast-info {
+    @apply bg-blue-50 text-blue-800 border-blue-200;
+  }
+}
+
+/* Focus visible for accessibility */
+@layer utilities {
+  .focus-visible-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2;
+  }
+}
+
+/* Animation */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}

@@ -1,0 +1,171 @@
+dataset,entity,field,type,missing_pct,unique_values,description,ml_role,notes
+recipes.parquet,recipe,recipe_id,int64,0%,6865,Unique recipe identifier,entity_key,Primary key
+recipes.parquet,recipe,recipe_name_original,string,0%,6865,Original recipe name,text_feature,Raw text
+recipes.parquet,recipe,recipe_name_en,string,0%,6865,English recipe name,text_feature,Cleaned text
+recipes.parquet,recipe,ingredients_raw,string,0%,6865,Raw ingredient text,text_feature,Raw ingredient text
+recipes.parquet,recipe,ingredients_en,string,0%,6865,English ingredients,text_feature,Normalized ingredient text
+recipes.parquet,recipe,prep_time_min,int64,0%,-,Preparation time (minutes),numeric_feature,Some outliers (max 2880)
+recipes.parquet,recipe,cook_time_min,int64,0%,-,Cook time (minutes),numeric_feature,Some outliers (max 900)
+recipes.parquet,recipe,total_time_min,int64,0%,-,Total time (minutes),numeric_feature,Derived from prep+cook
+recipes.parquet,recipe,servings,int64,0%,-,Number of servings,numeric_feature,High variance (mean 5.6, max 1000)
+recipes.parquet,recipe,recipe_type,string,0%,4 (main, dessert, prep, condiment),Recipe category,categorical_feature,Main=6096, dessert=643
+recipes.parquet,recipe,cuisine,string,0%,75,Recipe cuisine,categorical_feature,High cardinality (Indian 1157, Continental 1020, etc.)
+recipes.parquet,recipe,course,string,0%,10,Meal course,categorical_feature,Lunch 1764, Side Dish 993, Snack 877
+recipes.parquet,recipe,diet_labels,string,0%,20 types,Dietary labels,multi_label_categorical,Vegetarian 4696, High Protein Veg 699, etc.
+recipes.parquet,recipe,instructions_raw,string,0%,6865,Raw instructions,text_feature,Raw text
+recipes.parquet,recipe,instructions_en,string,0%,6865,English instructions,text_feature,Cleaned instructions
+recipes.parquet,recipe,source_url,string,0%,-,Source URL,metadata,Archana's Kitchen domain
+recipes.parquet,recipe,source_domain,string,0%,1,Source domain,metadata,All archanaskitchen.com
+recipes.parquet,recipe,created_at,string,0%,-,Creation timestamp,metadata,Not for ML
+recipes.parquet,recipe,updated_at,string,0%,-,Update timestamp,metadata,Not for ML
+indb_foods.parquet,food,food_code,string,0%,1014,INDB food code,entity_key,Primary key
+indb_foods.parquet,food,food_name,string,0%,1014,Food name,text_feature,Food name
+indb_parquet,food,primary_source,string,0%,-,Data source,metadata,Source tracking
+indb_parquet,food,serving_unit,string,9.6%,-,Serving unit,metadata,97 nulls
+indb_parquet,food,missing_serving_data,bool,0%,-,Missing serving flag,boolean_feature,Flag
+indb_parquet,food,nutrient_completeness_100g,int64,0%,-,Completeness score,metadata,Completeness indicator
+indb_parquet,food,calcium_mg_100g,float64,0%,-,Calcium per 100g,numeric_feature,Core nutrient
+indb_parquet,food,carbohydrate_g_100g,float64,0%,-,Carbohydrate per 100g,numeric_feature,Core nutrient
+indb_parquet,food,carotenoids_ug_100g,float64,0%,-,Carotenoids per 100g,numeric_feature,Core nutrient
+indb_parquet,food,cholesterol_mg_100g,float64,0%,-,Cholesterol per 100g,numeric_feature,Core nutrient
+indb_parquet,food,chromium_mg_100g,float64,0%,-,Chromium per 100g,numeric_feature,Core nutrient
+indb_parquet,food,copper_mg_100g,float64,0%,-,Copper per 100g,numeric_feature,Core nutrient
+indb_parquet,food,energy_kcal_100g,float64,0%,-,Energy kcal per 100g,numeric_feature,Core nutrient
+indb_parquet,food,energy_kj_100g,float64,0%,-,Energy kJ per 100g,numeric_feature,Core nutrient
+indb_parquet,food,fat_g_100g,float64,0%,-,Fat per 100g,numeric_feature,Core nutrient
+indb_parquet,food,fibre_g_100g,float64,0%,-,Fibre per 100g,numeric_feature,Core nutrient
+indb_parquet,food,folate_ug_100g,float64,0%,-,Folate per 100g,numeric_feature,Core nutrient
+indb_parquet,food,free_sugar_g_100g,float64,0%,-,Free sugar per 100g,numeric_feature,Core nutrient
+indb_parquet,food,iron_mg_100g,float64,0%,-,Iron per 100g,numeric_feature,Core nutrient
+indb_parquet,food,magnesium_mg_100g,float64,0%,-,Magnesium per 100g,numeric_feature,Core nutrient
+indb_parquet,food,manganese_mg_100g,float64,0%,-,Manganese per 100g,numeric_feature,Core nutrient
+indb_parquet,food,molybdenum_mg_100g,float64,0%,-,Molybdenum per 100g,numeric_feature,Core nutrient
+indb_parquet,food,mufa_mg_100g,float64,0%,-,MUFA per 100g,numeric_feature,Core nutrient
+indb_parquet,food,phosphorus_mg_100g,float64,0%,-,Phosphorus per 100g,numeric_feature,Core nutrient
+indb_parquet,food,potassium_mg_100g,float64,0%,-,Potassium per 100g,numeric_feature,Core nutrient
+indb_parquet,food,protein_g_100g,float64,0%,-,Protein per 100g,numeric_feature,Core nutrient
+indb_parquet,food,pufa_mg_100g,float64,0%,-,PUFA per 100g,numeric_feature,Core nutrient
+indb_parquet,food,selenium_ug_100g,float64,0%,-,Selenium per 100g,numeric_feature,Core nutrient
+indb_parquet,food,sfa_mg_100g,float64,0%,-,SFA per 100g,numeric_feature,Core nutrient
+indb_parquet,food,sodium_mg_100g,float64,0%,-,Sodium per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_a_ug_100g,float64,0%,-,Vitamin A per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_b1_mg_100g,float64,0%,-,Vitamin B1 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_b2_mg_100g,float64,0%,-,Vitamin B2 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_b3_mg_100g,float64,0%,-,Vitamin B3 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_b5_mg_100g,float64,0%,-,Vitamin B5 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_b6_mg_100g,float64,0%,-,Vitamin B6 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_b7_ug_100g,float64,0%,-,Vitamin B7 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_b9_ug_100g,float64,0%,-,Vitamin B9 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_c_mg_100g,float64,0%,-,Vitamin C per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_d2_ug_100g,float64,0%,-,Vitamin D2 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_d3_ug_100g,float64,0%,-,Vitamin D3 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_e_mg_100g,float64,0%,-,Vitamin E per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_k1_ug_100g,float64,0%,-,Vitamin K1 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,vitamin_k2_ug_100g,float64,0%,-,Vitamin K2 per 100g,numeric_feature,Core nutrient
+indb_parquet,food,zinc_mg_100g,float64,0%,-,Zinc per 100g,numeric_feature,Core nutrient
+ifct_table1_candidate.parquet,food,food_code,string,0%,528,IFCT food code,entity_key,Primary key
+ifct_table1_candidate.parquet,food,food_name,string,0%,528,IFCT food name,text_feature,Food name
+ifct_table1_candidate.parquet,food,regions,int64,0%,-,Region count,metadata,Region info
+ifct_table1_candidate.parquet,food,food_group,string,0%,18,IFCT food group,categorical_feature,18 groups (Marine Fish 92, etc.)
+ifct_table1_candidate.parquet,food,source_page,int64,0%,-,Source page,metadata,Page reference
+ifct_table1_candidate.parquet,food,source_table,int64,0%,-,Source table,metadata,Table reference
+ifct_table1_candidate.parquet,food,extraction_method,string,0%,auto/manual,Extraction method,metadata,Auto vs manual
+ifct_table1_candidate.parquet,food,verification_status,string,0%,auto/manual,Verification status,metadata,Auto vs manual
+ifct_table1_candidate.parquet,food,manual_recovery,bool,0%,-,Manual recovery flag,boolean_feature,Flag
+ifct_table1_candidate.parquet,food,moisture_g,string,0%,-,Moisture per 100g,numeric_feature,Core nutrient (string format)
+ifct_table1_candidate.parquet,food,protein_g,string,0%,-,Protein per 100g,numeric_feature,Core nutrient (string format)
+ifct_table1_candidate.parquet,food,ash_g,string,0%,-,Ash per 100g,numeric_feature,Core nutrient (string format)
+ifct_table1_candidate.parquet,food,fat_g,string,0%,-,Fat per 100g,numeric_feature,Core nutrient (string format)
+ifct_table1_candidate.parquet,food,fibre_total_g,string,42.0%,-,Total fibre per 100g,numeric_feature,42% missing (222/528)
+ifct_table1_candidate.parquet,food,fibre_insoluble_g,string,42.0%,-,Insoluble fibre per 100g,numeric_feature,42% missing
+ifct_table1_candidate.parquet,food,fibre_soluble_g,string,42.0%,-,Soluble fibre per 100g,numeric_feature,42% missing
+ifct_table1_candidate.parquet,food,carb_available_g,string,42.0%,-,Available carb per 100g,numeric_feature,42% missing
+ifct_table1_candidate.parquet,food,energy_kj,string,0%,-,Energy kJ per 100g,numeric_feature,Core nutrient (string format)
+normalized_ingredients.parquet,ingredient_line,recipe_id,int64,0%,6865,Recipe foreign key,entity_key,FK to recipes
+normalized_ingredients.parquet,ingredient_line,source_line,string,0%,-,Source line text,metadata,Original line
+normalized_ingredients.parquet,ingredient_line,source_ingredient,string,0%,-,Original ingredient text,metadata,Raw
+normalized_ingredients.parquet,ingredient_line,normalized_ingredient,string,0%,-,Normalized ingredient,text_feature,Normalized form
+normalized_ingredients.parquet,ingredient_line,transformations,string,0%,-,Applied transformations,metadata,Transformation log
+normalized_ingredients.parquet,ingredient_line,synonym_applied,string,55.6%,-,Synonym applied,text_feature,55.6% missing (no match)
+normalized_ingredients.parquet,ingredient_line,synonym_confidence,float64,55.6%,-,Synonym confidence,numeric_feature,55.6% missing
+normalized_ingredients.parquet,ingredient_line,flags,string,0%,-,Processing flags,metadata,Processing flags
+normalized_ingredients.parquet,ingredient_line,timestamp,string,0%,-,Timestamp,metadata,Not for ML
+parsed_recipe_ingredients.parquet,ingredient_line,recipe_id,int64,0%,6865,Recipe foreign key,entity_key,FK to recipes
+parsed_recipe_ingredients.parquet,ingredient_line,normalized_ingredient,string,0%,-,Normalized ingredient,text_feature,FK to normalized
+parsed_recipe_ingredients.parquet,ingredient_line,source_reconciliation,string,0%,canonical/estimated,Source reconciliation,categorical_feature,Canonical vs estimated
+parsed_recipe_ingredients.parquet,ingredient_line,raw_match,bool,0%,True/False,Raw match flag,boolean_feature,Match status
+parsed_recipe_ingredients.parquet,ingredient_line,en_match,bool,0%,True/False,English match flag,boolean_feature,Match status
+parsed_recipe_ingredients.parquet,ingredient_line,discrepancy_flag,bool,0%,True/False,Discrepancy flag,boolean_feature,Flag
+parsed_recipe_ingredients.parquet,ingredient_line,source_field,string,0%,ingredients_raw,Source field,metadata,Source
+parsed_recipe_ingredients.parquet,ingredient_line,original_line,string,0%,-,Original line text,metadata,Raw line
+parsed_recipe_ingredients.parquet,ingredient_line,original_ingredient,string,0%,-,Original ingredient text,metadata,Raw
+parsed_recipe_ingredients.parquet,ingredient_line,quantity,object,12.9%,-,Parsed quantity,structured_feature,JSON-like object
+parsed_recipe_ingredients.parquet,ingredient_line,unit,object,28.6%,-,Parsed unit,structured_feature,JSON-like object
+parsed_recipe_ingredients.parquet,ingredient_line,ingredient_name,string,0%,13049,Parsed ingredient name,text_feature,Normalized name
+parsed_recipe_ingredients.parquet,ingredient_line,preparation,string,68.6%,-,Preparation description,text_feature,68.6% missing
+parsed_recipe_ingredients.parquet,ingredient_line,size_descriptor,string,98.9%,-,Size descriptor,text_feature,98.9% missing
+parsed_recipe_ingredients.parquet,ingredient_line,parse_status,string,0%,4 (EXACT, APPROX, UNQUANTIFIED, RANGE),Parse status,categorical_feature,EXACT 54903, APPROX 29980
+parsed_recipe_ingredients.parquet,ingredient_line,conversion_status,string,0%,2 (RESOLVED_HOUSEHOLD, UNRESOLVED),Conversion status,categorical_feature,RESOLVED 1337, UNRESOLVED 89525
+parsed_recipe_ingredients.parquet,ingredient_line,gram_weight,float64,98.5%,-,Gram weight per serving,numeric_feature/TARGET,ONLY 1.4% COVERAGE (1299/90862)
+parsed_recipe_ingredients.parquet,ingredient_line,gram_weight_min,float64,99.9%,-,Gram weight min,numeric_feature,Almost entirely missing
+parsed_recipe_ingredients.parquet,ingredient_line,gram_weight_max,float64,99.9%,-,Gram weight max,numeric_feature,Almost entirely missing
+parsed_recipe_ingredients.parquet,ingredient_line,transformations,object,0%,-,Transformations log,metadata,Processing log
+parsed_recipe_ingredients.parquet,ingredient_line,flags,object,0%,-,Processing flags,metadata,Processing flags
+parsed_recipe_ingredients.parquet,ingredient_line,timestamp,string,0%,-,Timestamp,metadata,Not for ML
+ifct_match_candidates.parquet,candidate,recipe_id,int64,0%,6232,Recipe foreign key,entity_key,FK to recipes
+ifct_match_candidates.parquet,candidate,original_ingredient,string,0%,-,Original ingredient text,metadata,Raw
+ifct_match_candidates.parquet,candidate,normalized_ingredient,string,0%,-,Normalized ingredient,text_feature,Normalized
+ifct_match_candidates.parquet,candidate,primary_ingredient,string,0%,2725,Primary ingredient name,text_feature,Normalized primary
+ifct_match_candidates.parquet,candidate,parenthetical_text,string,0%,-,Parenthetical content,text_feature,Extracted parenthetical
+ifct_match_candidates.parquet,candidate,extracted_aliases,string,0%,-,Extracted aliases,metadata,JSON-like
+ifct_match_candidates.parquet,candidate,preparation_state,string,0%,15 states,Preparation state,categorical_feature,NOT_SPECIFIED 80502, POWDERED 18670
+ifct_match_candidates.parquet,candidate,preparation_confidence,float64,0%,-,Prep state confidence,numeric_feature,Confidence score
+ifct_match_candidates.parquet,candidate,ambiguity_flags,string,0%,-,Ambiguity flags,metadata,Flags
+ifct_match_candidates.parquet,candidate,alias_extraction_status,string,0%,-,Alias extraction status,metadata,Status
+ifct_match_candidates.parquet,candidate,source_field,string,0%,ingredients_raw,Source field,metadata,Source
+ifct_match_candidates.parquet,candidate,ifct_food_code,string,0%,340,IFCT food code,entity_key,FK to IFCT
+ifct_match_candidates.parquet,candidate,ifct_food_name,string,0%,-,IFCT food name,text_feature,IFCT name
+ifct_match_candidates.parquet,candidate,ifct_food_group,string,0%,15 groups,IFCT food group,categorical_feature,15 groups
+ifct_match_candidates.parquet,candidate,match_method,string,0%,4 (EXACT, SYNONYM, TOKEN_EQUIV, TOKEN_SIM),Match method,categorical_feature,TOKEN_SIM 100658, EXACT 7583
+ifct_match_candidates.parquet,candidate,similarity_score,float64,0%,-,Similarity score,numeric_feature,0-1 range
+ifct_match_candidates.parquet,candidate,evidence,object,0%,-,Match evidence,metadata,JSON evidence
+ifct_match_candidates.parquet,candidate,food_group_compat,float64,0%,-,Food group compatibility,numeric_feature,Compatibility score
+ifct_match_candidates.parquet,candidate,prep_state_compat,float64,0%,-,Prep state compatibility,numeric_feature,Compatibility score
+ifct_match_candidates.parquet,candidate,taxonomy_category,string,0%,-,Taxonomy category,metadata,Category
+ifct_match_candidates.parquet,candidate,provisional_confidence,string,0%,3 (LOW, MEDIUM, HIGH),Provisional confidence,categorical_feature,LOW 100625, HIGH 14866
+ifct_match_candidates.parquet,candidate,requires_review,bool,0%,True/False,Requires human review,boolean_feature,True 119470, False 4
+ifct_match_candidates.parquet,candidate,acceptance_evidence,object,0%,-,Acceptance evidence,metadata,Evidence
+disambiguated_ingredients.parquet,ingredient,original_ingredient,string,0%,-,Original ingredient,metadata,Raw
+disambiguated_ingredients.parquet,ingredient,normalized_ingredient,string,0%,-,Normalized ingredient,text_feature,Normalized
+disambiguated_ingredients.parquet,ingredient,primary_ingredient,string,0%,-,Primary ingredient,text_feature,Normalized primary
+disambiguated_ingredients.parquet,ingredient,parenthetical_text,string,0%,-,Parenthetical text,text_feature,Extracted
+disambiguated_ingredients.parquet,ingredient,extracted_aliases,object,0%,-,Extracted aliases,metadata,JSON-like
+disambiguated_ingredients.parquet,ingredient,parentheses_balanced,bool,0%,True/False,Parentheses balanced,boolean_feature,Flag
+disambiguated_ingredients.parquet,ingredient,alias_extraction_status,string,0%,-,Alias extraction status,metadata,Status
+disambiguated_ingredients.parquet,ingredient,preparation_state,string,0%,15 states,Preparation state,categorical_feature,Same as match candidates
+disambiguated_ingredients.parquet,ingredient,preparation_confidence,float64,0%,-,Prep confidence,numeric_feature,Confidence
+disambiguated_ingredients.parquet,ingredient,ambiguity_flags,object,0%,-,Ambiguity flags,metadata,Flags
+disambiguated_ingredients.parquet,ingredient,recipe_id,int64,0%,6232,Recipe foreign key,entity_key,FK to recipes
+disambiguated_ingredients.parquet,ingredient,source_field,string,0%,ingredients_raw,Source field,metadata,Source
+unmatched_ingredients.parquet,ingredient_line,recipe_id,int64,0%,-,Recipe foreign key,entity_key,FK to recipes
+unmatched_ingredients.parquet,ingredient_line,normalized_ingredient,string,0%,-,Normalized ingredient,text_feature,Normalized
+unmatched_ingredients.parquet,ingredient_line,source_reconciliation,string,0%,-,Source reconciliation,categorical_feature,Canonical/estimated
+unmatched_ingredients.parquet,ingredient_line,raw_match,bool,0%,True/False,Raw match,boolean_feature,Flag
+unmatched_ingredients.parquet,ingredient_line,en_match,bool,0%,True/False,English match,boolean_feature,Flag
+unmatched_ingredients.parquet,ingredient_line,discrepancy_flag,bool,0%,True/False,Discrepancy,boolean_feature,Flag
+unmatched_ingredients.parquet,ingredient_line,source_field,string,0%,ingredients_raw,Source field,metadata,Source
+unmatched_ingredients.parquet,ingredient_line,original_line,string,0%,-,Original line,metadata,Raw
+unmatched_ingredients.parquet,ingredient_line,original_ingredient,string,0%,-,Original ingredient,metadata,Raw
+unmatched_ingredients.parquet,ingredient_line,quantity,object,15.1%,-,Quantity,structured_feature,JSON-like
+unmatched_ingredients.parquet,ingredient_line,unit,object,26.3%,-,Unit,structured_feature,JSON-like
+unmatched_ingredients.parquet,ingredient_line,ingredient_name,string,0%,-,Ingredient name,text_feature,Name
+unmatched_ingredients.parquet,ingredient_line,preparation,string,74.2%,-,Preparation,text_feature,74.2% missing
+unmatched_ingredients.parquet,ingredient_line,size_descriptor,string,98.5%,-,Size descriptor,text_feature,98.5% missing
+unmatched_ingredients.parquet,ingredient_line,parse_status,string,0%,-,Parse status,categorical_feature,Status
+unmatched_ingredients.parquet,ingredient_line,conversion_status,string,0%,-,Conversion status,categorical_feature,UNRESOLVED 100%
+unmatched_ingredients.parquet,ingredient_line,gram_weight,float64,100.0%,-,Gram weight,numeric_feature,100% MISSING
+unmatched_ingredients.parquet,ingredient_line,gram_weight_min,float64,100.0%,-,Gram weight min,numeric_feature,100% MISSING
+unmatched_ingredients.parquet,ingredient_line,gram_weight_max,float64,100.0%,-,Gram weight max,numeric_feature,100% MISSING
+unmatched_ingredients.parquet,ingredient_line,transformations,object,0%,-,Transformations,metadata,Log
+unmatched_ingredients.parquet,ingredient_line,flags,object,0%,-,Flags,metadata,Flags
+unmatched_ingredients.parquet,ingredient_line,timestamp,string,0%,-,Timestamp,metadata,Not for ML

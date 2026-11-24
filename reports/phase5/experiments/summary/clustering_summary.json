@@ -1,0 +1,36 @@
+{
+  "experiment": "clustering",
+  "timestamp": "2026-11-18 21:48:43",
+  "results": {
+    "kmeans_20": {
+      "n_clusters": 20,
+      "silhouette": 0.03881615606593102,
+      "davies_bouldin": 4.110944527071672,
+      "time_seconds": 11.79548192024231
+    },
+    "kmeans_50": {
+      "n_clusters": 50,
+      "silhouette": 0.04692052997499832,
+      "davies_bouldin": 3.603378594954573,
+      "time_seconds": 26.50436520576477
+    },
+    "kmeans_100": {
+      "n_clusters": 100,
+      "silhouette": 0.041360569758703156,
+      "davies_bouldin": 3.187217695150715,
+      "time_seconds": 10.642454385757446
+    },
+    "agglomerative_20": {
+      "n_clusters": 20,
+      "silhouette": 0.017223390915969188,
+      "davies_bouldin": 4.213916207707923,
+      "time_seconds": 11.842653036117554
+    },
+    "agglomerative_50": {
+      "n_clusters": 50,
+      "silhouette": 0.02444827251427254,
+      "davies_bouldin": 3.6051171653826453,
+      "time_seconds": 9.769786357879639
+    }
+  }
+}

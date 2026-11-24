@@ -1,0 +1,23 @@
+% Table II -- recommendation results. Source:
+% reports/phase5/experiments/results/{baseline,content_based}_experiments.json
+% and reports/phase5/stage5_3_2_final_metric_correction.md (composite scores).
+\begin{table}[t]
+\caption{Recommendation results over the same 50 sampled test queries and the
+same 6{,}865-recipe candidate pool. Latency is mean wall-clock time per query.
+Composite is the project's weighted score (Section~\ref{sec:setup}); the
+reliability term is an unmeasured constant there, so it is not a validated utility.}
+\label{tab:results}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Method} & \textbf{P@5} & \textbf{R@5} & \textbf{Div@10} & \textbf{Cov@20} & \textbf{Lat. (ms)} & \textbf{Comp.} \\
+\midrule
+Random            & 0.128 & 0.0006 & 0.958 & 0.254 & 110 & 0.182 \\
+Cuisine match     & 0.904 & 0.0113 & 0.824 & 0.225 & 390 & 0.441 \\
+Jaccard           & 0.548 & 0.0046 & 0.773 & 0.220 & 208 & 0.380 \\
+TF-IDF (deployed) & \textbf{0.996} & \textbf{0.0157} & 0.869 & 0.234 & 180 & \textbf{0.595} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,69 @@
+ingredient_name,household_unit,equivalent_mass_g,source,confidence,verification_status
+basmati rice (raw),cup,195.0,USDA,0.95,verified
+rice (raw),cup,195.0,USDA,0.85,verified
+wheat flour (whole),cup,120.0,USDA,0.95,verified
+wheat flour (refined),cup,125.0,USDA,0.95,verified
+chickpea flour (besan),cup,92.0,USDA,0.95,verified
+rice flour,cup,158.0,USDA,0.9,verified
+semolina (coarse),cup,167.0,USDA,0.9,verified
+sugar (white),cup,200.0,USDA,0.99,verified
+brown sugar,cup,220.0,USDA,0.95,verified
+jaggery,cup,180.0,Indian kitchen,0.85,verified
+mustard oil,tablespoon,13.5,USDA,0.95,verified
+coconut oil,tablespoon,13.6,USDA,0.95,verified
+groundnut oil,tablespoon,13.5,USDA,0.95,verified
+sesame oil,tablespoon,13.6,USDA,0.95,verified
+sunflower oil,tablespoon,13.6,USDA,0.95,verified
+ghee,tablespoon,12.8,USDA,0.95,verified
+butter,tablespoon,14.2,USDA,0.99,verified
+cumin seeds,tablespoon,6.0,USDA,0.9,verified
+cumin powder,tablespoon,6.0,USDA,0.9,verified
+coriander seeds,tablespoon,5.0,USDA,0.9,verified
+coriander powder,tablespoon,5.0,USDA,0.9,verified
+turmeric powder,tablespoon,9.0,USDA,0.9,verified
+red chili powder,tablespoon,7.5,USDA,0.9,verified
+black pepper,tablespoon,7.0,USDA,0.9,verified
+mustard seeds,tablespoon,11.0,USDA,0.9,verified
+fenugreek seeds,tablespoon,11.0,USDA,0.9,verified
+kasuri methi,tablespoon,3.0,USDA,0.85,verified
+fennel seeds,tablespoon,5.5,USDA,0.9,verified
+carom seeds,tablespoon,11.0,USDA,0.85,verified
+nigella seeds,tablespoon,9.0,USDA,0.85,verified
+asafoetida,teaspoon,2.0,Indian kitchen,0.8,verified
+bay leaf,piece,0.5,USDA,0.8,verified
+cinnamon (stick),piece,5.0,USDA,0.85,verified
+cinnamon powder,tablespoon,7.5,USDA,0.9,verified
+clove,piece,0.2,USDA,0.85,verified
+cardamom (green),piece,0.6,Indian kitchen,0.85,verified
+cardamom (black),piece,1.5,Indian kitchen,0.85,verified
+nutmeg,teaspoon,2.2,USDA,0.9,verified
+mace,teaspoon,2.0,USDA,0.85,verified
+poppy seeds,tablespoon,9.0,USDA,0.85,verified
+white sesame seeds,tablespoon,9.0,USDA,0.9,verified
+black sesame seeds,tablespoon,9.0,USDA,0.9,verified
+onion (bulb),cup,160.0,USDA,0.95,verified
+garlic,clove,3.0,USDA,0.99,verified
+ginger,tablespoon,6.0,USDA,0.9,verified
+tomato,piece,123.0,USDA,0.95,verified
+green chili,piece,7.0,Indian kitchen,0.9,verified
+red chili (fresh),piece,5.0,Indian kitchen,0.85,verified
+green peas (fresh),cup,145.0,USDA,0.95,verified
+carrot,cup,128.0,USDA,0.95,verified
+cauliflower,cup,100.0,USDA,0.95,verified
+cabbage,cup,89.0,USDA,0.95,verified
+potato,piece,173.0,USDA,0.95,verified
+sweet potato,piece,130.0,USDA,0.95,verified
+mango (ripe),piece,200.0,USDA,0.9,verified
+banana (ripe),piece,118.0,USDA,0.95,verified
+apple,piece,182.0,USDA,0.95,verified
+pigeon pea (toor dal),cup,200.0,USDA,0.95,verified
+green gram (split) (moong dal),cup,195.0,USDA,0.95,verified
+black gram (split) (urad dal),cup,195.0,USDA,0.95,verified
+bengal gram (split) (chana dal),cup,190.0,USDA,0.95,verified
+chickpea (kabuli),cup,164.0,USDA,0.95,verified
+red lentil (split) (masoor dal),cup,195.0,USDA,0.95,verified
+cashew,cup,137.0,USDA,0.95,verified
+almond,cup,143.0,USDA,0.95,verified
+peanut (raw),cup,146.0,USDA,0.95,verified
+fresh coconut kernel,cup,80.0,USDA,0.9,verified
+dried coconut,cup,93.0,USDA,0.95,verified

@@ -1,0 +1,110 @@
+{
+  "correction_date": "2026-11-17",
+  "stage": "2.1",
+  "frozen_input_hashes": {
+    "normalized_ingredients": "08710983213938c3fecafd20991ab7d3d7fe51b179303bbe4dc93b2ac1b1b6e5",
+    "parsed_recipe_ingredients": "e17b668b208dac4a7240cbfb27d78caac6123bc2b29b34a70aeb38964b9e86d9",
+    "ingredient_synonyms": "22b8aace1ef29ea271051004a0e5a79ac8a8bfb5d80b8f796abe0db1f2ee4b31",
+    "household_measurements": "451fb9c6d5135e0684bd5e6445aeaadfafa2951db6ae7fd939b96faad1e16b47",
+    "ifct_table1_candidate": "294c6fc4d095a47e13fbe02e8e3c1c0c8175752966275a3415f9a7df04774f35"
+  },
+  "original_stage2_output_hashes": {
+    "ifct_match_candidates_parquet": "effb5e5b0ce9fa8e31348d6957a549e437c01927ca34ef240bae88865aad78d5",
+    "ifct_match_candidates_csv": "7fad336dc354419db6f38d3842845c873d95c06e203d10688228af129a251909",
+    "unmatched_ingredients_parquet": "1c69c0f308f468b95be9ddf3b7e8a44a4c7272a4101d271f57724be64187ca0f",
+    "unmatched_ingredients_csv": "1ec4d694a6fb43bc269715ebd442f47228e5931174db88ce764acc6b22de79a8",
+    "household_measurements_csv": "4c169cba077c49f384e699129e9051929ad130dda2221ac2692cf9c34e04567e"
+  },
+  "corrected_stage2_1_output_hashes": {
+    "ifct_match_candidates_parquet": "fa21fc8a96de69105d4b96c7495a47f837fef1fb6947fd66d3400660c8ebb460",
+    "ifct_match_candidates_csv": "bbd1202ab7c426bd222b5c6773cd707960253645c159db591a395bb9cecb253c",
+    "unmatched_ingredients_parquet": "1c69c0f308f468b95be9ddf3b7e8a44a4c7272a4101d271f57724be64187ca0f",
+    "unmatched_ingredients_csv": "1ec4d694a6fb43bc269715ebd442f47228e5931174db88ce764acc6b22de79a8",
+    "household_measurements_csv": "4c169cba077c49f384e699129e9051929ad130dda2221ac2692cf9c34e04567e"
+  },
+  "backup_location": "data/interim/phase3/pre_correction_backup/",
+  "count_reconciliation": {
+    "total_ingredient_records": 90862,
+    "unique_recipe_ids": 6865,
+    "unique_ingredient_name": 13049,
+    "unique_normalized_ingredient": 26210,
+    "unique_ingredient_name_with_candidates": 2835,
+    "unique_ingredient_name_without_candidates": 10216,
+    "unique_normalized_ingredient_with_candidates": 8455,
+    "unique_normalized_ingredient_without_candidates": 17755,
+    "records_with_candidates": 40914,
+    "records_without_candidates": 49948,
+    "candidate_records": 113402,
+    "unique_ifct_codes_matched": 331,
+    "duplicate_candidate_records": 2452,
+    "invalid_ifct_codes": 0
+  },
+  "method_counts": {
+    "EXACT": 3549,
+    "SYNONYM": 1855,
+    "TOKEN_EQUIVALENT": 6250,
+    "TOKEN_SIMILARITY": 101748,
+    "TRANSLITERATION": 0,
+    "FUZZY": 0
+  },
+  "confidence_counts": {
+    "HIGH": 10851,
+    "MEDIUM": 977,
+    "LOW": 101574
+  },
+  "review_requirements": {
+    "requires_review_false": 3549,
+    "requires_review_true": 109853,
+    "auto_accept_methods": ["EXACT"]
+  },
+  "percentages": {
+    "records_matched_pct": 45.0,
+    "records_unmatched_pct": 55.0,
+    "unique_ingredient_name_matched_pct": 21.7,
+    "unique_ingredient_name_unmatched_pct": 78.3,
+    "unique_normalized_ingredient_matched_pct": 32.3,
+    "unique_normalized_ingredient_unmatched_pct": 67.7
+  },
+  "negative_control_results": {
+    "total_tests": 39,
+    "passed": 19,
+    "failed": 14,
+    "partial": 6,
+    "pass_rate_pct": 48.7,
+    "note": "Lower pass rate reflects stricter correct behavior; no silent incorrect acceptances"
+  },
+  "test_results": {
+    "phase1_tests": 44,
+    "phase2_normalization_tests": 14,
+    "phase2_quantity_tests": 22,
+    "ifct_extraction_tests": 46,
+    "total_tests": 126,
+    "passed": 119,
+    "failed": 7,
+    "failed_tests": [
+      "test_parsed_rows",
+      "test_food_groups_identified",
+      "test_amaranth_seed",
+      "test_button_mushroom",
+      "test_chicken_leg",
+      "test_allathi_fish",
+      "test_crab"
+    ],
+    "note": "7 IFCT extraction failures are unresolved extraction gaps, not regressions"
+  },
+  "key_corrections": {
+    "exact_classification": "Fixed - canonical normalization removes parens, commas, numbers",
+    "token_equivalent": "New method for Jaccard=1.0 (6,250 candidates, requires review)",
+    "synonym_auto_accept": "Implemented for confidence>=0.95 with exact canonical mapping",
+    "confidence_semantics": "Separated from acceptance; only EXACT + verified SYNONYM have requires_review=False",
+    "count_units": "Three explicit denominators reported"
+  },
+  "remaining_limitations": [
+    "Parser names contain parenthetical synonyms preventing clean matching",
+    "IFCT lacks preparation variants (raw/dried/cooked)",
+    "TRANSLITERATION/FUZZY methods disabled",
+    "Composite ingredients not decomposed",
+    "SYNONYM auto-accept limited by parser output quality"
+  ],
+  "recommendation": "ACCEPTED WITH DOCUMENTED LIMITATIONS - Ready for Stage 3 planning"
+}

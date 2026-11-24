@@ -1,0 +1,16 @@
+{
+  "experiment": "baseline_comparison",
+  "random_seed": 42,
+  "k_values": [
+    5,
+    10,
+    20
+  ],
+  "eval_queries": 50,
+  "methods": [
+    "random",
+    "cuisine_match",
+    "jaccard"
+  ],
+  "timestamp": "2026-11-18 21:45:59"
+}

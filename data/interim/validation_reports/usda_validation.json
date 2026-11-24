@@ -1,0 +1,149 @@
+{
+  "dataset": "USDA_FoodData_Central",
+  "source_dir": "C:\\Users\\Sachin\\OneDrive\\Documents\\ML_proj\\datasets",
+  "validation_timestamp": "2026-11-15T03:21:33.586018Z",
+  "checks": {
+    "food": {
+      "rows": 87990,
+      "columns": [
+        "fdc_id",
+        "data_type",
+        "description",
+        "food_category_id",
+        "publication_date"
+      ],
+      "fdc_id_unique": true,
+      "missing_description": 8,
+      "missing_food_category_id": 3811,
+      "data_type_counts": {
+        "sub_sample_food": 75055,
+        "market_acquisition": 7577,
+        "sample_food": 4079,
+        "agricultural_acquisition": 810,
+        "foundation_food": 469
+      }
+    },
+    "nutrient": {
+      "rows": 477,
+      "columns": [
+        "id",
+        "name",
+        "unit_name",
+        "nutrient_nbr",
+        "rank"
+      ],
+      "id_unique": true,
+      "unit_name_counts": {
+        "G": 205,
+        "MG": 186,
+        "UG": 70,
+        "KCAL": 3,
+        "IU": 3,
+        "UMOL_TE": 3,
+        "MCG_RE": 2,
+        "PH": 1,
+        "SP_GR": 1,
+        "kJ": 1
+      }
+    },
+    "food_nutrient_sample": {
+      "sample_rows": 10000,
+      "columns": [
+        "id",
+        "fdc_id",
+        "nutrient_id",
+        "amount",
+        "data_points",
+        "derivation_id",
+        "min",
+        "max",
+        "median",
+        "footnote",
+        "min_year_acquired"
+      ],
+      "unique_fdc_id_sample": 1706,
+      "unique_nutrient_id_sample": 178,
+      "missing_amount": 1,
+      "derivation_id_counts": {
+        "1.0": 9853,
+        "4.0": 105,
+        "49.0": 41
+      },
+      "full_row_count_estimate": 170469
+    },
+    "measure_unit": {
+      "rows": 123,
+      "columns": [
+        "id",
+        "name"
+      ],
+      "sample": [
+        {
+          "id": 1000,
+          "name": "cup"
+        },
+        {
+          "id": 1001,
+          "name": "tablespoon"
+        },
+        {
+          "id": 1002,
+          "name": "teaspoon"
+        },
+        {
+          "id": 1003,
+          "name": "liter"
+        },
+        {
+          "id": 1004,
+          "name": "milliliter"
+        },
+        {
+          "id": 1005,
+          "name": "cubic inch"
+        },
+        {
+          "id": 1006,
+          "name": "cubic centimeter"
+        },
+        {
+          "id": 1007,
+          "name": "gallon"
+        },
+        {
+          "id": 1008,
+          "name": "pint"
+        },
+        {
+          "id": 1009,
+          "name": "fl oz"
+        }
+      ]
+    },
+    "food_portion": {
+      "rows": 10951,
+      "columns": [
+        "id",
+        "fdc_id",
+        "seq_num",
+        "amount",
+        "measure_unit_id",
+        "portion_description",
+        "modifier",
+        "gram_weight",
+        "data_points",
+        "footnote",
+        "min_year_acquired"
+      ],
+      "missing_fdc_id": 273,
+      "missing_gram_weight": 0,
+      "missing_portion_description": 10950,
+      "gram_weight_stats": {
+        "min": 0.9,
+        "max": 1340.0,
+        "median": 54.7
+      }
+    }
+  },
+  "overall_passed": true
+}

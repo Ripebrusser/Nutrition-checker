@@ -1,0 +1,702 @@
+{
+  "dataset": "Anuvaad_INDB_2024.11",
+  "source_file": "C:\\Users\\Sachin\\OneDrive\\Documents\\ML_proj\\datasets\\Anuvaad_INDB_2024.11.xlsx",
+  "validation_timestamp": "2026-11-15T03:21:32.785673Z",
+  "row_count": 1014,
+  "column_count": 82,
+  "checks": {
+    "pk_unique": {
+      "column": "food_code",
+      "unique_count": 1014,
+      "total_count": 1014,
+      "passed": true
+    },
+    "food_name_unique": {
+      "unique_count": 1014,
+      "total_count": 1014,
+      "passed": true
+    },
+    "missing_values": {
+      "food_code": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "food_name": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "primarysource": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "energy_kj": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "energy_kcal": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "carb_g": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "protein_g": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "fat_g": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "freesugar_g": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "fibre_g": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "sfa_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "mufa_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "pufa_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "cholesterol_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "calcium_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "phosphorus_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "magnesium_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "sodium_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "potassium_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "iron_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "copper_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "selenium_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "chromium_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "manganese_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "molybdenum_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "zinc_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vita_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vite_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitd2_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitd3_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitk1_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitk2_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "folate_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitb1_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitb2_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitb3_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitb5_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitb6_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitb7_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitb9_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "vitc_mg": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "carotenoids_ug": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "servings_unit": {
+        "count": 97,
+        "pct": 9.57
+      },
+      "unit_serving_energy_kj": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_energy_kcal": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_carb_g": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_protein_g": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_fat_g": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_freesugar_g": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_fibre_g": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_sfa_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_mufa_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_pufa_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_cholesterol_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_calcium_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_phosphorus_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_magnesium_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_sodium_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_potassium_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_iron_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_copper_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_selenium_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_chromium_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_manganese_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_molybdenum_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_zinc_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vita_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vite_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitd2_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitd3_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitk1_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitk2_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_folate_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitb1_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitb2_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitb3_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitb5_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitb6_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitb7_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitb9_ug": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_vitc_mg": {
+        "count": 82,
+        "pct": 8.09
+      },
+      "unit_serving_carotenoids_ug": {
+        "count": 82,
+        "pct": 8.09
+      }
+    },
+    "per_serving_missing_pattern": {
+      "serving_columns_count": 39,
+      "rows_missing_all_serving": 82,
+      "missing_row_food_codes": [
+        "ASC071",
+        "ASC072",
+        "ASC073",
+        "ASC074",
+        "ASC075",
+        "ASC076",
+        "ASC077",
+        "ASC078",
+        "ASC130",
+        "ASC131",
+        "ASC132",
+        "ASC266",
+        "ASC267",
+        "ASC268",
+        "ASC388",
+        "ASC394",
+        "ASC406",
+        "ASC410",
+        "ASC428",
+        "ASC434",
+        "ASC436",
+        "ASC437",
+        "ASC438",
+        "ASC475",
+        "ASC476",
+        "ASC477",
+        "ASC479",
+        "ASC480",
+        "ASC481",
+        "ASC484",
+        "ASC485",
+        "ASC486",
+        "ASC487",
+        "ASC489",
+        "ASC490",
+        "ASC492",
+        "ASC493",
+        "ASC494",
+        "ASC495",
+        "ASC496",
+        "ASC497",
+        "ASC498",
+        "ASC499",
+        "ASC500",
+        "ASC501",
+        "ASC502",
+        "ASC503",
+        "ASC504",
+        "ASC505",
+        "ASC506",
+        "ASC507",
+        "ASC509",
+        "ASC511",
+        "ASC512",
+        "ASC513",
+        "ASC514",
+        "ASC515",
+        "BFP001",
+        "BFP002",
+        "BFP003",
+        "BFP004",
+        "BFP005",
+        "BFP095",
+        "BFP096",
+        "BFP097",
+        "BFP163",
+        "BFP164",
+        "BFP166",
+        "BFP167",
+        "BFP168",
+        "BFP169",
+        "BFP360",
+        "BFP583",
+        "BFP585",
+        "BFP589",
+        "BFP595",
+        "BFP597",
+        "BFP598",
+        "BFP599",
+        "BFP601",
+        "BFP602",
+        "OSR082"
+      ],
+      "consistent_across_columns": true,
+      "passed": true
+    },
+    "nutrient_columns": {
+      "per_100g_count": 39,
+      "per_serving_count": 39,
+      "per_100g_columns": [
+        "energy_kj",
+        "energy_kcal",
+        "carb_g",
+        "protein_g",
+        "fat_g",
+        "freesugar_g",
+        "fibre_g",
+        "sfa_mg",
+        "mufa_mg",
+        "pufa_mg",
+        "cholesterol_mg",
+        "calcium_mg",
+        "phosphorus_mg",
+        "magnesium_mg",
+        "sodium_mg",
+        "potassium_mg",
+        "iron_mg",
+        "copper_mg",
+        "selenium_ug",
+        "chromium_mg",
+        "manganese_mg",
+        "molybdenum_mg",
+        "zinc_mg",
+        "vita_ug",
+        "vite_mg",
+        "vitd2_ug",
+        "vitd3_ug",
+        "vitk1_ug",
+        "vitk2_ug",
+        "folate_ug",
+        "vitb1_mg",
+        "vitb2_mg",
+        "vitb3_mg",
+        "vitb5_mg",
+        "vitb6_mg",
+        "vitb7_ug",
+        "vitb9_ug",
+        "vitc_mg",
+        "carotenoids_ug"
+      ],
+      "per_serving_columns": [
+        "unit_serving_energy_kj",
+        "unit_serving_energy_kcal",
+        "unit_serving_carb_g",
+        "unit_serving_protein_g",
+        "unit_serving_fat_g",
+        "unit_serving_freesugar_g",
+        "unit_serving_fibre_g",
+        "unit_serving_sfa_mg",
+        "unit_serving_mufa_mg",
+        "unit_serving_pufa_mg",
+        "unit_serving_cholesterol_mg",
+        "unit_serving_calcium_mg",
+        "unit_serving_phosphorus_mg",
+        "unit_serving_magnesium_mg",
+        "unit_serving_sodium_mg",
+        "unit_serving_potassium_mg",
+        "unit_serving_iron_mg",
+        "unit_serving_copper_mg",
+        "unit_serving_selenium_ug",
+        "unit_serving_chromium_mg",
+        "unit_serving_manganese_mg",
+        "unit_serving_molybdenum_mg",
+        "unit_serving_zinc_mg",
+        "unit_serving_vita_ug",
+        "unit_serving_vite_mg",
+        "unit_serving_vitd2_ug",
+        "unit_serving_vitd3_ug",
+        "unit_serving_vitk1_ug",
+        "unit_serving_vitk2_ug",
+        "unit_serving_folate_ug",
+        "unit_serving_vitb1_mg",
+        "unit_serving_vitb2_mg",
+        "unit_serving_vitb3_mg",
+        "unit_serving_vitb5_mg",
+        "unit_serving_vitb6_mg",
+        "unit_serving_vitb7_ug",
+        "unit_serving_vitb9_ug",
+        "unit_serving_vitc_mg",
+        "unit_serving_carotenoids_ug"
+      ]
+    },
+    "primary_source": {
+      "unique_values": [
+        "asc_manual",
+        "bfp_manual",
+        "open_source_recipes"
+      ],
+      "counts": {
+        "asc_manual": 490,
+        "bfp_manual": 376,
+        "open_source_recipes": 148
+      }
+    },
+    "serving_units": {
+      "unique_count": 125,
+      "top_20": {
+        "bowl": 269,
+        "plate": 72,
+        "piece": 57,
+        "biscuit": 29,
+        "tall glass": 21,
+        "triangle": 21,
+        "tablespoon": 21,
+        "cup": 19,
+        "slice": 19,
+        "soup bowl": 18,
+        "glass": 15,
+        "small bowl": 15,
+        "sandwich": 14,
+        "parantha": 13,
+        "egg": 12,
+        "cookie": 12,
+        "cutlet": 11,
+        "poori": 10,
+        "dish": 10,
+        "jar": 10
+      }
+    },
+    "dtypes": {
+      "food_code": "str",
+      "food_name": "str",
+      "primarysource": "str",
+      "energy_kj": "float64",
+      "energy_kcal": "float64",
+      "carb_g": "float64",
+      "protein_g": "float64",
+      "fat_g": "float64",
+      "freesugar_g": "float64",
+      "fibre_g": "float64",
+      "sfa_mg": "float64",
+      "mufa_mg": "float64",
+      "pufa_mg": "float64",
+      "cholesterol_mg": "float64",
+      "calcium_mg": "float64",
+      "phosphorus_mg": "float64",
+      "magnesium_mg": "float64",
+      "sodium_mg": "float64",
+      "potassium_mg": "float64",
+      "iron_mg": "float64",
+      "copper_mg": "float64",
+      "selenium_ug": "float64",
+      "chromium_mg": "float64",
+      "manganese_mg": "float64",
+      "molybdenum_mg": "float64",
+      "zinc_mg": "float64",
+      "vita_ug": "float64",
+      "vite_mg": "float64",
+      "vitd2_ug": "float64",
+      "vitd3_ug": "float64",
+      "vitk1_ug": "float64",
+      "vitk2_ug": "float64",
+      "folate_ug": "float64",
+      "vitb1_mg": "float64",
+      "vitb2_mg": "float64",
+      "vitb3_mg": "float64",
+      "vitb5_mg": "float64",
+      "vitb6_mg": "float64",
+      "vitb7_ug": "float64",
+      "vitb9_ug": "float64",
+      "vitc_mg": "float64",
+      "carotenoids_ug": "float64",
+      "servings_unit": "str",
+      "unit_serving_energy_kj": "float64",
+      "unit_serving_energy_kcal": "float64",
+      "unit_serving_carb_g": "float64",
+      "unit_serving_protein_g": "float64",
+      "unit_serving_fat_g": "float64",
+      "unit_serving_freesugar_g": "float64",
+      "unit_serving_fibre_g": "float64",
+      "unit_serving_sfa_mg": "float64",
+      "unit_serving_mufa_mg": "float64",
+      "unit_serving_pufa_mg": "float64",
+      "unit_serving_cholesterol_mg": "float64",
+      "unit_serving_calcium_mg": "float64",
+      "unit_serving_phosphorus_mg": "float64",
+      "unit_serving_magnesium_mg": "float64",
+      "unit_serving_sodium_mg": "float64",
+      "unit_serving_potassium_mg": "float64",
+      "unit_serving_iron_mg": "float64",
+      "unit_serving_copper_mg": "float64",
+      "unit_serving_selenium_ug": "float64",
+      "unit_serving_chromium_mg": "float64",
+      "unit_serving_manganese_mg": "float64",
+      "unit_serving_molybdenum_mg": "float64",
+      "unit_serving_zinc_mg": "float64",
+      "unit_serving_vita_ug": "float64",
+      "unit_serving_vite_mg": "float64",
+      "unit_serving_vitd2_ug": "float64",
+      "unit_serving_vitd3_ug": "float64",
+      "unit_serving_vitk1_ug": "float64",
+      "unit_serving_vitk2_ug": "float64",
+      "unit_serving_folate_ug": "float64",
+      "unit_serving_vitb1_mg": "float64",
+      "unit_serving_vitb2_mg": "float64",
+      "unit_serving_vitb3_mg": "float64",
+      "unit_serving_vitb5_mg": "float64",
+      "unit_serving_vitb6_mg": "float64",
+      "unit_serving_vitb7_ug": "float64",
+      "unit_serving_vitb9_ug": "float64",
+      "unit_serving_vitc_mg": "float64",
+      "unit_serving_carotenoids_ug": "float64"
+    },
+    "key_nutrient_ranges": {
+      "energy_kcal": {
+        "min": 6.614322185516357,
+        "max": 839.3265991210938,
+        "median": 174.91930389404297,
+        "null_count": 0
+      },
+      "protein_g": {
+        "min": 0.0,
+        "max": 21.553020477294922,
+        "median": 3.9943366050720215,
+        "null_count": 0
+      },
+      "fat_g": {
+        "min": 0.0,
+        "max": 90.44906616210938,
+        "median": 9.098815441131592,
+        "null_count": 0
+      },
+      "carb_g": {
+        "min": 0.0,
+        "max": 86.52952575683594,
+        "median": 11.924105167388916,
+        "null_count": 0
+      },
+      "fibre_g": {
+        "min": 0.0,
+        "max": 35.709381103515625,
+        "median": 1.325096845626831,
+        "null_count": 0
+      },
+      "calcium_mg": {
+        "min": 0.0,
+        "max": 631.8181762695312,
+        "median": 40.68270492553711,
+        "null_count": 0
+      },
+      "iron_mg": {
+        "min": 0.0,
+        "max": 20.57253074645996,
+        "median": 0.8272973299026489,
+        "null_count": 0
+      },
+      "vitc_mg": {
+        "min": 0.0,
+        "max": 218.94468688964844,
+        "median": 3.0576395988464355,
+        "null_count": 0
+      }
+    },
+    "negative_values": {
+      "columns_with_negatives": {},
+      "passed": true
+    }
+  },
+  "overall_passed": true
+}

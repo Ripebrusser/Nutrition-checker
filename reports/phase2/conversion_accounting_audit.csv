@@ -1,0 +1,6 @@
+conversion_status,count,percentage,description
+RESOLVED,47510,52.3%,Standard unit conversion applied (g, ml, etc.)
+RESOLVED_HOUSEHOLD,1337,1.5%,Household measure conversion applied (cups, tbsp, etc.)
+UNRESOLVED,8810,9.7%,No conversion possible (approximate units, missing density)
+NOT_APPLICABLE,33443,36.8%,No conversion needed (count items, approximate units)
+TOTAL,90862,100%,All canonical records

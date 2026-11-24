@@ -1,0 +1,54 @@
+Metric,Reported_Stage3_2,Actual_Stage2_3_Data,Stage3_2_Correction_Report,Status,Difference,Notes
+Total candidates,119474,119474,119474,✅,0,
+Review units (flawed key),7165,7165,7165,✅,0,"Key: (primary_ingredient, ifct_food_code)"
+Review units (corrected key),-,7992,7992,🔄,+827,"Key: (primary_ingredient, preparation_state, ifct_food_code)"
+Unique primary ingredients,-,2725,2725,✅,0,
+Unique IFCT codes matched,340,340,340,✅,0,
+Critical priority (80-100),46,25,25,🔄,-21,"Report used incorrect prep weights"
+High priority (60-79),237,95,95,🔄,-142,
+Medium priority (40-59),1284,1589,1599,🔄,+315,
+Standard priority (20-39),2898,5463,5463,🔄,+2565,
+Low priority (0-19),2700,0,0,🔄,-2700,"No units actually in Low band"
+Total priority bands (reported),7165,7165,7165,✅,0,"Sum of reported bands"
+Total priority bands (actual),-,7165,7165,✅,0,"Sum of actual bands"
+Total priority bands (corrected key claimed),-,?,7992,🔄,?,"Corrected key has 7992 units but priority bands sum to 7165"
+Unique primary ingredients,-,2725,2725,✅,0,
+Unique IFCT codes matched,340,340,340,✅,0,
+Multi-code ingredients,1255,1255,1255,✅,0,
+Auto-accepted candidates,4,4,4,✅,0,
+Auto-accepted unique (primary,ifct) pairs,4,3,3,🔄,-1,"coriander leaves appears twice"
+Auto-accepted review units (flawed key),4,3,3,🔄,-1,"coriander leaves merged"
+Auto-accepted review units (corrected key),-,6,6,🔄,+3,"With preparation_state dimension"
+Auto-accepted FRESH EXACT candidates,4,4,4,✅,0,
+Auto-accepted RAW EXACT candidates,4,0,0,🔄,-4,"No RAW EXCT in data",
+Auto-accepted NOT_SPECIFIED EXACT candidates,0,0,0,✅,0,
+Auto-accepted FRESH SYNONYM candidates,0,0,✅,0,
+Auto-accepted NOT_SPECIFIED SYNONYM candidates,0,0,✅,0,
+Auto-accepted FRESH TOKEN_EQUIVALENT candidates,0,0,✅,0,
+Auto-accepted NOT_SPECIFIED TOKEN_EQUIVALENT candidates,0,0,✅,0,
+Auto-accepted FRESH TOKEN_SIMILARITY candidates,0,0,✅,0,
+Auto-accepted NOT_SPECIFIED TOKEN_SIMILARITY candidates,0,0,✅,0,
+Auto-accepted review units (flawed key) EXACT,4,3,3,🔄,-1,
+Auto-accepted review units (flawed key) SYNONYM,0,0,0,✅,0,
+Auto-accepted review units (flawed key) TOKEN_EQUIVALENT,0,0,✅,0,
+Auto-accepted review units (flawed key) TOKEN_SIMILARITY,0,0,✅,0,
+Auto-accepted review units (corrected key) EXACT,3,6,🔄,+3,
+Auto-accepted review units (corrected key) SYNONYM,0,0,✅,0,
+Auto-accepted review units (corrected key) TOKEN_EQUIVALENT,0,0,✅,0,
+Auto-accepted review units (corrected key) TOKEN_SIMILARITY,0,0,✅,0,
+Auto-accepted review units (corrected key) with NOT_SPECIFIED prep,-,2,2,🔄,+2,"coriander leaves NOT_SPECIFIED should not auto-accept",
+Auto-accepted review units (corrected key) with FRESH prep,-,4,4,✅,0,
+Frozen input - normalized_ingredients hash,08710983213938c3fecafd20991ab7d3,08710983213938c3fecafd20991ab7d3,✅,0,
+Frozen input - parsed_recipe_ingredients hash,e17b668b208dac4a7240cbfb27d78caa,e17b668b208dac4a7240cbfb27d78caa,✅,0,
+Frozen input - ingredient_synonyms hash,22b8aace1ef29ea271051004a0e5a79a,22b8aace1ef29ea271051004a0e5a79a,✅,0,
+Frozen input - household_measurements hash,451fb9c6d5135e0684bd5e6445aeaadf,451fb9c6d5135e0684bd5e6445aeaadf,✅,0,
+Frozen input - ifct_table1_candidate hash,294c6fc4d095a47e13fbe02e8e3c1c0c,294c6fc4d095a47e13fbe02e8e3c1c0c,✅,0,
+Stage 2.3 output - candidates hash,effb5e5b0ce9fa8e31348d6957a549e4,2bb9f0d7770f7669ad3cd30f49d2a15f,🔄,CHANGED,"Stage 2.3 output regenerated",
+Stage 2.3 output - candidates CSV hash,7fad336dc354419db6f38d3842845c87,bbd1202ab7c426bd222b5c6773cd7079,🔄,CHANGED,"Stage 2.3 output regenerated",
+Stage 2.3 output - unmatched hash,1c69c0f308f468b95be9ddf3b7e8a44a,4d4e2b84e3b3323552c600bf90eefba8,🔄,CHANGED,
+Stage 2.3 output - unmatched CSV hash,1ec4d694a6fb43bc269715ebd442f472,1ec4d694a6fb43bc269715ebd442f472,🔄,CHANGED,
+Stage 2.3 output - household hash,4c169cba077c49f384e699129e905192,4c169cba077c49f384e699129e905192,✅,0,
+Test total,126,126,126,✅,0,
+Test passed,119,119,119,✅,0,
+Test failed,7,7,7,✅,0,"7 IFCT extraction failures (pre-existing)",
+Test skipped,0,0,0,✅,0,

@@ -1,0 +1,25 @@
+% Table II -- preprocessing and quantity-resolution statistics.
+% Source: parsed_recipe_ingredients.parquet (parse_status, gram_weight),
+% reports/phase3/stage3_6_coverage_analysis.md (preparation state).
+\begin{table}[t]
+\caption{Ingredient preprocessing statistics over the 90{,}862 parsed rows.
+Shares are of the parsed-row total. Only the final row yields a usable mass for
+nutrient calculation.}
+\label{tab:preprocessing}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Outcome} & \textbf{Rows} & \textbf{Share} \\
+\midrule
+Exact quantity parsed           & 54{,}903 & 60.4\,\% \\
+Approximate quantity parsed     & 29{,}980 & 33.0\,\% \\
+Range parsed                    & 1{,}673  & 1.8\,\%  \\
+Unquantified                    & 4{,}306  & 4.7\,\%  \\
+\midrule
+Resolved gram weight            & 1{,}299  & 1.43\,\% \\
+Preparation state unspecified   & --       & 88.6\,\% \\
+\bottomrule
+\end{tabular}
+\end{table}
